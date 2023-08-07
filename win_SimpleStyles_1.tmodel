@@ -1,0 +1,760 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Window",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "Window"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "Window",
+        "title": "SimpleStyles",
+        "appName": "SimpleStyles",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\SimpleStyles.exe",
+        "value": false,
+        "boundingRectangle": "[26,26,1440,600]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Pane",
+          "identifyProperties": {
+            "type": "Pane",
+            "className": "ScrollViewer"
+          },
+          "cachedProperties": {
+            "type": "Pane",
+            "className": "ScrollViewer",
+            "value": false,
+            "boundingRectangle": "[34,57,1424,561]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "DataGrid",
+              "identifyProperties": {
+                "type": "DataGrid",
+                "className": "ListView"
+              },
+              "cachedProperties": {
+                "type": "DataGrid",
+                "className": "ListView",
+                "value": false,
+                "boundingRectangle": "[302,169,150,100]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "First_Item",
+                  "identifyProperties": {
+                    "type": "DataItem",
+                    "className": "ListViewItem",
+                    "name": "First Item"
+                  },
+                  "cachedProperties": {
+                    "type": "DataItem",
+                    "className": "ListViewItem",
+                    "name": "First Item",
+                    "value": false,
+                    "boundingRectangle": "[303,188,206,19]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "First_Item1",
+                      "identifyProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "First Item"
+                      },
+                      "cachedProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "First Item",
+                        "value": false,
+                        "boundingRectangle": "[311,190,54,15]"
+                      },
+                      "image": {
+                        "imgPath": "uia.png",
+                        "rect": "0,0,54,15"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Second_Item",
+                  "identifyProperties": {
+                    "type": "DataItem",
+                    "className": "ListViewItem",
+                    "name": "Second Item"
+                  },
+                  "cachedProperties": {
+                    "type": "DataItem",
+                    "className": "ListViewItem",
+                    "name": "Second Item",
+                    "value": false,
+                    "boundingRectangle": "[303,207,206,19]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Second_Item1",
+                      "identifyProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Second Item"
+                      },
+                      "cachedProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Second Item",
+                        "value": false,
+                        "boundingRectangle": "[311,209,72,15]"
+                      },
+                      "image": {
+                        "imgPath": "uia1.png",
+                        "rect": "0,0,72,15"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Pane1",
+              "identifyProperties": {
+                "type": "Pane",
+                "className": "ScrollViewer"
+              },
+              "cachedProperties": {
+                "type": "Pane",
+                "className": "ScrollViewer",
+                "value": false,
+                "boundingRectangle": "[500,161,200,200]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "ScrollBar",
+                  "identifyProperties": {
+                    "type": "ScrollBar",
+                    "automationId": "PART_VerticalScrollBar"
+                  },
+                  "cachedProperties": {
+                    "type": "ScrollBar",
+                    "automationId": "PART_VerticalScrollBar",
+                    "className": "ScrollBar",
+                    "value": false,
+                    "boundingRectangle": "[500,161,18,200]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Thumb",
+                      "identifyProperties": {
+                        "type": "Thumb",
+                        "className": "Thumb"
+                      },
+                      "cachedProperties": {
+                        "type": "Thumb",
+                        "className": "Thumb",
+                        "value": false,
+                        "boundingRectangle": "[501,261,16,82]"
+                      },
+                      "image": {
+                        "imgPath": "uia2.png",
+                        "rect": "0,0,16,82"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "StatusBar",
+              "identifyProperties": {
+                "type": "StatusBar",
+                "className": "StatusBar"
+              },
+              "cachedProperties": {
+                "type": "StatusBar",
+                "className": "StatusBar",
+                "value": false,
+                "boundingRectangle": "[740,161,220,23]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "80%",
+                  "identifyProperties": {
+                    "type": "Text",
+                    "className": "StatusBarItem",
+                    "name": "80%"
+                  },
+                  "cachedProperties": {
+                    "type": "Text",
+                    "className": "StatusBarItem",
+                    "name": "80%",
+                    "value": false,
+                    "boundingRectangle": "[741,162,124,21]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "80%1",
+                      "identifyProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "80%"
+                      },
+                      "cachedProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "80%",
+                        "value": false,
+                        "boundingRectangle": "[744,165,118,15]"
+                      },
+                      "image": {
+                        "imgPath": "uia3.png",
+                        "rect": "0,0,118,15"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Ln_181,_Col_20",
+                  "identifyProperties": {
+                    "type": "Text",
+                    "className": "StatusBarItem",
+                    "name": "Ln 181, Col 20"
+                  },
+                  "cachedProperties": {
+                    "type": "Text",
+                    "className": "StatusBarItem",
+                    "name": "Ln 181, Col 20",
+                    "value": false,
+                    "boundingRectangle": "[872,162,87,21]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Ln_181,_Col_201",
+                      "identifyProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Ln 181, Col 20"
+                      },
+                      "cachedProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Ln 181, Col 20",
+                        "value": false,
+                        "boundingRectangle": "[875,165,81,15]"
+                      },
+                      "image": {
+                        "imgPath": "uia4.png",
+                        "rect": "0,0,81,15"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "ToolBar",
+              "identifyProperties": {
+                "type": "ToolBar",
+                "className": "ToolBar"
+              },
+              "cachedProperties": {
+                "type": "ToolBar",
+                "className": "ToolBar",
+                "value": false,
+                "boundingRectangle": "[1000,161,186,26]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Edit",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "className": "TextBox"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "className": "TextBox",
+                    "value": "TextBox",
+                    "boundingRectangle": "[1118,163,55,21]"
+                  },
+                  "image": {
+                    "imgPath": "uia5.png",
+                    "rect": "0,0,55,21"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Button",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Button"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Button",
+                    "value": false,
+                    "boundingRectangle": "[1011,163,45,21]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Button1",
+                      "identifyProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Button"
+                      },
+                      "cachedProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Button",
+                        "value": false,
+                        "boundingRectangle": "[1014,166,39,15]"
+                      },
+                      "image": {
+                        "imgPath": "uia6.png",
+                        "rect": "0,0,39,15"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "CheckBox",
+                  "identifyProperties": {
+                    "type": "CheckBox",
+                    "className": "CheckBox",
+                    "name": "CheckBox"
+                  },
+                  "cachedProperties": {
+                    "type": "CheckBox",
+                    "className": "CheckBox",
+                    "name": "CheckBox",
+                    "value": false,
+                    "boundingRectangle": "[1056,163,62,21]"
+                  },
+                  "image": {
+                    "imgPath": "uia7.png",
+                    "rect": "0,0,62,21"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Thumb1",
+                  "identifyProperties": {
+                    "type": "Thumb",
+                    "automationId": "ToolBarThumb"
+                  },
+                  "cachedProperties": {
+                    "type": "Thumb",
+                    "automationId": "ToolBarThumb",
+                    "className": "Thumb",
+                    "value": false,
+                    "boundingRectangle": "[1001,162,10,24]"
+                  },
+                  "image": {
+                    "imgPath": "uia8.png",
+                    "rect": "0,0,10,24"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "(Click_Me)",
+              "identifyProperties": {
+                "type": "Text",
+                "className": "TextBlock",
+                "name": "(Click Me)",
+                "index": 1
+              },
+              "cachedProperties": {
+                "type": "Text",
+                "className": "TextBlock",
+                "name": "(Click Me)",
+                "value": false,
+                "boundingRectangle": "[108,462,58,15]"
+              },
+              "image": {
+                "imgPath": "uia12.png",
+                "rect": "0,0,58,15"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "DataGrid1",
+              "identifyProperties": {
+                "type": "DataGrid",
+                "automationId": "DG1"
+              },
+              "cachedProperties": {
+                "type": "DataGrid",
+                "automationId": "DG1",
+                "className": "DataGrid",
+                "value": false,
+                "boundingRectangle": "[575,437,250,250]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "SimpleStyles.Customer",
+                  "identifyProperties": {
+                    "type": "DataItem",
+                    "className": "DataGridRow",
+                    "name": "SimpleStyles.Customer"
+                  },
+                  "cachedProperties": {
+                    "type": "DataItem",
+                    "className": "DataGridRow",
+                    "name": "SimpleStyles.Customer",
+                    "value": false,
+                    "boundingRectangle": "[576,461,492,20]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Bishop",
+                      "identifyProperties": {
+                        "type": "Custom",
+                        "className": "DataGridCell",
+                        "name": "Bishop"
+                      },
+                      "cachedProperties": {
+                        "type": "Custom",
+                        "className": "DataGridCell",
+                        "name": "Bishop",
+                        "value": "Bishop",
+                        "boundingRectangle": "[582,461,112,20]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "Bishop1",
+                          "identifyProperties": {
+                            "type": "Text",
+                            "className": "TextBlock",
+                            "name": "Bishop"
+                          },
+                          "cachedProperties": {
+                            "type": "Text",
+                            "className": "TextBlock",
+                            "name": "Bishop",
+                            "value": false,
+                            "boundingRectangle": "[585,462,105,17]"
+                          },
+                          "image": {
+                            "imgPath": "uia14.png",
+                            "rect": "0,0,105,17"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Document",
+              "identifyProperties": {
+                "type": "Document",
+                "className": "DocumentViewer"
+              },
+              "cachedProperties": {
+                "type": "Document",
+                "className": "DocumentViewer",
+                "value": false,
+                "boundingRectangle": "[260,437,275,305]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "ToolBar1",
+                  "identifyProperties": {
+                    "type": "ToolBar",
+                    "className": "ToolBar"
+                  },
+                  "cachedProperties": {
+                    "type": "ToolBar",
+                    "className": "ToolBar",
+                    "value": false,
+                    "boundingRectangle": "[260,437,275,26]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Zoom_In",
+                      "identifyProperties": {
+                        "type": "Button",
+                        "automationId": "IncreaseZoom",
+                        "name": "Zoom In"
+                      },
+                      "cachedProperties": {
+                        "type": "Button",
+                        "automationId": "IncreaseZoom",
+                        "className": "Button",
+                        "name": "Zoom In",
+                        "accessKey": "增大缩放比例",
+                        "value": false,
+                        "boundingRectangle": "[335,439,54,21]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "Zoom_In1",
+                          "identifyProperties": {
+                            "type": "Text",
+                            "className": "TextBlock",
+                            "name": "Zoom In"
+                          },
+                          "cachedProperties": {
+                            "type": "Text",
+                            "className": "TextBlock",
+                            "name": "Zoom In",
+                            "value": false,
+                            "boundingRectangle": "[338,442,48,15]"
+                          },
+                          "image": {
+                            "imgPath": "uia15.png",
+                            "rect": "0,0,48,15"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "Zoom_Out",
+                      "identifyProperties": {
+                        "type": "Button",
+                        "automationId": "DecreaseZoom",
+                        "name": "Zoom Out"
+                      },
+                      "cachedProperties": {
+                        "type": "Button",
+                        "automationId": "DecreaseZoom",
+                        "className": "Button",
+                        "name": "Zoom Out",
+                        "accessKey": "减小缩放比例",
+                        "value": false,
+                        "boundingRectangle": "[389,439,65,21]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "Zoom_Out1",
+                          "identifyProperties": {
+                            "type": "Text",
+                            "className": "TextBlock",
+                            "name": "Zoom Out"
+                          },
+                          "cachedProperties": {
+                            "type": "Text",
+                            "className": "TextBlock",
+                            "name": "Zoom Out",
+                            "value": false,
+                            "boundingRectangle": "[392,442,59,15]"
+                          },
+                          "image": {
+                            "imgPath": "uia16.png",
+                            "rect": "0,0,59,15"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "TitleBar",
+          "identifyProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar",
+            "value": "Test Window",
+            "boundingRectangle": "[76,55,268,28]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关闭",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭",
+                "value": false,
+                "boundingRectangle": "[298,53,47,30]"
+              },
+              "image": {
+                "imgPath": "uia9.png",
+                "rect": "0,0,47,30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "Window1",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "NavigationWindow"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "NavigationWindow",
+        "title": "Test NavigationWindow",
+        "appName": "SimpleStyles",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\SimpleStyles.exe",
+        "value": false,
+        "boundingRectangle": "[78,78,300,300]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Navigate_to_Page2",
+          "identifyProperties": {
+            "type": "Text",
+            "className": "TextBlock",
+            "name": "Navigate to Page2"
+          },
+          "cachedProperties": {
+            "type": "Text",
+            "className": "TextBlock",
+            "name": "Navigate to Page2",
+            "value": false,
+            "boundingRectangle": "[86,139,284,231]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Page2",
+              "identifyProperties": {
+                "type": "Hyperlink",
+                "className": "Hyperlink",
+                "name": "Page2"
+              },
+              "cachedProperties": {
+                "type": "Hyperlink",
+                "className": "Hyperlink",
+                "name": "Page2",
+                "value": false,
+                "boundingRectangle": "[157,139,35,15]"
+              },
+              "image": {
+                "imgPath": "uia10.png",
+                "rect": "0,0,35,15"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "TitleBar1",
+          "identifyProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar",
+            "value": "Test NavigationWindow",
+            "boundingRectangle": "[102,81,268,28]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关闭1",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭",
+                "value": false,
+                "boundingRectangle": "[324,79,47,30]"
+              },
+              "image": {
+                "imgPath": "uia11.png",
+                "rect": "0,0,47,30"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Navigate_to_Page1",
+          "identifyProperties": {
+            "type": "Text",
+            "className": "TextBlock",
+            "name": "Navigate to Page1"
+          },
+          "cachedProperties": {
+            "type": "Text",
+            "className": "TextBlock",
+            "name": "Navigate to Page1",
+            "value": false,
+            "boundingRectangle": "[112,165,284,231]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Page1",
+              "identifyProperties": {
+                "type": "Hyperlink",
+                "className": "Hyperlink",
+                "name": "Page1"
+              },
+              "cachedProperties": {
+                "type": "Hyperlink",
+                "className": "Hyperlink",
+                "name": "Page1",
+                "value": false,
+                "boundingRectangle": "[183,165,35,15]"
+              },
+              "image": {
+                "imgPath": "uia13.png",
+                "rect": "0,0,35,15"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

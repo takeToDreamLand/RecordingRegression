@@ -1,0 +1,1168 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Window",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "Window"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "Window",
+        "title": "SimpleStyles",
+        "appName": "SimpleStyles",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\SimpleStyles.exe",
+        "value": false,
+        "boundingRectangle": "[52,52,1440,600]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Pane",
+          "identifyProperties": {
+            "type": "Pane",
+            "className": "ScrollViewer"
+          },
+          "cachedProperties": {
+            "type": "Pane",
+            "className": "ScrollViewer",
+            "value": false,
+            "boundingRectangle": "[60,83,1424,561]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Default",
+              "identifyProperties": {
+                "type": "Button",
+                "className": "Button",
+                "name": "Default"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "className": "Button",
+                "name": "Default",
+                "value": false,
+                "boundingRectangle": "[88,147,75,23]"
+              },
+              "image": {
+                "imgPath": "uia.png",
+                "rect": "0,0,75,23"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Normal",
+              "identifyProperties": {
+                "type": "CheckBox",
+                "className": "CheckBox",
+                "name": "Normal"
+              },
+              "cachedProperties": {
+                "type": "CheckBox",
+                "className": "CheckBox",
+                "name": "Normal",
+                "value": false,
+                "boundingRectangle": "[219,147,98,15]"
+              },
+              "image": {
+                "imgPath": "uia1.png",
+                "rect": "0,0,98,15"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Checked",
+              "identifyProperties": {
+                "type": "CheckBox",
+                "className": "CheckBox",
+                "name": "Checked"
+              },
+              "cachedProperties": {
+                "type": "CheckBox",
+                "className": "CheckBox",
+                "name": "Checked",
+                "value": false,
+                "boundingRectangle": "[219,178,98,16]"
+              },
+              "image": {
+                "imgPath": "uia2.png",
+                "rect": "0,0,98,16"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Indeterminate",
+              "identifyProperties": {
+                "type": "CheckBox",
+                "className": "CheckBox",
+                "name": "Indeterminate"
+              },
+              "cachedProperties": {
+                "type": "CheckBox",
+                "className": "CheckBox",
+                "name": "Indeterminate",
+                "value": false,
+                "boundingRectangle": "[219,210,98,15]"
+              },
+              "image": {
+                "imgPath": "uia3.png",
+                "rect": "0,0,98,15"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Normal1",
+              "identifyProperties": {
+                "type": "RadioButton",
+                "className": "RadioButton",
+                "name": "Normal"
+              },
+              "cachedProperties": {
+                "type": "RadioButton",
+                "className": "RadioButton",
+                "name": "Normal",
+                "value": false,
+                "boundingRectangle": "[376,147,66,15]"
+              },
+              "image": {
+                "imgPath": "uia4.png",
+                "rect": "0,0,66,15"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Normal2",
+              "identifyProperties": {
+                "type": "RadioButton",
+                "className": "RadioButton",
+                "name": "Normal",
+                "index": 1
+              },
+              "cachedProperties": {
+                "type": "RadioButton",
+                "className": "RadioButton",
+                "name": "Normal",
+                "value": false,
+                "boundingRectangle": "[376,210,66,15]"
+              },
+              "image": {
+                "imgPath": "uia5.png",
+                "rect": "0,0,66,15"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Edit",
+              "identifyProperties": {
+                "type": "Edit",
+                "className": "TextBox"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "className": "TextBox",
+                "value": "Edit Me",
+                "boundingRectangle": "[501,147,120,21]"
+              },
+              "image": {
+                "imgPath": "uia6.png",
+                "rect": "0,0,120,21"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Edit1",
+              "identifyProperties": {
+                "type": "Edit",
+                "className": "PasswordBox"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "className": "PasswordBox",
+                "boundingRectangle": "[501,184,120,21]"
+              },
+              "image": {
+                "imgPath": "uia7.png",
+                "rect": "0,0,120,21"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "ComboBox",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "className": "ComboBox"
+              },
+              "cachedProperties": {
+                "type": "ComboBox",
+                "className": "ComboBox",
+                "value": false,
+                "boundingRectangle": "[677,147,120,21]"
+              },
+              "image": {
+                "imgPath": "uia8.png",
+                "rect": "0,0,120,21"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Third_Normal_Item",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "className": "ListBoxItem",
+                    "name": "Third Normal Item"
+                  },
+                  "cachedProperties": {
+                    "type": "ListItem",
+                    "className": "ListBoxItem",
+                    "name": "Third Normal Item",
+                    "value": false,
+                    "boundingRectangle": "[681,212,123,20]"
+                  },
+                  "image": {
+                    "imgPath": "uia9.png",
+                    "rect": "0,0,123,20"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "ComboBox1",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "className": "ComboBox",
+                "index": 1
+              },
+              "cachedProperties": {
+                "type": "ComboBox",
+                "className": "ComboBox",
+                "value": "Edit Me",
+                "boundingRectangle": "[677,184,132,22]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Edit2",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "automationId": "PART_EditableTextBox"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "automationId": "PART_EditableTextBox",
+                    "className": "TextBox",
+                    "value": "Edit Me",
+                    "boundingRectangle": "[680,187,48,16]"
+                  },
+                  "image": {
+                    "imgPath": "uia10.png",
+                    "rect": "0,0,48,16"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "List",
+              "identifyProperties": {
+                "type": "List",
+                "className": "ListBox"
+              },
+              "cachedProperties": {
+                "type": "List",
+                "className": "ListBox",
+                "value": false,
+                "boundingRectangle": "[865,147,150,100]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "First_Normal_Item",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "className": "ListBoxItem",
+                    "name": "First Normal Item"
+                  },
+                  "cachedProperties": {
+                    "type": "ListItem",
+                    "className": "ListBoxItem",
+                    "name": "First Normal Item",
+                    "value": false,
+                    "boundingRectangle": "[868,150,126,19]"
+                  },
+                  "image": {
+                    "imgPath": "uia11.png",
+                    "rect": "0,0,126,19"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Eighth_Normal_Item",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "className": "ListBoxItem",
+                    "name": "Eighth Normal Item"
+                  },
+                  "cachedProperties": {
+                    "type": "ListItem",
+                    "className": "ListBoxItem",
+                    "name": "Eighth Normal Item",
+                    "value": false,
+                    "boundingRectangle": "[868,208,126,19]"
+                  },
+                  "image": {
+                    "imgPath": "uia12.png",
+                    "rect": "0,0,126,19"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "List1",
+              "identifyProperties": {
+                "type": "List",
+                "className": "ListBox",
+                "index": 1
+              },
+              "cachedProperties": {
+                "type": "List",
+                "className": "ListBox",
+                "value": false,
+                "boundingRectangle": "[1031,147,151,100]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Eighth_Normal_Item1",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "className": "ListBoxItem",
+                    "name": "Eighth Normal Item"
+                  },
+                  "cachedProperties": {
+                    "type": "ListItem",
+                    "className": "ListBoxItem",
+                    "name": "Eighth Normal Item",
+                    "value": false,
+                    "boundingRectangle": "[1034,208,127,19]"
+                  },
+                  "image": {
+                    "imgPath": "uia13.png",
+                    "rect": "0,0,127,19"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Slider",
+              "identifyProperties": {
+                "type": "Slider",
+                "className": "Slider"
+              },
+              "cachedProperties": {
+                "type": "Slider",
+                "className": "Slider",
+                "value": false,
+                "boundingRectangle": "[88,340,104,21]"
+              },
+              "image": {
+                "imgPath": "uia14.png",
+                "rect": "0,0,104,21"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Thumb",
+                  "identifyProperties": {
+                    "type": "Thumb",
+                    "className": "Thumb"
+                  },
+                  "cachedProperties": {
+                    "type": "Thumb",
+                    "className": "Thumb",
+                    "value": false,
+                    "boundingRectangle": "[166,421,14,14]"
+                  },
+                  "image": {
+                    "imgPath": "uia40.png",
+                    "rect": "0,0,14,14"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Slider1",
+              "identifyProperties": {
+                "type": "Slider",
+                "className": "Slider",
+                "index": 1
+              },
+              "cachedProperties": {
+                "type": "Slider",
+                "className": "Slider",
+                "value": false,
+                "boundingRectangle": "[88,377,104,25]"
+              },
+              "image": {
+                "imgPath": "uia15.png",
+                "rect": "0,0,104,25"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Slider2",
+              "identifyProperties": {
+                "type": "Slider",
+                "className": "Slider",
+                "index": 4
+              },
+              "cachedProperties": {
+                "type": "Slider",
+                "className": "Slider",
+                "value": false,
+                "boundingRectangle": "[208,340,21,104]"
+              },
+              "image": {
+                "imgPath": "uia16.png",
+                "rect": "0,0,21,104"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Slider3",
+              "identifyProperties": {
+                "type": "Slider",
+                "className": "Slider",
+                "index": 7
+              },
+              "cachedProperties": {
+                "type": "Slider",
+                "className": "Slider",
+                "value": false,
+                "boundingRectangle": "[327,340,29,104]"
+              },
+              "image": {
+                "imgPath": "uia17.png",
+                "rect": "0,0,29,104"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Tree",
+              "identifyProperties": {
+                "type": "Tree",
+                "className": "TreeView"
+              },
+              "cachedProperties": {
+                "type": "Tree",
+                "className": "TreeView",
+                "value": false,
+                "boundingRectangle": "[412,340,150,150]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Top_One",
+                  "identifyProperties": {
+                    "type": "TreeItem",
+                    "className": "TreeViewItem",
+                    "name": "Top One"
+                  },
+                  "cachedProperties": {
+                    "type": "TreeItem",
+                    "className": "TreeViewItem",
+                    "name": "Top One",
+                    "value": false,
+                    "boundingRectangle": "[417,345,140,15]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Button",
+                      "identifyProperties": {
+                        "type": "Button",
+                        "automationId": "Expander"
+                      },
+                      "cachedProperties": {
+                        "type": "Button",
+                        "automationId": "Expander",
+                        "className": "Button",
+                        "value": false,
+                        "boundingRectangle": "[417,345,19,15]"
+                      },
+                      "image": {
+                        "imgPath": "uia18.png",
+                        "rect": "0,0,19,15"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "Sub_Four",
+                      "identifyProperties": {
+                        "type": "TreeItem",
+                        "className": "TreeViewItem",
+                        "name": "Sub Four"
+                      },
+                      "cachedProperties": {
+                        "type": "TreeItem",
+                        "className": "TreeViewItem",
+                        "name": "Sub Four",
+                        "value": false,
+                        "boundingRectangle": "[436,405,197,16]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "Button1",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "Expander"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "Expander",
+                            "className": "Button",
+                            "value": false,
+                            "boundingRectangle": "[436,405,19,16]"
+                          },
+                          "image": {
+                            "imgPath": "uia19.png",
+                            "rect": "0,0,19,16"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Top_Two",
+                  "identifyProperties": {
+                    "type": "TreeItem",
+                    "className": "TreeViewItem",
+                    "name": "Top Two"
+                  },
+                  "cachedProperties": {
+                    "type": "TreeItem",
+                    "className": "TreeViewItem",
+                    "name": "Top Two",
+                    "value": false,
+                    "boundingRectangle": "[417,436,216,15]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Button2",
+                      "identifyProperties": {
+                        "type": "Button",
+                        "automationId": "Expander"
+                      },
+                      "cachedProperties": {
+                        "type": "Button",
+                        "automationId": "Expander",
+                        "className": "Button",
+                        "value": false,
+                        "boundingRectangle": "[417,436,19,15]"
+                      },
+                      "image": {
+                        "imgPath": "uia20.png",
+                        "rect": "0,0,19,15"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Top_Three",
+                  "identifyProperties": {
+                    "type": "TreeItem",
+                    "className": "TreeViewItem",
+                    "name": "Top Three"
+                  },
+                  "cachedProperties": {
+                    "type": "TreeItem",
+                    "className": "TreeViewItem",
+                    "name": "Top Three",
+                    "value": false,
+                    "boundingRectangle": "[417,451,216,16]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Button3",
+                      "identifyProperties": {
+                        "type": "Button",
+                        "automationId": "Expander"
+                      },
+                      "cachedProperties": {
+                        "type": "Button",
+                        "automationId": "Expander",
+                        "className": "Button",
+                        "value": false,
+                        "boundingRectangle": "[417,451,19,16]"
+                      },
+                      "image": {
+                        "imgPath": "uia21.png",
+                        "rect": "0,0,19,16"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Menu",
+              "identifyProperties": {
+                "type": "Menu",
+                "className": "Menu"
+              },
+              "cachedProperties": {
+                "type": "Menu",
+                "className": "Menu",
+                "value": false,
+                "boundingRectangle": "[618,340,400,23]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Top_One1",
+                  "identifyProperties": {
+                    "type": "MenuItem",
+                    "className": "MenuItem",
+                    "name": "Top One"
+                  },
+                  "cachedProperties": {
+                    "type": "MenuItem",
+                    "className": "MenuItem",
+                    "name": "Top One",
+                    "value": false,
+                    "boundingRectangle": "[619,341,62,21]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Top_One2",
+                      "identifyProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Top One"
+                      },
+                      "cachedProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Top One",
+                        "value": false,
+                        "boundingRectangle": "[625,344,50,15]"
+                      },
+                      "image": {
+                        "imgPath": "uia22.png",
+                        "rect": "0,0,50,15"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Menu_with_Many_Items",
+                  "identifyProperties": {
+                    "type": "MenuItem",
+                    "automationId": "topFour",
+                    "name": "Menu with Many Items"
+                  },
+                  "cachedProperties": {
+                    "type": "MenuItem",
+                    "automationId": "topFour",
+                    "className": "MenuItem",
+                    "name": "Menu with Many Items",
+                    "value": false,
+                    "boundingRectangle": "[813,341,144,21]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Menu_with_Many_Items1",
+                      "identifyProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Menu with Many Items"
+                      },
+                      "cachedProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Menu with Many Items",
+                        "value": false,
+                        "boundingRectangle": "[819,344,132,15]"
+                      },
+                      "image": {
+                        "imgPath": "uia25.png",
+                        "rect": "0,0,132,15"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "(Hover_Over_Me)",
+              "identifyProperties": {
+                "type": "Text",
+                "className": "TextBlock",
+                "name": "(Hover Over Me)"
+              },
+              "cachedProperties": {
+                "type": "Text",
+                "className": "TextBlock",
+                "name": "(Hover Over Me)",
+                "value": false,
+                "boundingRectangle": "[115,599,96,15]"
+              },
+              "image": {
+                "imgPath": "uia27.png",
+                "rect": "0,0,96,15"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "(Right-Click_Me)",
+              "identifyProperties": {
+                "type": "Text",
+                "className": "TextBlock",
+                "name": "(Right-Click Me)"
+              },
+              "cachedProperties": {
+                "type": "Text",
+                "className": "TextBlock",
+                "name": "(Right-Click Me)",
+                "value": false,
+                "boundingRectangle": "[323,599,92,15]"
+              },
+              "image": {
+                "imgPath": "uia28.png",
+                "rect": "0,0,92,15"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Tab",
+              "identifyProperties": {
+                "type": "Tab",
+                "className": "TabControl"
+              },
+              "cachedProperties": {
+                "type": "Tab",
+                "className": "TabControl",
+                "value": false,
+                "boundingRectangle": "[500,582,225,100]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Two",
+                  "identifyProperties": {
+                    "type": "TabItem",
+                    "className": "TabItem",
+                    "name": "Two"
+                  },
+                  "cachedProperties": {
+                    "type": "TabItem",
+                    "className": "TabItem",
+                    "name": "Two",
+                    "value": false,
+                    "boundingRectangle": "[546,582,46,21]"
+                  },
+                  "image": {
+                    "imgPath": "uia31.png",
+                    "rect": "0,0,46,21"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Three",
+                  "identifyProperties": {
+                    "type": "TabItem",
+                    "className": "TabItem",
+                    "name": "Three"
+                  },
+                  "cachedProperties": {
+                    "type": "TabItem",
+                    "className": "TabItem",
+                    "name": "Three",
+                    "value": false,
+                    "boundingRectangle": "[592,582,54,21]"
+                  },
+                  "image": {
+                    "imgPath": "uia32.png",
+                    "rect": "0,0,54,21"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Four",
+                  "identifyProperties": {
+                    "type": "TabItem",
+                    "className": "TabItem",
+                    "name": "Four"
+                  },
+                  "cachedProperties": {
+                    "type": "TabItem",
+                    "className": "TabItem",
+                    "name": "Four",
+                    "value": false,
+                    "boundingRectangle": "[646,582,48,21]"
+                  },
+                  "image": {
+                    "imgPath": "uia33.png",
+                    "rect": "0,0,48,21"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "One",
+                  "identifyProperties": {
+                    "type": "TabItem",
+                    "className": "TabItem",
+                    "name": "One"
+                  },
+                  "cachedProperties": {
+                    "type": "TabItem",
+                    "className": "TabItem",
+                    "name": "One",
+                    "value": false,
+                    "boundingRectangle": "[500,582,46,21]"
+                  },
+                  "image": {
+                    "imgPath": "uia34.png",
+                    "rect": "0,0,46,21"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "This_is_the_Header",
+              "identifyProperties": {
+                "type": "Group",
+                "className": "Expander",
+                "name": "This is the Header"
+              },
+              "cachedProperties": {
+                "type": "Group",
+                "className": "Expander",
+                "name": "This is the Header",
+                "value": false,
+                "boundingRectangle": "[781,582,200,25]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Button4",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "Button"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "className": "Button",
+                    "value": false,
+                    "boundingRectangle": "[782,583,20,23]"
+                  },
+                  "image": {
+                    "imgPath": "uia35.png",
+                    "rect": "0,0,20,23"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "This_is_the_Header1",
+                  "identifyProperties": {
+                    "type": "Text",
+                    "className": "TextBlock",
+                    "name": "This is the Header"
+                  },
+                  "cachedProperties": {
+                    "type": "Text",
+                    "className": "TextBlock",
+                    "name": "This is the Header",
+                    "value": false,
+                    "boundingRectangle": "[806,587,170,15]"
+                  },
+                  "image": {
+                    "imgPath": "uia36.png",
+                    "rect": "0,0,170,15"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window1",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "Popup"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "Popup",
+            "value": false,
+            "boundingRectangle": "[619,362,220,110]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Sub_Four1",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "className": "MenuItem",
+                "name": "Sub Four"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "className": "MenuItem",
+                "name": "Sub Four",
+                "value": false,
+                "boundingRectangle": "[620,430,218,19]"
+              },
+              "image": {
+                "imgPath": "uia23.png",
+                "rect": "0,0,218,19"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Sub_Two",
+                  "identifyProperties": {
+                    "type": "MenuItem",
+                    "className": "MenuItem",
+                    "name": "Sub Two"
+                  },
+                  "cachedProperties": {
+                    "type": "MenuItem",
+                    "className": "MenuItem",
+                    "name": "Sub Two",
+                    "value": false,
+                    "boundingRectangle": "[835,453,88,19]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Sub_Two1",
+                      "identifyProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Sub Two"
+                      },
+                      "cachedProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Sub Two",
+                        "value": false,
+                        "boundingRectangle": "[847,453,58,19]"
+                      },
+                      "image": {
+                        "imgPath": "uia24.png",
+                        "rect": "0,0,58,19"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Item_47",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "className": "MenuItem",
+                "name": "Item 47"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "className": "MenuItem",
+                "name": "Item 47",
+                "value": false,
+                "boundingRectangle": "[814,978,74,20]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Item_471",
+                  "identifyProperties": {
+                    "type": "Text",
+                    "className": "TextBlock",
+                    "name": "Item 47"
+                  },
+                  "cachedProperties": {
+                    "type": "Text",
+                    "className": "TextBlock",
+                    "name": "Item 47",
+                    "value": false,
+                    "boundingRectangle": "[826,978,44,20]"
+                  },
+                  "image": {
+                    "imgPath": "uia26.png",
+                    "rect": "0,0,44,20"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Menu1",
+              "identifyProperties": {
+                "type": "Menu",
+                "className": "ContextMenu"
+              },
+              "cachedProperties": {
+                "type": "Menu",
+                "className": "ContextMenu",
+                "value": false,
+                "boundingRectangle": "[345,595,220,113]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Sub_Four2",
+                  "identifyProperties": {
+                    "type": "MenuItem",
+                    "className": "MenuItem",
+                    "name": "Sub Four"
+                  },
+                  "cachedProperties": {
+                    "type": "MenuItem",
+                    "className": "MenuItem",
+                    "name": "Sub Four",
+                    "value": false,
+                    "boundingRectangle": "[346,666,218,19]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Sub_Four3",
+                      "identifyProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Sub Four"
+                      },
+                      "cachedProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Sub Four",
+                        "value": false,
+                        "boundingRectangle": "[374,666,134,19]"
+                      },
+                      "image": {
+                        "imgPath": "uia29.png",
+                        "rect": "0,0,134,19"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Window2",
+              "identifyProperties": {
+                "type": "Window",
+                "className": "Popup"
+              },
+              "cachedProperties": {
+                "type": "Window",
+                "className": "Popup",
+                "value": false,
+                "boundingRectangle": "[560,666,144,66]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Sub_Two2",
+                  "identifyProperties": {
+                    "type": "MenuItem",
+                    "className": "MenuItem",
+                    "name": "Sub Two"
+                  },
+                  "cachedProperties": {
+                    "type": "MenuItem",
+                    "className": "MenuItem",
+                    "name": "Sub Two",
+                    "value": false,
+                    "boundingRectangle": "[561,689,142,19]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Sub_Two3",
+                      "identifyProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Sub Two"
+                      },
+                      "cachedProperties": {
+                        "type": "Text",
+                        "className": "TextBlock",
+                        "name": "Sub Two",
+                        "value": false,
+                        "boundingRectangle": "[589,689,58,19]"
+                      },
+                      "image": {
+                        "imgPath": "uia30.png",
+                        "rect": "0,0,58,19"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "TitleBar",
+          "identifyProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar",
+            "value": "SimpleStyles",
+            "boundingRectangle": "[76,55,1408,28]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关闭",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭",
+                "value": false,
+                "boundingRectangle": "[1438,53,47,30]"
+              },
+              "image": {
+                "imgPath": "uia37.png",
+                "rect": "0,0,47,30"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

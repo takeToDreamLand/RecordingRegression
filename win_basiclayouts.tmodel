@@ -1,0 +1,458 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Window",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "QWidget"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "QWidget",
+        "title": "Basic Layouts",
+        "appName": "basiclayouts",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\basiclayouts.exe",
+        "value": false,
+        "boundingRectangle": "[710,156,501,706]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Grid_layout",
+          "identifyProperties": {
+            "type": "Group",
+            "name": "Grid layout"
+          },
+          "cachedProperties": {
+            "type": "Group",
+            "name": "Grid layout",
+            "value": false,
+            "boundingRectangle": "[729,282,463,224]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Grid_layout1",
+              "identifyProperties": {
+                "type": "Edit",
+                "name": "Grid layout"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "boundingRectangle": "[787,424,130,20]"
+              },
+              "image": {
+                "imgPath": "uia.png",
+                "rect": "0,0,130,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Grid_layout2",
+              "identifyProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "index": 1
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "boundingRectangle": "[787,450,130,20]"
+              },
+              "image": {
+                "imgPath": "uia1.png",
+                "rect": "0,0,130,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Grid_layout3",
+              "identifyProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "index": 2
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "boundingRectangle": "[787,476,130,20]"
+              },
+              "image": {
+                "imgPath": "uia2.png",
+                "rect": "0,0,130,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Grid_layout4",
+              "identifyProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "index": 3
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "value": "This widget takes up about two thirds of the grid layout.",
+                "boundingRectangle": "[923,304,259,192]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Grid_layout5",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "Grid layout"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "name": "Grid layout",
+                    "value": "This widget takes up about two thirds of the grid layout.",
+                    "boundingRectangle": "[928,309,249,28]"
+                  },
+                  "image": {
+                    "imgPath": "uia3.png",
+                    "rect": "0,0,249,28"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Horizontal_layout",
+          "identifyProperties": {
+            "type": "Group",
+            "name": "Horizontal layout"
+          },
+          "cachedProperties": {
+            "type": "Group",
+            "name": "Horizontal layout",
+            "value": false,
+            "boundingRectangle": "[729,221,463,55]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Button_4",
+              "identifyProperties": {
+                "type": "Button",
+                "name": "Button 4"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "name": "Button 4",
+                "value": false,
+                "boundingRectangle": "[1076,243,106,23]"
+              },
+              "image": {
+                "imgPath": "uia4.png",
+                "rect": "0,0,106,23"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Button_3",
+              "identifyProperties": {
+                "type": "Button",
+                "name": "Button 3"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "name": "Button 3",
+                "value": false,
+                "boundingRectangle": "[964,243,106,23]"
+              },
+              "image": {
+                "imgPath": "uia5.png",
+                "rect": "0,0,106,23"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Button_2",
+              "identifyProperties": {
+                "type": "Button",
+                "name": "Button 2"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "name": "Button 2",
+                "value": false,
+                "boundingRectangle": "[851,243,107,23]"
+              },
+              "image": {
+                "imgPath": "uia6.png",
+                "rect": "0,0,107,23"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Button_1",
+              "identifyProperties": {
+                "type": "Button",
+                "name": "Button 1"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "name": "Button 1",
+                "value": false,
+                "boundingRectangle": "[739,243,106,23]"
+              },
+              "image": {
+                "imgPath": "uia7.png",
+                "rect": "0,0,106,23"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Form_layout",
+          "identifyProperties": {
+            "type": "Group",
+            "name": "Form layout"
+          },
+          "cachedProperties": {
+            "type": "Group",
+            "name": "Form layout",
+            "value": false,
+            "boundingRectangle": "[729,512,463,104]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Form_layout1",
+              "identifyProperties": {
+                "type": "Edit",
+                "name": "Form layout"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "name": "Form layout",
+                "boundingRectangle": "[853,534,329,20]"
+              },
+              "image": {
+                "imgPath": "uia8.png",
+                "rect": "0,0,329,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Form_layout2",
+              "identifyProperties": {
+                "type": "Spinner",
+                "name": "Form layout"
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "name": "Form layout",
+                "value": "0",
+                "boundingRectangle": "[853,586,329,20]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Form_layout3",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "Form layout"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "name": "Form layout",
+                    "value": "0",
+                    "boundingRectangle": "[853,586,313,20]"
+                  },
+                  "image": {
+                    "imgPath": "uia9.png",
+                    "rect": "0,0,313,20"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Form_layout4",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "name": "Form layout"
+              },
+              "cachedProperties": {
+                "type": "ComboBox",
+                "name": "Form layout",
+                "boundingRectangle": "[853,560,329,20]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Open",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "name": "Open"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "name": "Open",
+                    "value": false,
+                    "boundingRectangle": "[1164,560,18,20]"
+                  },
+                  "image": {
+                    "imgPath": "uia10.png",
+                    "rect": "0,0,18,20"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Form_layout5",
+                  "identifyProperties": {
+                    "type": "Text",
+                    "name": "Form layout"
+                  },
+                  "cachedProperties": {
+                    "type": "Text",
+                    "name": "Form layout",
+                    "value": false,
+                    "boundingRectangle": "[856,563,307,14]"
+                  },
+                  "image": {
+                    "imgPath": "uia11.png",
+                    "rect": "0,0,307,14"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Edit",
+          "identifyProperties": {
+            "type": "Edit",
+            "index": 7
+          },
+          "cachedProperties": {
+            "type": "Edit",
+            "value": "This widget takes up all the remaining space in the top-level layout.",
+            "boundingRectangle": "[729,622,463,192]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Edit1",
+              "identifyProperties": {
+                "type": "Edit"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "value": "This widget takes up all the remaining space in the top-level layout.",
+                "boundingRectangle": "[734,627,453,14]"
+              },
+              "image": {
+                "imgPath": "uia12.png",
+                "rect": "0,0,453,14"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "OK",
+          "identifyProperties": {
+            "type": "Button",
+            "name": "OK"
+          },
+          "cachedProperties": {
+            "type": "Button",
+            "name": "OK",
+            "value": false,
+            "boundingRectangle": "[1036,820,75,23]"
+          },
+          "image": {
+            "imgPath": "uia13.png",
+            "rect": "0,0,75,23"
+          }
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "C:\\Users\\Shaw\\Documents\\LeanPr",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "C:\\Users\\Shaw\\Documents\\LeanPro\\Temp\\RecordingRegression -- win_standarddialogs.js",
+        "appName": "Cuke"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "C:\\Users\\Shaw\\Documents\\LeanPro\\Temp\\RecordingRegression -- win_standarddialogs.js",
+        "appName": "Cuke",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\Cuke.exe",
+        "value": false,
+        "boundingRectangle": "[1912,-8,1936,1056]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "CukeTest",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "21663392",
+            "name": "CukeTest"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "21663392",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "name": "CukeTest",
+            "value": "file:///C:/Program%20Files/LeanPro/CukeTest/resources/app.asar/out/index.html",
+            "boundingRectangle": "[1920,43,1920,997]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "ToolBar",
+              "identifyProperties": {
+                "type": "ToolBar",
+                "automationId": "project_toolbar"
+              },
+              "cachedProperties": {
+                "type": "ToolBar",
+                "automationId": "project_toolbar",
+                "value": false,
+                "boundingRectangle": "[1946,95,316,30]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "features_output_win_SimpleStyl",
+                  "identifyProperties": {
+                    "type": "List",
+                    "name": "features output win_SimpleStyles.js recording_files win_appchooser_files win_calc_files win_files win_notepad_files win_SimpleStyles_1_files win_SimpleStyles_files win_standarddialogs_files win_standarddialogs.js win_standarddialogs.tmodel windows_appchooser.js windows_appchooser.tmodel windows_basiclayouts.js windows_basiclayouts.tmodel win_appchooser.js win_appchooser.tmodel"
+                  },
+                  "cachedProperties": {
+                    "type": "List",
+                    "name": "features output win_SimpleStyles.js recording_files win_appchooser_files win_calc_files win_files win_notepad_files win_SimpleStyles_1_files win_SimpleStyles_files win_standarddialogs_files win_standarddialogs.js win_standarddialogs.tmodel windows_appchooser.js windows_appchooser.tmodel windows_basiclayouts.js windows_basiclayouts.tmodel win_appchooser.js win_appchooser.tmodel",
+                    "value": false,
+                    "boundingRectangle": "[1946,-417,310,916]"
+                  },
+                  "image": {
+                    "imgPath": "uia14.png",
+                    "rect": "0,0,310,499"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

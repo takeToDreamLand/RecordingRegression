@@ -1,0 +1,1161 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Window",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "Notepad"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "Notepad",
+        "title": "无标题 - 记事本",
+        "appName": "notepad",
+        "appPath": "C:\\Windows\\System32\\notepad.exe",
+        "value": false,
+        "boundingRectangle": "[269,87,853,773]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "文本编辑器",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "15",
+            "name": "文本编辑器"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "15",
+            "className": "Edit",
+            "name": "文本编辑器",
+            "boundingRectangle": "[277,138,837,692]"
+          },
+          "image": {
+            "imgPath": "uia.png",
+            "rect": "0,0,837,692"
+          }
+        },
+        {
+          "ntype": "uia",
+          "nname": "应用程序",
+          "identifyProperties": {
+            "type": "MenuBar",
+            "automationId": "MenuBar",
+            "name": "应用程序"
+          },
+          "cachedProperties": {
+            "type": "MenuBar",
+            "automationId": "MenuBar",
+            "name": "应用程序",
+            "value": false,
+            "boundingRectangle": "[277,118,837,19]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "文件(F)",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "name": "文件(F)"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "name": "文件(F)",
+                "value": false,
+                "boundingRectangle": "[277,118,52,19]"
+              },
+              "image": {
+                "imgPath": "uia1.png",
+                "rect": "0,0,52,19"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "查看(V)",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "name": "查看(V)"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "name": "查看(V)",
+                "value": false,
+                "boundingRectangle": "[438,118,54,19]"
+              },
+              "image": {
+                "imgPath": "uia12.png",
+                "rect": "0,0,54,19"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "编辑(E)",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "name": "编辑(E)"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "name": "编辑(E)",
+                "value": false,
+                "boundingRectangle": "[329,118,53,19]"
+              },
+              "image": {
+                "imgPath": "uia14.png",
+                "rect": "0,0,53,19"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "格式(O)",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "name": "格式(O)"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "name": "格式(O)",
+                "value": false,
+                "boundingRectangle": "[382,118,56,19]"
+              },
+              "image": {
+                "imgPath": "uia16.png",
+                "rect": "0,0,56,19"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "帮助(H)",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "name": "帮助(H)"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "name": "帮助(H)",
+                "value": false,
+                "boundingRectangle": "[492,118,55,19]"
+              },
+              "image": {
+                "imgPath": "uia27.png",
+                "rect": "0,0,55,19"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "文件(F)1",
+          "identifyProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "文件(F)"
+          },
+          "cachedProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "文件(F)",
+            "value": false,
+            "boundingRectangle": "[277,137,237,196]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "页面设置(U)...",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "automationId": "5",
+                "name": "页面设置(U)..."
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "automationId": "5",
+                "name": "页面设置(U)...",
+                "value": false,
+                "boundingRectangle": "[280,257,231,22]"
+              },
+              "image": {
+                "imgPath": "uia2.png",
+                "rect": "0,0,231,22"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window1",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "页面设置"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "页面设置",
+            "value": false,
+            "boundingRectangle": "[277,138,639,456]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "大小(Z):",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "automationId": "1137",
+                "name": "大小(Z):"
+              },
+              "cachedProperties": {
+                "type": "ComboBox",
+                "automationId": "1137",
+                "className": "ComboBox",
+                "name": "大小(Z):",
+                "value": "A4",
+                "boundingRectangle": "[397,218,280,25]"
+              },
+              "image": {
+                "imgPath": "uia3.png",
+                "rect": "0,0,280,25"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "大小(Z):1",
+                  "identifyProperties": {
+                    "type": "List",
+                    "className": "ComboLBox",
+                    "name": "大小(Z):"
+                  },
+                  "cachedProperties": {
+                    "type": "List",
+                    "className": "ComboLBox",
+                    "name": "大小(Z):",
+                    "value": false,
+                    "boundingRectangle": "[397,243,280,172]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "B5_(JIS)",
+                      "identifyProperties": {
+                        "type": "ListItem",
+                        "name": "B5 (JIS)"
+                      },
+                      "cachedProperties": {
+                        "type": "ListItem",
+                        "name": "B5 (JIS)",
+                        "value": false,
+                        "boundingRectangle": "[398,312,278,17]"
+                      },
+                      "image": {
+                        "imgPath": "uia4.png",
+                        "rect": "0,0,278,17"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "页眉(H):",
+              "identifyProperties": {
+                "type": "Edit",
+                "automationId": "30",
+                "name": "页眉(H):"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "automationId": "30",
+                "className": "Edit",
+                "name": "页眉(H):",
+                "boundingRectangle": "[383,454,305,26]"
+              },
+              "image": {
+                "imgPath": "uia5.png",
+                "rect": "0,0,305,26"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "横向(A)",
+              "identifyProperties": {
+                "type": "RadioButton",
+                "automationId": "1057",
+                "name": "横向(A)"
+              },
+              "cachedProperties": {
+                "type": "RadioButton",
+                "automationId": "1057",
+                "className": "Button",
+                "name": "横向(A)",
+                "value": false,
+                "boundingRectangle": "[313,388,91,26]"
+              },
+              "image": {
+                "imgPath": "uia6.png",
+                "rect": "0,0,91,26"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "纵向(O)",
+              "identifyProperties": {
+                "type": "RadioButton",
+                "automationId": "1056",
+                "name": "纵向(O)"
+              },
+              "cachedProperties": {
+                "type": "RadioButton",
+                "automationId": "1056",
+                "className": "Button",
+                "name": "纵向(O)",
+                "value": false,
+                "boundingRectangle": "[313,343,91,26]"
+              },
+              "image": {
+                "imgPath": "uia7.png",
+                "rect": "0,0,91,26"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "输入值",
+              "identifyProperties": {
+                "type": "Pane",
+                "automationId": "34",
+                "name": "输入值"
+              },
+              "cachedProperties": {
+                "type": "Pane",
+                "automationId": "34",
+                "className": "SysLink",
+                "name": "输入值",
+                "value": false,
+                "boundingRectangle": "[383,530,194,17]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "输入值1",
+                  "identifyProperties": {
+                    "type": "Hyperlink",
+                    "name": "输入值"
+                  },
+                  "cachedProperties": {
+                    "type": "Hyperlink",
+                    "name": "输入值",
+                    "value": false,
+                    "boundingRectangle": "[383,530,36,17]"
+                  },
+                  "image": {
+                    "imgPath": "uia8.png",
+                    "rect": "0,0,36,17"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "预览",
+              "identifyProperties": {
+                "type": "Image",
+                "automationId": "1080",
+                "name": "预览"
+              },
+              "cachedProperties": {
+                "type": "Image",
+                "automationId": "1080",
+                "className": "Static",
+                "name": "预览",
+                "value": false,
+                "boundingRectangle": "[740,267,120,170]"
+              },
+              "image": {
+                "imgPath": "uia10.png",
+                "rect": "0,0,120,170"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "确定",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "name": "确定"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "className": "Button",
+                "name": "确定",
+                "value": false,
+                "boundingRectangle": "[684,539,102,30]"
+              },
+              "image": {
+                "imgPath": "uia11.png",
+                "rect": "0,0,102,30"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "缩放(Z)",
+          "identifyProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "缩放(Z)"
+          },
+          "cachedProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "缩放(Z)",
+            "value": false,
+            "boundingRectangle": "[573,137,223,72]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "放大(I)",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "automationId": "34",
+                "name": "放大(I)"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "automationId": "34",
+                "name": "放大(I)",
+                "accessKey": "Ctrl + 加号",
+                "value": false,
+                "boundingRectangle": "[576,140,217,22]"
+              },
+              "image": {
+                "imgPath": "uia13.png",
+                "rect": "0,0,217,22"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "编辑(E)1",
+          "identifyProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "编辑(E)"
+          },
+          "cachedProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "编辑(E)",
+            "value": false,
+            "boundingRectangle": "[329,137,228,313]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "全选(A)",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "automationId": "25",
+                "name": "全选(A)"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "automationId": "25",
+                "name": "全选(A)",
+                "accessKey": "Ctrl+A",
+                "value": false,
+                "boundingRectangle": "[332,403,222,22]"
+              },
+              "image": {
+                "imgPath": "uia15.png",
+                "rect": "0,0,222,22"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "格式(O)1",
+          "identifyProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "格式(O)"
+          },
+          "cachedProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "格式(O)",
+            "value": false,
+            "boundingRectangle": "[382,137,158,50]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "字体(F)...",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "automationId": "33",
+                "name": "字体(F)..."
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "automationId": "33",
+                "name": "字体(F)...",
+                "value": false,
+                "boundingRectangle": "[385,162,152,22]"
+              },
+              "image": {
+                "imgPath": "uia17.png",
+                "rect": "0,0,152,22"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window2",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "字体"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "字体",
+            "value": false,
+            "boundingRectangle": "[300,253,441,536]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "字体(F):",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "automationId": "1136",
+                "name": "字体(F):"
+              },
+              "cachedProperties": {
+                "type": "ComboBox",
+                "automationId": "1136",
+                "className": "ComboBox",
+                "name": "字体(F):",
+                "value": "微软雅黑",
+                "boundingRectangle": "[320,318,172,161]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "字体(F):1",
+                  "identifyProperties": {
+                    "type": "List",
+                    "automationId": "1000",
+                    "name": "字体(F):"
+                  },
+                  "cachedProperties": {
+                    "type": "List",
+                    "automationId": "1000",
+                    "className": "ComboLBox",
+                    "name": "字体(F):",
+                    "value": false,
+                    "boundingRectangle": "[320,342,172,137]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "楷体",
+                      "identifyProperties": {
+                        "type": "ListItem",
+                        "name": "楷体"
+                      },
+                      "cachedProperties": {
+                        "type": "ListItem",
+                        "name": "楷体",
+                        "value": false,
+                        "boundingRectangle": "[322,363,151,19]"
+                      },
+                      "image": {
+                        "imgPath": "uia18.png",
+                        "rect": "0,0,151,19"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "微软雅黑",
+                      "identifyProperties": {
+                        "type": "ListItem",
+                        "name": "微软雅黑"
+                      },
+                      "cachedProperties": {
+                        "type": "ListItem",
+                        "name": "微软雅黑",
+                        "value": false,
+                        "boundingRectangle": "[322,420,151,19]"
+                      },
+                      "image": {
+                        "imgPath": "uia24.png",
+                        "rect": "0,0,151,19"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "字形(Y):",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "automationId": "1137",
+                "name": "字形(Y):"
+              },
+              "cachedProperties": {
+                "type": "ComboBox",
+                "automationId": "1137",
+                "className": "ComboBox",
+                "name": "字形(Y):",
+                "value": "常规",
+                "boundingRectangle": "[508,318,130,162]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "字形(Y):1",
+                  "identifyProperties": {
+                    "type": "List",
+                    "automationId": "1000",
+                    "name": "字形(Y):"
+                  },
+                  "cachedProperties": {
+                    "type": "List",
+                    "automationId": "1000",
+                    "className": "ComboLBox",
+                    "name": "字形(Y):",
+                    "value": false,
+                    "boundingRectangle": "[508,342,130,137]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "粗体",
+                      "identifyProperties": {
+                        "type": "ListItem",
+                        "name": "粗体"
+                      },
+                      "cachedProperties": {
+                        "type": "ListItem",
+                        "name": "粗体",
+                        "value": false,
+                        "boundingRectangle": "[510,382,109,19]"
+                      },
+                      "image": {
+                        "imgPath": "uia19.png",
+                        "rect": "0,0,109,19"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "倾斜",
+                      "identifyProperties": {
+                        "type": "ListItem",
+                        "name": "倾斜"
+                      },
+                      "cachedProperties": {
+                        "type": "ListItem",
+                        "name": "倾斜",
+                        "value": false,
+                        "boundingRectangle": "[510,420,109,19]"
+                      },
+                      "image": {
+                        "imgPath": "uia25.png",
+                        "rect": "0,0,109,19"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "大小(S):",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "automationId": "1138",
+                "name": "大小(S):"
+              },
+              "cachedProperties": {
+                "type": "ComboBox",
+                "automationId": "1138",
+                "className": "ComboBox",
+                "name": "大小(S):",
+                "value": "小六",
+                "boundingRectangle": "[655,318,63,147]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "大小(S):1",
+                  "identifyProperties": {
+                    "type": "List",
+                    "automationId": "1000",
+                    "name": "大小(S):"
+                  },
+                  "cachedProperties": {
+                    "type": "List",
+                    "automationId": "1000",
+                    "className": "ComboLBox",
+                    "name": "大小(S):",
+                    "value": false,
+                    "boundingRectangle": "[655,342,63,123]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "五号",
+                      "identifyProperties": {
+                        "type": "ListItem",
+                        "name": "五号"
+                      },
+                      "cachedProperties": {
+                        "type": "ListItem",
+                        "name": "五号",
+                        "value": false,
+                        "boundingRectangle": "[657,361,42,17]"
+                      },
+                      "image": {
+                        "imgPath": "uia20.png",
+                        "rect": "0,0,42,17"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "三号",
+                      "identifyProperties": {
+                        "type": "ListItem",
+                        "name": "三号"
+                      },
+                      "cachedProperties": {
+                        "type": "ListItem",
+                        "name": "三号",
+                        "value": false,
+                        "boundingRectangle": "[657,395,42,17]"
+                      },
+                      "image": {
+                        "imgPath": "uia26.png",
+                        "rect": "0,0,42,17"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "脚本(R):",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "automationId": "1140",
+                "name": "脚本(R):"
+              },
+              "cachedProperties": {
+                "type": "ComboBox",
+                "automationId": "1140",
+                "className": "ComboBox",
+                "name": "脚本(R):",
+                "value": "西欧语言",
+                "boundingRectangle": "[508,613,210,24]"
+              },
+              "image": {
+                "imgPath": "uia21.png",
+                "rect": "0,0,210,24"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "脚本(R):1",
+                  "identifyProperties": {
+                    "type": "List",
+                    "className": "ComboLBox",
+                    "name": "脚本(R):"
+                  },
+                  "cachedProperties": {
+                    "type": "List",
+                    "className": "ComboLBox",
+                    "name": "脚本(R):",
+                    "value": false,
+                    "boundingRectangle": "[508,637,210,36]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "中文_GB2312",
+                      "identifyProperties": {
+                        "type": "ListItem",
+                        "name": "中文 GB2312"
+                      },
+                      "cachedProperties": {
+                        "type": "ListItem",
+                        "name": "中文 GB2312",
+                        "value": false,
+                        "boundingRectangle": "[509,638,208,17]"
+                      },
+                      "image": {
+                        "imgPath": "uia22.png",
+                        "rect": "0,0,208,17"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "确定1",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "name": "确定"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "className": "Button",
+                "name": "确定",
+                "value": false,
+                "boundingRectangle": "[555,741,79,30]"
+              },
+              "image": {
+                "imgPath": "uia23.png",
+                "rect": "0,0,79,30"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "帮助(H)1",
+          "identifyProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "帮助(H)"
+          },
+          "cachedProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "帮助(H)",
+            "value": false,
+            "boundingRectangle": "[492,137,166,79]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关于记事本(A)",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "automationId": "65",
+                "name": "关于记事本(A)"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "automationId": "65",
+                "name": "关于记事本(A)",
+                "value": false,
+                "boundingRectangle": "[495,191,160,22]"
+              },
+              "image": {
+                "imgPath": "uia28.png",
+                "rect": "0,0,160,22"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window3",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "关于“记事本”"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "关于“记事本”",
+            "value": false,
+            "boundingRectangle": "[312,181,550,528]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "确定2",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "name": "确定"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "className": "Button",
+                "name": "确定",
+                "value": false,
+                "boundingRectangle": "[758,658,88,30]"
+              },
+              "image": {
+                "imgPath": "uia29.png",
+                "rect": "0,0,88,30"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "TitleBar",
+          "identifyProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar",
+            "value": "*无标题 - 记事本",
+            "boundingRectangle": "[293,90,821,28]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关闭",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭",
+                "value": false,
+                "boundingRectangle": "[1068,88,47,30]"
+              },
+              "image": {
+                "imgPath": "uia30.png",
+                "rect": "0,0,47,30"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window4",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "记事本"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "记事本",
+            "value": false,
+            "boundingRectangle": "[769,417,366,143]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "不保存(N)",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "CommandButton_7",
+                "name": "不保存(N)"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "CommandButton_7",
+                "className": "CCPushButton",
+                "name": "不保存(N)",
+                "accessKey": "Alt+N",
+                "value": false,
+                "boundingRectangle": "[946,518,90,25]"
+              },
+              "image": {
+                "imgPath": "uia31.png",
+                "rect": "0,0,90,25"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "查看(V)1",
+          "identifyProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "查看(V)"
+          },
+          "cachedProperties": {
+            "type": "Menu",
+            "className": "#32768",
+            "name": "查看(V)",
+            "value": false,
+            "boundingRectangle": "[241,153,141,50]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "缩放(Z)1",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "name": "缩放(Z)"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "name": "缩放(Z)",
+                "value": false,
+                "boundingRectangle": "[244,156,135,22]"
+              },
+              "image": {
+                "imgPath": "uia34.png",
+                "rect": "0,0,135,22"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "无标题_-_Google_Chrome",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "无标题 - Google Chrome",
+        "appName": "chrome"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "无标题 - Google Chrome",
+        "appName": "chrome",
+        "appPath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "value": false,
+        "boundingRectangle": "[-8,-8,1936,1056]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Document",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "89062272"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "89062272",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "value": false,
+            "boundingRectangle": "[0,103,1920,937]"
+          },
+          "image": {
+            "imgPath": "uia9.png",
+            "rect": "0,0,1920,937"
+          }
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "Pane",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "ForegroundStaging"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "ForegroundStaging",
+        "appName": "explorer",
+        "appPath": "C:\\Windows\\explorer.exe",
+        "value": false,
+        "boundingRectangle": "[0,0,0,0]"
+      }
+    },
+    {
+      "ntype": "uia",
+      "nname": "index.js_-_cuke-recorder-launc",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "index.js - cuke-recorder-launcher - Visual Studio Code",
+        "appName": "Code"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "index.js - cuke-recorder-launcher - Visual Studio Code",
+        "appName": "Code",
+        "appPath": "C:\\Users\\Shaw\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "value": false,
+        "boundingRectangle": "[1912,-8,1936,1056]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "index.js_-_cuke-recorder-launc1",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "46331168",
+            "name": "index.js - cuke-recorder-launcher - Visual Studio Code"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "46331168",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "name": "index.js - cuke-recorder-launcher - Visual Studio Code",
+            "value": "vscode-file://vscode-app/c:/Users/Shaw/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html",
+            "boundingRectangle": "[1920,0,1920,1040]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Window5",
+              "identifyProperties": {
+                "type": "Window"
+              },
+              "cachedProperties": {
+                "type": "Window",
+                "value": false,
+                "boundingRectangle": "[1920,0,1920,1040]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Image",
+                  "identifyProperties": {
+                    "type": "Image",
+                    "index": 3
+                  },
+                  "cachedProperties": {
+                    "type": "Image",
+                    "value": false,
+                    "boundingRectangle": "[2477,679,1331,327]"
+                  },
+                  "image": {
+                    "imgPath": "uia32.png",
+                    "rect": "0,0,1331,327"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

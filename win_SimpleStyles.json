@@ -1,0 +1,158 @@
+[
+  {
+    "type": "Button",
+    "desc": "click"
+  },
+  {
+    "type": "CheckBox",
+    "desc": "set"
+  },
+  {
+    "type": "CheckBox",
+    "desc": "set"
+  },
+  {
+    "type": "CheckBox",
+    "desc": "set"
+  },
+  {
+    "type": "CheckBox",
+    "desc": "set"
+  },
+  {
+    "type": "RadioButton",
+    "desc": "check"
+  },
+  {
+    "type": "RadioButton",
+    "desc": "check"
+  },
+  {
+    "type": "Edit",
+    "desc": "click"
+  },
+  {
+    "type": "Edit",
+    "desc": "set"
+  },
+  {
+    "type": "Edit",
+    "desc": "double"
+  },
+  {
+    "type": "ComboBox",
+    "desc": "click"
+  },
+  {
+    "type": "ListItem",
+    "desc": "click"
+  },
+  {
+    "type": "List",
+    "desc": "select"
+  },
+  {
+    "type": "List",
+    "desc": "select"
+  },
+  {
+    "type": "List",
+    "desc": "select"
+  },
+  {
+    "type": "Slider",
+    "desc": "set"
+  },
+  {
+    "type": "Slider",
+    "desc": "set"
+  },
+  {
+    "type": "Slider",
+    "desc": "set"
+  },
+  {
+    "type": "Slider",
+    "desc": "set"
+  },
+  {
+    "type": "Button",
+    "desc": "click"
+  },
+  {
+    "type": "Button",
+    "desc": "click"
+  },
+  {
+    "type": "Button",
+    "desc": "click"
+  },
+  {
+    "type": "Button",
+    "desc": "click"
+  },
+  {
+    "type": "Text",
+    "desc": "click"
+  },
+  {
+    "type": "Text",
+    "desc": "click"
+  },
+  {
+    "type": "Pane",
+    "desc": "right"
+  },
+  {
+    "type": "Text",
+    "desc": "click"
+  },
+  {
+    "type": "MenuItem",
+    "desc": "drop"
+  },
+  {
+    "type": "Text",
+    "desc": "click"
+  },
+  {
+    "type": "Tab",
+    "desc": "activate"
+  },
+  {
+    "type": "Tab",
+    "desc": "activate"
+  },
+  {
+    "type": "Tab",
+    "desc": "activate"
+  },
+  {
+    "type": "Tab",
+    "desc": "activate"
+  },
+  {
+    "type": "Tab",
+    "desc": "activate"
+  },
+  {
+    "type": "Tab",
+    "desc": "activate"
+  },
+  {
+    "type": "Button",
+    "desc": "click"
+  },
+  {
+    "type": "Text",
+    "desc": "click"
+  },
+  {
+    "type": "Button",
+    "desc": "click"
+  },
+  {
+    "type": "Button",
+    "desc": "click"
+  }
+]

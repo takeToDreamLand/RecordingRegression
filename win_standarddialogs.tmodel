@@ -1,0 +1,1218 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Window",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "Dialog"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "Dialog",
+        "title": "Standard Dialogs",
+        "appName": "standarddialogs",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\standarddialogs.exe",
+        "boundingRectangle": "[641,204,640,693]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Custom",
+          "identifyProperties": {
+            "type": "Custom",
+            "className": "QToolBox"
+          },
+          "cachedProperties": {
+            "type": "Custom",
+            "className": "QToolBox",
+            "boundingRectangle": "[652,215,618,671]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Group",
+              "identifyProperties": {
+                "type": "Group",
+                "className": "QScrollArea"
+              },
+              "cachedProperties": {
+                "type": "Group",
+                "className": "QScrollArea",
+                "boundingRectangle": "[652,241,618,541]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Group1",
+                  "identifyProperties": {
+                    "type": "Group",
+                    "className": "QWidget"
+                  },
+                  "cachedProperties": {
+                    "type": "Group",
+                    "className": "QWidget",
+                    "boundingRectangle": "[652,241,618,541]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Group2",
+                      "identifyProperties": {
+                        "type": "Group",
+                        "className": "QWidget"
+                      },
+                      "cachedProperties": {
+                        "type": "Group",
+                        "className": "QWidget",
+                        "boundingRectangle": "[652,241,618,541]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "QInputDialog::getInt()",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QInputDialog::getInt()"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QInputDialog::getInt()",
+                            "boundingRectangle": "[661,250,200,23]"
+                          },
+                          "image": {
+                            "imgPath": "uia.png",
+                            "rect": "0,0,200,23"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "QInputDialog::getDouble()",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QInputDialog::getDouble()"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QInputDialog::getDouble()",
+                            "boundingRectangle": "[661,279,200,23]"
+                          },
+                          "image": {
+                            "imgPath": "uia3.png",
+                            "rect": "0,0,200,23"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "QInputDialog::getItem()",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QInputDialog::getItem()"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QInputDialog::getItem()",
+                            "boundingRectangle": "[661,308,200,23]"
+                          },
+                          "image": {
+                            "imgPath": "uia6.png",
+                            "rect": "0,0,200,23"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "QInputDialog::getText()",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QInputDialog::getText()"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QInputDialog::getText()",
+                            "boundingRectangle": "[661,337,200,23]"
+                          },
+                          "image": {
+                            "imgPath": "uia10.png",
+                            "rect": "0,0,200,23"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "QInputDialog::getMultiLineText",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QInputDialog::getMultiLineText()"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QInputDialog::getMultiLineText()",
+                            "boundingRectangle": "[661,366,200,23]"
+                          },
+                          "image": {
+                            "imgPath": "uia13.png",
+                            "rect": "0,0,200,23"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "QColorDialog::getColor()",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QColorDialog::getColor()"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QColorDialog::getColor()",
+                            "boundingRectangle": "[661,276,152,23]"
+                          },
+                          "image": {
+                            "imgPath": "uia17.png",
+                            "rect": "0,0,152,23"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "QFileDialog::getExistingDirect",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QFileDialog::getExistingDirectory()"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QFileDialog::getExistingDirectory()",
+                            "boundingRectangle": "[661,328,218,23]"
+                          },
+                          "image": {
+                            "imgPath": "uia23.png",
+                            "rect": "0,0,218,23"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "QFileDialog::getOpenFileName()",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QFileDialog::getOpenFileName()"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QFileDialog::getOpenFileName()",
+                            "boundingRectangle": "[661,357,218,23]"
+                          },
+                          "image": {
+                            "imgPath": "uia25.png",
+                            "rect": "0,0,218,23"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "Options",
+                          "identifyProperties": {
+                            "type": "Group",
+                            "className": "QGroupBox",
+                            "name": "Options"
+                          },
+                          "cachedProperties": {
+                            "type": "Group",
+                            "className": "QGroupBox",
+                            "name": "Options",
+                            "boundingRectangle": "[661,649,600,202]"
+                          },
+                          "children": [
+                            {
+                              "ntype": "uia",
+                              "nname": "Do_not_use_native_dialog",
+                              "identifyProperties": {
+                                "type": "CheckBox",
+                                "className": "QCheckBox",
+                                "name": "Do not use native dialog"
+                              },
+                              "cachedProperties": {
+                                "type": "CheckBox",
+                                "className": "QCheckBox",
+                                "name": "Do not use native dialog",
+                                "boundingRectangle": "[671,671,165,16]"
+                              },
+                              "image": {
+                                "imgPath": "uia28.png",
+                                "rect": "0,0,165,16"
+                              }
+                            },
+                            {
+                              "ntype": "uia",
+                              "nname": "Readonly",
+                              "identifyProperties": {
+                                "type": "CheckBox",
+                                "className": "QCheckBox",
+                                "name": "Readonly"
+                              },
+                              "cachedProperties": {
+                                "type": "CheckBox",
+                                "className": "QCheckBox",
+                                "name": "Readonly",
+                                "boundingRectangle": "[671,781,69,16]"
+                              },
+                              "image": {
+                                "imgPath": "uia29.png",
+                                "rect": "0,0,69,16"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "QFileDialog::getOpenFileNames(",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QFileDialog::getOpenFileNames()"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "className": "QPushButton",
+                            "name": "QFileDialog::getOpenFileNames()",
+                            "boundingRectangle": "[661,386,218,23]"
+                          },
+                          "image": {
+                            "imgPath": "uia31.png",
+                            "rect": "0,0,218,23"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Color_Dialog",
+              "identifyProperties": {
+                "type": "Button",
+                "className": "QToolBoxButton",
+                "name": "Color Dialog"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "className": "QToolBoxButton",
+                "name": "Color Dialog",
+                "boundingRectangle": "[652,788,618,20]"
+              },
+              "image": {
+                "imgPath": "uia16.png",
+                "rect": "0,0,618,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Font_Dialog",
+              "identifyProperties": {
+                "type": "Button",
+                "className": "QToolBoxButton",
+                "name": "Font Dialog"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "className": "QToolBoxButton",
+                "name": "Font Dialog",
+                "boundingRectangle": "[652,814,618,20]"
+              },
+              "image": {
+                "imgPath": "uia21.png",
+                "rect": "0,0,618,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "File_Dialogs",
+              "identifyProperties": {
+                "type": "Button",
+                "className": "QToolBoxButton",
+                "name": "File Dialogs"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "className": "QToolBoxButton",
+                "name": "File Dialogs",
+                "boundingRectangle": "[652,840,618,20]"
+              },
+              "image": {
+                "imgPath": "uia22.png",
+                "rect": "0,0,618,20"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window1",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "QInputDialog",
+            "title": "QInputDialog::getInteger()"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "QInputDialog",
+            "title": "QInputDialog::getInteger()",
+            "boundingRectangle": "[861,506,200,89]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Percentage:",
+              "identifyProperties": {
+                "type": "Spinner",
+                "className": "QInputDialogSpinBox",
+                "name": "Percentage:"
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "className": "QInputDialogSpinBox",
+                "name": "Percentage:",
+                "value": "25",
+                "boundingRectangle": "[872,535,178,20]"
+              },
+              "image": {
+                "imgPath": "uia1.png",
+                "rect": "0,0,178,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Group3",
+              "identifyProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox"
+              },
+              "cachedProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox",
+                "boundingRectangle": "[872,561,178,23]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "OK",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "OK"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "OK",
+                    "boundingRectangle": "[894,561,75,23]"
+                  },
+                  "image": {
+                    "imgPath": "uia2.png",
+                    "rect": "0,0,75,23"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window2",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "QInputDialog",
+            "title": "QInputDialog::getDouble()"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "QInputDialog",
+            "title": "QInputDialog::getDouble()",
+            "boundingRectangle": "[861,506,200,89]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Amount:",
+              "identifyProperties": {
+                "type": "Spinner",
+                "className": "QInputDialogDoubleSpinBox",
+                "name": "Amount:"
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "className": "QInputDialogDoubleSpinBox",
+                "name": "Amount:",
+                "value": "37.56",
+                "boundingRectangle": "[872,535,178,20]"
+              },
+              "image": {
+                "imgPath": "uia4.png",
+                "rect": "0,0,178,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Group4",
+              "identifyProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox"
+              },
+              "cachedProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox",
+                "boundingRectangle": "[872,561,178,23]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "OK1",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "OK"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "OK",
+                    "boundingRectangle": "[894,561,75,23]"
+                  },
+                  "image": {
+                    "imgPath": "uia5.png",
+                    "rect": "0,0,75,23"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window3",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "QInputDialog",
+            "title": "QInputDialog::getItem()"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "QInputDialog",
+            "title": "QInputDialog::getItem()",
+            "boundingRectangle": "[861,506,200,89]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Season:",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "className": "QComboBox",
+                "name": "Season:"
+              },
+              "cachedProperties": {
+                "type": "ComboBox",
+                "className": "QComboBox",
+                "name": "Season:",
+                "value": "Spring",
+                "boundingRectangle": "[872,535,178,20]"
+              },
+              "image": {
+                "imgPath": "uia7.png",
+                "rect": "0,0,178,20"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "List",
+                  "identifyProperties": {
+                    "type": "List",
+                    "className": "QComboBoxListView"
+                  },
+                  "cachedProperties": {
+                    "type": "List",
+                    "className": "QComboBoxListView",
+                    "boundingRectangle": "[873,555,176,48]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Fall",
+                      "identifyProperties": {
+                        "type": "ListItem",
+                        "name": "Fall"
+                      },
+                      "cachedProperties": {
+                        "type": "ListItem",
+                        "name": "Fall",
+                        "boundingRectangle": "[873,579,176,12]"
+                      },
+                      "image": {
+                        "imgPath": "uia8.png",
+                        "rect": "0,0,176,12"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Group5",
+              "identifyProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox"
+              },
+              "cachedProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox",
+                "boundingRectangle": "[872,561,178,23]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "OK2",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "OK"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "OK",
+                    "boundingRectangle": "[894,561,75,23]"
+                  },
+                  "image": {
+                    "imgPath": "uia9.png",
+                    "rect": "0,0,75,23"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window4",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "QInputDialog",
+            "title": "QInputDialog::getText()"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "QInputDialog",
+            "title": "QInputDialog::getText()",
+            "boundingRectangle": "[861,506,200,89]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "User_name:",
+              "identifyProperties": {
+                "type": "Edit",
+                "className": "QLineEdit",
+                "name": "User name:"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "className": "QLineEdit",
+                "name": "User name:",
+                "value": "Shaw",
+                "boundingRectangle": "[872,535,178,20]"
+              },
+              "image": {
+                "imgPath": "uia11.png",
+                "rect": "0,0,178,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Group6",
+              "identifyProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox"
+              },
+              "cachedProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox",
+                "boundingRectangle": "[872,561,178,23]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "OK3",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "OK"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "OK",
+                    "boundingRectangle": "[894,561,75,23]"
+                  },
+                  "image": {
+                    "imgPath": "uia12.png",
+                    "rect": "0,0,75,23"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window5",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "QInputDialog",
+            "title": "QInputDialog::getMultiLineText()"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "QInputDialog",
+            "title": "QInputDialog::getMultiLineText()",
+            "boundingRectangle": "[822,420,278,261]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Edit",
+              "identifyProperties": {
+                "type": "Edit",
+                "className": "QPlainTextEdit"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "className": "QPlainTextEdit",
+                "value": "John Doe\nFreedom Street",
+                "boundingRectangle": "[833,449,256,192]"
+              },
+              "image": {
+                "imgPath": "uia14.png",
+                "rect": "0,0,256,192"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Group7",
+              "identifyProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox"
+              },
+              "cachedProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox",
+                "boundingRectangle": "[833,647,256,23]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "OK4",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "OK"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "OK",
+                    "boundingRectangle": "[933,647,75,23]"
+                  },
+                  "image": {
+                    "imgPath": "uia15.png",
+                    "rect": "0,0,75,23"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window6",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "QColorDialog",
+            "title": "Select Color"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "QColorDialog",
+            "title": "Select Color",
+            "boundingRectangle": "[700,354,522,393]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Basic_colors",
+              "identifyProperties": {
+                "type": "Group",
+                "className": "QWellArray",
+                "name": "Basic colors"
+              },
+              "cachedProperties": {
+                "type": "Group",
+                "className": "QWellArray",
+                "name": "Basic colors",
+                "boundingRectangle": "[711,383,224,144]"
+              },
+              "image": {
+                "imgPath": "uia18.png",
+                "rect": "0,0,224,144"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Add_to_Custom_Colors",
+              "identifyProperties": {
+                "type": "Button",
+                "className": "QPushButton",
+                "name": "Add to Custom Colors"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "className": "QPushButton",
+                "name": "Add to Custom Colors",
+                "boundingRectangle": "[711,678,224,23]"
+              },
+              "image": {
+                "imgPath": "uia19.png",
+                "rect": "0,0,224,23"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Group8",
+              "identifyProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox"
+              },
+              "cachedProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox",
+                "boundingRectangle": "[711,713,500,23]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "OK5",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "OK"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "OK",
+                    "boundingRectangle": "[1055,713,75,23]"
+                  },
+                  "image": {
+                    "imgPath": "uia20.png",
+                    "rect": "0,0,75,23"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window7",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "QFileDialog::getExistingDirectory()"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "QFileDialog::getExistingDirectory()",
+            "value": false,
+            "boundingRectangle": "[193,65,768,480]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "选择文件夹",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "name": "选择文件夹"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "className": "Button",
+                "name": "选择文件夹",
+                "value": false,
+                "boundingRectangle": "[732,499,104,26]"
+              },
+              "image": {
+                "imgPath": "uia24.png",
+                "rect": "0,0,104,26"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window8",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "QFileDialog::getOpenFileName()"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "QFileDialog::getOpenFileName()",
+            "value": false,
+            "boundingRectangle": "[193,65,768,480]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "打开(O)",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "name": "打开(O)"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "className": "Button",
+                "name": "打开(O)",
+                "value": false,
+                "boundingRectangle": "[748,499,88,26]"
+              },
+              "image": {
+                "imgPath": "uia26.png",
+                "rect": "0,0,88,26"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "取消",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "2",
+                "name": "取消"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "2",
+                "className": "Button",
+                "name": "取消",
+                "value": false,
+                "boundingRectangle": "[848,499,88,26]"
+              },
+              "image": {
+                "imgPath": "uia27.png",
+                "rect": "0,0,88,26"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window9",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "QFileDialog",
+            "title": "QFileDialog::getOpenFileName()"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "QFileDialog",
+            "title": "QFileDialog::getOpenFileName()",
+            "boundingRectangle": "[634,346,654,408]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "File_name:",
+              "identifyProperties": {
+                "type": "Edit",
+                "className": "QLineEdit",
+                "name": "File name:"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "className": "QLineEdit",
+                "name": "File name:",
+                "boundingRectangle": "[735,693,461,20]"
+              },
+              "image": {
+                "imgPath": "uia30.png",
+                "rect": "0,0,461,20"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window10",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "QFileDialog::getOpenFileNames()"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "#32770",
+            "title": "QFileDialog::getOpenFileNames()",
+            "value": false,
+            "boundingRectangle": "[193,65,768,480]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "文件名(N):",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "automationId": "1148",
+                "name": "文件名(N):"
+              },
+              "cachedProperties": {
+                "type": "ComboBox",
+                "automationId": "1148",
+                "className": "ComboBox",
+                "name": "文件名(N):",
+                "boundingRectangle": "[393,468,343,26]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "文件名(N):1",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "automationId": "1148",
+                    "name": "文件名(N):"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "automationId": "1148",
+                    "className": "Edit",
+                    "name": "文件名(N):",
+                    "boundingRectangle": "[397,473,319,17]"
+                  },
+                  "image": {
+                    "imgPath": "uia32.png",
+                    "rect": "0,0,319,17"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "打开(O)1",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "name": "打开(O)"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "1",
+                "className": "Button",
+                "name": "打开(O)",
+                "value": false,
+                "boundingRectangle": "[748,499,88,26]"
+              },
+              "image": {
+                "imgPath": "uia34.png",
+                "rect": "0,0,88,26"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "TitleBar",
+          "identifyProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar",
+            "value": "Standard Dialogs",
+            "boundingRectangle": "[657,176,624,28]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关闭",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭",
+                "value": false,
+                "boundingRectangle": "[1235,174,47,30]"
+              },
+              "image": {
+                "imgPath": "uia35.png",
+                "rect": "0,0,47,30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "Pane",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Auto-Suggest Dropdown"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Auto-Suggest Dropdown",
+        "appName": "standarddialogs",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\standarddialogs.exe",
+        "value": false,
+        "boundingRectangle": "[397,490,319,44]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "List1",
+          "identifyProperties": {
+            "type": "List",
+            "className": "SysListView32"
+          },
+          "cachedProperties": {
+            "type": "List",
+            "className": "SysListView32",
+            "value": false,
+            "boundingRectangle": "[398,491,30170,42]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "C:\\temp\\RecordAll\\model.tmodel",
+              "identifyProperties": {
+                "type": "ListItem",
+                "automationId": "ListViewItem-0",
+                "name": "C:\\temp\\RecordAll\\model.tmodel"
+              },
+              "cachedProperties": {
+                "type": "ListItem",
+                "automationId": "ListViewItem-0",
+                "name": "C:\\temp\\RecordAll\\model.tmodel",
+                "value": false,
+                "boundingRectangle": "[398,491,30000,21]"
+              },
+              "image": {
+                "imgPath": "uia33.png",
+                "rect": "0,0,3442,21"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "launcher.js_-_cuke-recorder-la",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "launcher.js - cuke-recorder-launcher - Visual Studio Code",
+        "appName": "Code"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "launcher.js - cuke-recorder-launcher - Visual Studio Code",
+        "appName": "Code",
+        "appPath": "C:\\Users\\Shaw\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "value": false,
+        "boundingRectangle": "[-8,-8,1936,1056]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Document",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "18109376"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "18109376",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "value": false,
+            "boundingRectangle": "[0,0,1920,1040]"
+          },
+          "image": {
+            "imgPath": "uia36.png",
+            "rect": "0,0,1920,1040"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Window11",
+              "identifyProperties": {
+                "type": "Window"
+              },
+              "cachedProperties": {
+                "type": "Window",
+                "value": false,
+                "boundingRectangle": "[0,0,1920,1040]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Terminal_1,_node_Run_the_comma",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "Terminal 1, node Run the command: Toggle Screen Reader Accessibility Mode for an optimized screen reader experience Use Alt+F1 for terminal accessibility help"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "name": "Terminal 1, node Run the command: Toggle Screen Reader Accessibility Mode for an optimized screen reader experience Use Alt+F1 for terminal accessibility help",
+                    "boundingRectangle": "[557,980,12,26]"
+                  },
+                  "image": {
+                    "imgPath": "uia37.png",
+                    "rect": "0,0,12,26"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

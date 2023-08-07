@@ -1,0 +1,285 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Window",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "QWidget"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "QWidget",
+        "title": "Basic Layouts",
+        "appName": "basiclayouts",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\basiclayouts.exe",
+        "value": false,
+        "boundingRectangle": "[710,156,501,706]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Horizontal_layout",
+          "identifyProperties": {
+            "type": "Group",
+            "name": "Horizontal layout"
+          },
+          "cachedProperties": {
+            "type": "Group",
+            "name": "Horizontal layout",
+            "value": false,
+            "boundingRectangle": "[729,221,463,55]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Button_1",
+              "identifyProperties": {
+                "type": "Button",
+                "name": "Button 1"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "name": "Button 1",
+                "value": false,
+                "boundingRectangle": "[739,243,106,23]"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Button_4",
+              "identifyProperties": {
+                "type": "Button",
+                "name": "Button 4"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "name": "Button 4",
+                "value": false,
+                "boundingRectangle": "[1076,243,106,23]"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Button_3",
+              "identifyProperties": {
+                "type": "Button",
+                "name": "Button 3"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "name": "Button 3",
+                "value": false,
+                "boundingRectangle": "[964,243,106,23]"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Button_2",
+              "identifyProperties": {
+                "type": "Button",
+                "name": "Button 2"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "name": "Button 2",
+                "value": false,
+                "boundingRectangle": "[851,243,107,23]"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Grid_layout",
+          "identifyProperties": {
+            "type": "Group",
+            "name": "Grid layout"
+          },
+          "cachedProperties": {
+            "type": "Group",
+            "name": "Grid layout",
+            "value": false,
+            "boundingRectangle": "[729,282,463,224]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Grid_layout1",
+              "identifyProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "index": 3
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "value": "This widget takes up about two thirds of the grid layout.",
+                "boundingRectangle": "[923,304,259,192]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Grid_layout2",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "Grid layout"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "name": "Grid layout",
+                    "value": "This widget takes up about two thirds of the grid layout.",
+                    "boundingRectangle": "[928,309,249,28]"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Grid_layout3",
+              "identifyProperties": {
+                "type": "Edit",
+                "name": "Grid layout"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "boundingRectangle": "[787,424,130,20]"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Grid_layout4",
+              "identifyProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "index": 1
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "boundingRectangle": "[787,450,130,20]"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Grid_layout5",
+              "identifyProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "index": 2
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "name": "Grid layout",
+                "boundingRectangle": "[787,476,130,20]"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Form_layout",
+          "identifyProperties": {
+            "type": "Group",
+            "name": "Form layout"
+          },
+          "cachedProperties": {
+            "type": "Group",
+            "name": "Form layout",
+            "value": false,
+            "boundingRectangle": "[729,512,463,104]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Form_layout1",
+              "identifyProperties": {
+                "type": "Edit",
+                "name": "Form layout"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "name": "Form layout",
+                "boundingRectangle": "[853,534,329,20]"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Form_layout2",
+              "identifyProperties": {
+                "type": "Spinner",
+                "name": "Form layout"
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "name": "Form layout",
+                "value": "0",
+                "boundingRectangle": "[853,586,329,20]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Form_layout3",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "Form layout"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "name": "Form layout",
+                    "value": "0",
+                    "boundingRectangle": "[853,586,313,20]"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Edit",
+          "identifyProperties": {
+            "type": "Edit",
+            "index": 7
+          },
+          "cachedProperties": {
+            "type": "Edit",
+            "value": "This widget takes up all the remaining space in the top-level layout.",
+            "boundingRectangle": "[729,622,463,192]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Edit1",
+              "identifyProperties": {
+                "type": "Edit"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "value": "This widget takes up all the remaining space in the top-level layout.",
+                "boundingRectangle": "[734,627,453,14]"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "OK",
+          "identifyProperties": {
+            "type": "Button",
+            "name": "OK"
+          },
+          "cachedProperties": {
+            "type": "Button",
+            "name": "OK",
+            "value": false,
+            "boundingRectangle": "[1036,820,75,23]"
+          }
+        }
+      ]
+    }
+  ]
+}

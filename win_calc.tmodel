@@ -1,0 +1,900 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Window",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "ApplicationFrameWindow"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "ApplicationFrameWindow",
+        "title": "计算器",
+        "appName": "ApplicationFrameHost",
+        "appPath": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+        "value": false,
+        "boundingRectangle": "[595,20,695,1010]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Window1",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "Windows.UI.Core.CoreWindow",
+            "title": "计算器"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "Windows.UI.Core.CoreWindow",
+            "title": "计算器",
+            "value": false,
+            "boundingRectangle": "[603,21,679,1001]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Custom",
+              "identifyProperties": {
+                "type": "Custom",
+                "automationId": "NavView"
+              },
+              "cachedProperties": {
+                "type": "Custom",
+                "automationId": "NavView",
+                "value": false,
+                "boundingRectangle": "[603,50,679,972]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Group",
+                  "identifyProperties": {
+                    "type": "Group",
+                    "className": "LandmarkTarget"
+                  },
+                  "cachedProperties": {
+                    "type": "Group",
+                    "className": "LandmarkTarget",
+                    "value": false,
+                    "boundingRectangle": "[603,50,679,972]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "数字键盘",
+                      "identifyProperties": {
+                        "type": "Group",
+                        "automationId": "NumberPad",
+                        "name": "数字键盘"
+                      },
+                      "cachedProperties": {
+                        "type": "Group",
+                        "automationId": "NumberPad",
+                        "className": "NamedContainerAutomationPeer",
+                        "name": "数字键盘",
+                        "value": false,
+                        "boundingRectangle": "[607,586,285,432]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "一",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "num1Button",
+                            "name": "一"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "num1Button",
+                            "className": "Button",
+                            "name": "一",
+                            "value": false,
+                            "boundingRectangle": "[607,803,94,107]"
+                          },
+                          "image": {
+                            "imgPath": "uia.png",
+                            "rect": "0,0,94,107"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "二",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "num2Button",
+                            "name": "二"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "num2Button",
+                            "className": "Button",
+                            "name": "二",
+                            "value": false,
+                            "boundingRectangle": "[703,803,94,107]"
+                          },
+                          "image": {
+                            "imgPath": "uia2.png",
+                            "rect": "0,0,94,107"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "三",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "num3Button",
+                            "name": "三"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "num3Button",
+                            "className": "Button",
+                            "name": "三",
+                            "value": false,
+                            "boundingRectangle": "[799,803,93,107]"
+                          },
+                          "image": {
+                            "imgPath": "uia3.png",
+                            "rect": "0,0,93,107"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "四",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "num4Button",
+                            "name": "四"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "num4Button",
+                            "className": "Button",
+                            "name": "四",
+                            "value": false,
+                            "boundingRectangle": "[607,695,94,106]"
+                          },
+                          "image": {
+                            "imgPath": "uia4.png",
+                            "rect": "0,0,94,106"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "五",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "num5Button",
+                            "name": "五"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "num5Button",
+                            "className": "Button",
+                            "name": "五",
+                            "value": false,
+                            "boundingRectangle": "[703,695,94,106]"
+                          },
+                          "image": {
+                            "imgPath": "uia5.png",
+                            "rect": "0,0,94,106"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "六",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "num6Button",
+                            "name": "六"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "num6Button",
+                            "className": "Button",
+                            "name": "六",
+                            "value": false,
+                            "boundingRectangle": "[799,695,93,106]"
+                          },
+                          "image": {
+                            "imgPath": "uia6.png",
+                            "rect": "0,0,93,106"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "七",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "num7Button",
+                            "name": "七"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "num7Button",
+                            "className": "Button",
+                            "name": "七",
+                            "value": false,
+                            "boundingRectangle": "[607,586,94,107]"
+                          },
+                          "image": {
+                            "imgPath": "uia7.png",
+                            "rect": "0,0,94,107"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "八",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "num8Button",
+                            "name": "八"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "num8Button",
+                            "className": "Button",
+                            "name": "八",
+                            "value": false,
+                            "boundingRectangle": "[703,586,94,107]"
+                          },
+                          "image": {
+                            "imgPath": "uia8.png",
+                            "rect": "0,0,94,107"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "九",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "num9Button",
+                            "name": "九"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "num9Button",
+                            "className": "Button",
+                            "name": "九",
+                            "value": false,
+                            "boundingRectangle": "[799,586,93,107]"
+                          },
+                          "image": {
+                            "imgPath": "uia9.png",
+                            "rect": "0,0,93,107"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "标准运算符",
+                      "identifyProperties": {
+                        "type": "Group",
+                        "automationId": "StandardOperators",
+                        "name": "标准运算符"
+                      },
+                      "cachedProperties": {
+                        "type": "Group",
+                        "automationId": "StandardOperators",
+                        "className": "NamedContainerAutomationPeer",
+                        "name": "标准运算符",
+                        "value": false,
+                        "boundingRectangle": "[894,478,93,540]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "加",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "plusButton",
+                            "name": "加"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "plusButton",
+                            "className": "Button",
+                            "name": "加",
+                            "value": false,
+                            "boundingRectangle": "[894,803,93,107]"
+                          },
+                          "image": {
+                            "imgPath": "uia1.png",
+                            "rect": "0,0,93,107"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "等于",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "equalButton",
+                            "name": "等于"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "equalButton",
+                            "className": "Button",
+                            "name": "等于",
+                            "value": false,
+                            "boundingRectangle": "[894,912,93,106]"
+                          },
+                          "image": {
+                            "imgPath": "uia10.png",
+                            "rect": "0,0,93,106"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "减",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "minusButton",
+                            "name": "减"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "minusButton",
+                            "className": "Button",
+                            "name": "减",
+                            "value": false,
+                            "boundingRectangle": "[913,789,74,75]"
+                          },
+                          "image": {
+                            "imgPath": "uia15.png",
+                            "rect": "0,0,74,75"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "显示为_45",
+                      "identifyProperties": {
+                        "type": "Text",
+                        "automationId": "CalculatorResults",
+                        "name": "显示为 45"
+                      },
+                      "cachedProperties": {
+                        "type": "Text",
+                        "automationId": "CalculatorResults",
+                        "name": "显示为 45",
+                        "value": false,
+                        "boundingRectangle": "[603,147,388,153]"
+                      },
+                      "image": {
+                        "imgPath": "uia11.png",
+                        "rect": "0,0,388,153"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "显示控件",
+                      "identifyProperties": {
+                        "type": "Group",
+                        "automationId": "DisplayControls",
+                        "name": "显示控件"
+                      },
+                      "cachedProperties": {
+                        "type": "Group",
+                        "automationId": "DisplayControls",
+                        "className": "NamedContainerAutomationPeer",
+                        "name": "显示控件",
+                        "value": false,
+                        "boundingRectangle": "[607,369,380,107]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "清除",
+                          "identifyProperties": {
+                            "type": "Button",
+                            "automationId": "clearButton",
+                            "name": "清除"
+                          },
+                          "cachedProperties": {
+                            "type": "Button",
+                            "automationId": "clearButton",
+                            "className": "Button",
+                            "name": "清除",
+                            "value": false,
+                            "boundingRectangle": "[798,369,94,107]"
+                          },
+                          "image": {
+                            "imgPath": "uia12.png",
+                            "rect": "0,0,94,107"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "历史记录和记忆列表",
+                      "identifyProperties": {
+                        "type": "Group",
+                        "automationId": "DockPanel",
+                        "name": "历史记录和记忆列表"
+                      },
+                      "cachedProperties": {
+                        "type": "Group",
+                        "automationId": "DockPanel",
+                        "className": "NamedContainerAutomationPeer",
+                        "name": "历史记录和记忆列表",
+                        "value": false,
+                        "boundingRectangle": "[991,50,291,972]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "Tab",
+                          "identifyProperties": {
+                            "type": "Tab",
+                            "automationId": "DockPivot"
+                          },
+                          "cachedProperties": {
+                            "type": "Tab",
+                            "automationId": "DockPivot",
+                            "className": "Pivot",
+                            "value": false,
+                            "boundingRectangle": "[991,50,291,972]"
+                          },
+                          "children": [
+                            {
+                              "ntype": "uia",
+                              "nname": "历史记录",
+                              "identifyProperties": {
+                                "type": "TabItem",
+                                "automationId": "HistoryLabel",
+                                "name": "历史记录"
+                              },
+                              "cachedProperties": {
+                                "type": "TabItem",
+                                "automationId": "HistoryLabel",
+                                "className": "PivotItem",
+                                "name": "历史记录",
+                                "value": false,
+                                "boundingRectangle": "[991,50,80,48]"
+                              },
+                              "children": [
+                                {
+                                  "ntype": "uia",
+                                  "nname": "List",
+                                  "identifyProperties": {
+                                    "type": "List",
+                                    "automationId": "HistoryListView"
+                                  },
+                                  "cachedProperties": {
+                                    "type": "List",
+                                    "automationId": "HistoryListView",
+                                    "className": "ListView",
+                                    "value": false,
+                                    "boundingRectangle": "[995,108,283,866]"
+                                  },
+                                  "children": [
+                                    {
+                                      "ntype": "uia",
+                                      "nname": "1_+_2=_3",
+                                      "identifyProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "1 + 2= 3"
+                                      },
+                                      "cachedProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "1 + 2= 3",
+                                        "value": false,
+                                        "boundingRectangle": "[995,682,283,62]"
+                                      },
+                                      "image": {
+                                        "imgPath": "uia17.png",
+                                        "rect": "0,0,283,62"
+                                      }
+                                    },
+                                    {
+                                      "ntype": "uia",
+                                      "nname": "3_+_3=_6",
+                                      "identifyProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "3 + 3= 6"
+                                      },
+                                      "cachedProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "3 + 3= 6",
+                                        "value": false,
+                                        "boundingRectangle": "[995,600,283,62]"
+                                      },
+                                      "image": {
+                                        "imgPath": "uia18.png",
+                                        "rect": "0,0,283,62"
+                                      }
+                                    },
+                                    {
+                                      "ntype": "uia",
+                                      "nname": "6_+_4=_10",
+                                      "identifyProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "6 + 4= 10"
+                                      },
+                                      "cachedProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "6 + 4= 10",
+                                        "value": false,
+                                        "boundingRectangle": "[995,518,283,62]"
+                                      },
+                                      "image": {
+                                        "imgPath": "uia19.png",
+                                        "rect": "0,0,283,62"
+                                      }
+                                    },
+                                    {
+                                      "ntype": "uia",
+                                      "nname": "10_+_5=_15",
+                                      "identifyProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "10 + 5= 15"
+                                      },
+                                      "cachedProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "10 + 5= 15",
+                                        "value": false,
+                                        "boundingRectangle": "[995,436,283,62]"
+                                      },
+                                      "image": {
+                                        "imgPath": "uia20.png",
+                                        "rect": "0,0,283,62"
+                                      }
+                                    },
+                                    {
+                                      "ntype": "uia",
+                                      "nname": "15_+_6=_21",
+                                      "identifyProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "15 + 6= 21"
+                                      },
+                                      "cachedProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "15 + 6= 21",
+                                        "value": false,
+                                        "boundingRectangle": "[995,354,283,62]"
+                                      },
+                                      "image": {
+                                        "imgPath": "uia21.png",
+                                        "rect": "0,0,283,62"
+                                      }
+                                    },
+                                    {
+                                      "ntype": "uia",
+                                      "nname": "21_+_7=_28",
+                                      "identifyProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "21 + 7= 28"
+                                      },
+                                      "cachedProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "21 + 7= 28",
+                                        "value": false,
+                                        "boundingRectangle": "[995,272,283,62]"
+                                      },
+                                      "image": {
+                                        "imgPath": "uia22.png",
+                                        "rect": "0,0,283,62"
+                                      }
+                                    },
+                                    {
+                                      "ntype": "uia",
+                                      "nname": "28_+_8=_36",
+                                      "identifyProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "28 + 8= 36"
+                                      },
+                                      "cachedProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "28 + 8= 36",
+                                        "value": false,
+                                        "boundingRectangle": "[995,190,283,62]"
+                                      },
+                                      "image": {
+                                        "imgPath": "uia23.png",
+                                        "rect": "0,0,283,62"
+                                      }
+                                    },
+                                    {
+                                      "ntype": "uia",
+                                      "nname": "36_+_9=_45",
+                                      "identifyProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "36 + 9= 45"
+                                      },
+                                      "cachedProperties": {
+                                        "type": "ListItem",
+                                        "className": "ListViewItem",
+                                        "name": "36 + 9= 45",
+                                        "value": false,
+                                        "boundingRectangle": "[995,108,283,62]"
+                                      },
+                                      "image": {
+                                        "imgPath": "uia24.png",
+                                        "rect": "0,0,283,62"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "ntype": "uia",
+                              "nname": "记忆",
+                              "identifyProperties": {
+                                "type": "TabItem",
+                                "automationId": "MemoryLabel",
+                                "name": "记忆"
+                              },
+                              "cachedProperties": {
+                                "type": "TabItem",
+                                "automationId": "MemoryLabel",
+                                "className": "PivotItem",
+                                "name": "记忆",
+                                "value": false,
+                                "boundingRectangle": "[1071,50,52,48]"
+                              },
+                              "image": {
+                                "imgPath": "uia25.png",
+                                "rect": "0,0,52,48"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "打开导航",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "TogglePaneButton",
+                    "name": "打开导航"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "automationId": "TogglePaneButton",
+                    "className": "Button",
+                    "name": "打开导航",
+                    "value": false,
+                    "boundingRectangle": "[607,59,40,36]"
+                  },
+                  "image": {
+                    "imgPath": "uia13.png",
+                    "rect": "0,0,40,36"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Window2",
+                  "identifyProperties": {
+                    "type": "Window",
+                    "automationId": "PaneRoot"
+                  },
+                  "cachedProperties": {
+                    "type": "Window",
+                    "automationId": "PaneRoot",
+                    "className": "SplitViewPane",
+                    "value": false,
+                    "boundingRectangle": "[603,53,256,969]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Pane",
+                      "identifyProperties": {
+                        "type": "Pane",
+                        "automationId": "MenuItemsScrollViewer"
+                      },
+                      "cachedProperties": {
+                        "type": "Pane",
+                        "automationId": "MenuItemsScrollViewer",
+                        "className": "ScrollViewer",
+                        "value": false,
+                        "boundingRectangle": "[603,97,256,877]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "Group1",
+                          "identifyProperties": {
+                            "type": "Group",
+                            "automationId": "MenuItemsHost"
+                          },
+                          "cachedProperties": {
+                            "type": "Group",
+                            "automationId": "MenuItemsHost",
+                            "value": false,
+                            "boundingRectangle": "[607,108,248,787]"
+                          },
+                          "children": [
+                            {
+                              "ntype": "uia",
+                              "nname": "科学_计算器",
+                              "identifyProperties": {
+                                "type": "ListItem",
+                                "automationId": "Scientific",
+                                "name": "科学 计算器"
+                              },
+                              "cachedProperties": {
+                                "type": "ListItem",
+                                "automationId": "Scientific",
+                                "className": "Microsoft.UI.Xaml.Controls.NavigationViewItem",
+                                "name": "科学 计算器",
+                                "value": false,
+                                "boundingRectangle": "[607,179,248,36]"
+                              },
+                              "image": {
+                                "imgPath": "uia14.png",
+                                "rect": "0,0,248,36"
+                              }
+                            },
+                            {
+                              "ntype": "uia",
+                              "nname": "标准_计算器",
+                              "identifyProperties": {
+                                "type": "ListItem",
+                                "automationId": "Standard",
+                                "name": "标准 计算器"
+                              },
+                              "cachedProperties": {
+                                "type": "ListItem",
+                                "automationId": "Standard",
+                                "className": "Microsoft.UI.Xaml.Controls.NavigationViewItem",
+                                "name": "标准 计算器",
+                                "value": false,
+                                "boundingRectangle": "[607,139,248,36]"
+                              },
+                              "image": {
+                                "imgPath": "uia16.png",
+                                "rect": "0,0,248,36"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window3",
+          "identifyProperties": {
+            "type": "Window",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "automationId": "TitleBar",
+            "className": "ApplicationFrameTitleBarWindow",
+            "title": "计算器",
+            "value": "计算器",
+            "boundingRectangle": "[1094,21,188,32]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关闭_计算器",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭 计算器"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭 计算器",
+                "value": false,
+                "boundingRectangle": "[1236,21,46,32]"
+              },
+              "image": {
+                "imgPath": "uia26.png",
+                "rect": "0,0,46,32"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "config.json_-_cuke-recorder-la",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "config.json - cuke-recorder-launcher - Visual Studio Code",
+        "appName": "Code"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "config.json - cuke-recorder-launcher - Visual Studio Code",
+        "appName": "Code",
+        "appPath": "C:\\Users\\Shaw\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "value": false,
+        "boundingRectangle": "[1912,-8,1936,1056]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "config.json_-_cuke-recorder-la1",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "46331168",
+            "name": "config.json - cuke-recorder-launcher - Visual Studio Code"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "46331168",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "name": "config.json - cuke-recorder-launcher - Visual Studio Code",
+            "value": "vscode-file://vscode-app/c:/Users/Shaw/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html",
+            "boundingRectangle": "[1920,0,1920,1040]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Window4",
+              "identifyProperties": {
+                "type": "Window"
+              },
+              "cachedProperties": {
+                "type": "Window",
+                "value": false,
+                "boundingRectangle": "[1920,0,1920,1040]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Terminal_1,_node_Run_the_comma",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "Terminal 1, node Run the command: Toggle Screen Reader Accessibility Mode for an optimized screen reader experience Use Alt+F1 for terminal accessibility help"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "name": "Terminal 1, node Run the command: Toggle Screen Reader Accessibility Mode for an optimized screen reader experience Use Alt+F1 for terminal accessibility help",
+                    "boundingRectangle": "[2477,979,12,26]"
+                  },
+                  "image": {
+                    "imgPath": "uia27.png",
+                    "rect": "0,0,12,26"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

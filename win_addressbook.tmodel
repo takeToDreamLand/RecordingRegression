@@ -1,0 +1,73 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Address_Book",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "MainWindow"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "MainWindow",
+        "title": "Address Book",
+        "boundingRectangle": "[640,280,342,241]",
+        "appName": "addressbook",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\addressbook.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "AddressWidget",
+          "identifyProperties": {
+            "type": "Group",
+            "className": "AddressWidget"
+          },
+          "cachedProperties": {
+            "type": "Group",
+            "className": "AddressWidget",
+            "boundingRectangle": "[640,303,342,218]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Address_Book1",
+              "identifyProperties": {
+                "type": "Tab",
+                "className": "QTabBar",
+                "name": "Address Book"
+              },
+              "cachedProperties": {
+                "type": "Tab",
+                "className": "QTabBar",
+                "name": "Address Book",
+                "boundingRectangle": "[640,303,342,20]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Address_Book2",
+                  "identifyProperties": {
+                    "type": "TabItem",
+                    "name": "Address Book"
+                  },
+                  "cachedProperties": {
+                    "type": "TabItem",
+                    "name": "Address Book",
+                    "boundingRectangle": "[640,303,96,20]"
+                  },
+                  "image": {
+                    "imgPath": "uia.png",
+                    "rect": "0,0,96,20"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

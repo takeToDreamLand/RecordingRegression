@@ -1,0 +1,170 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "录制流程的单元测试.md_-__sketches_-_Vis",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "录制流程的单元测试.md - _sketches - Visual Studio Code",
+        "appName": "Code"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "录制流程的单元测试.md - _sketches - Visual Studio Code",
+        "appName": "Code",
+        "appPath": "C:\\Users\\Shaw\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "value": false,
+        "boundingRectangle": "[-8,-8,1936,1056]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "录制流程的单元测试.md_-__sketches_-_Vis1",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "18061984",
+            "name": "录制流程的单元测试.md - _sketches - Visual Studio Code"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "18061984",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "name": "录制流程的单元测试.md - _sketches - Visual Studio Code",
+            "value": "vscode-file://vscode-app/c:/Users/Shaw/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html",
+            "boundingRectangle": "[0,0,1920,1040]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Window",
+              "identifyProperties": {
+                "type": "Window"
+              },
+              "cachedProperties": {
+                "type": "Window",
+                "value": false,
+                "boundingRectangle": "[0,0,1920,1040]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Group",
+                  "identifyProperties": {
+                    "type": "Group",
+                    "automationId": "workbench.parts.titlebar"
+                  },
+                  "cachedProperties": {
+                    "type": "Group",
+                    "automationId": "workbench.parts.titlebar",
+                    "value": false,
+                    "boundingRectangle": "[0,0,1920,44]"
+                  },
+                  "image": {
+                    "imgPath": "uia.png",
+                    "rect": "0,0,1920,44"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "Window1",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "CabinetWClass"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "CabinetWClass",
+        "title": "RecordingRegression",
+        "appName": "explorer",
+        "appPath": "C:\\Windows\\explorer.exe",
+        "value": false,
+        "boundingRectangle": "[-8,-8,1936,1056]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "TitleBar",
+          "identifyProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar",
+            "value": "RecordingRegression",
+            "boundingRectangle": "[16,-5,1904,31]"
+          },
+          "image": {
+            "imgPath": "uia1.png",
+            "rect": "0,0,1904,26"
+          }
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "List",
+      "identifyProperties": {
+        "type": "List",
+        "automationId": "1"
+      },
+      "cachedProperties": {
+        "type": "List",
+        "automationId": "1",
+        "className": "SysListView32",
+        "appName": "explorer",
+        "appPath": "C:\\Windows\\explorer.exe",
+        "value": false,
+        "boundingRectangle": "[0,0,3840,1080]"
+      },
+      "image": {
+        "imgPath": "uia2.png",
+        "rect": "0,0,3840,1080"
+      }
+    },
+    {
+      "ntype": "uia",
+      "nname": "Window2",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "QWidget"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "QWidget",
+        "appName": "appchooser",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\appchooser.exe",
+        "value": false,
+        "boundingRectangle": "[802,371,316,339]"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Custom",
+          "identifyProperties": {
+            "type": "Custom"
+          },
+          "cachedProperties": {
+            "type": "Custom",
+            "value": false,
+            "boundingRectangle": "[810,402,300,300]"
+          },
+          "image": {
+            "imgPath": "uia3.png",
+            "rect": "0,0,300,300"
+          }
+        }
+      ]
+    }
+  ]
+}
