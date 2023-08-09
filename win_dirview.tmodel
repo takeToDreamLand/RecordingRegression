@@ -1,0 +1,263 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Dir_View",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "QWidget"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "QWidget",
+        "title": "Dir View",
+        "value": false,
+        "boundingRectangle": "[632,281,656,519]",
+        "appName": "dirview",
+        "appPath": "C:\\Users\\Will\\Desktop\\CukeTest\\bin\\dirview.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Tree",
+          "identifyProperties": {
+            "type": "Tree"
+          },
+          "cachedProperties": {
+            "type": "Tree",
+            "value": false,
+            "boundingRectangle": "[640,312,623,480]"
+          },
+          "image": {
+            "imgPath": "uia.png",
+            "rect": "0,0,623,480"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "write.exe",
+              "identifyProperties": {
+                "type": "TreeItem",
+                "name": "write.exe"
+              },
+              "cachedProperties": {
+                "type": "TreeItem",
+                "name": "write.exe",
+                "value": "3",
+                "boundingRectangle": "[701,319,561,19]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "11_KB",
+                  "identifyProperties": {
+                    "type": "TreeItem",
+                    "name": "11 KB"
+                  },
+                  "cachedProperties": {
+                    "type": "TreeItem",
+                    "name": "11 KB",
+                    "value": false,
+                    "boundingRectangle": "[778,319,100,19]"
+                  },
+                  "image": {
+                    "imgPath": "uia2.png",
+                    "rect": "0,0,100,19"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "write.exe1",
+                  "identifyProperties": {
+                    "type": "TreeItem",
+                    "name": "write.exe"
+                  },
+                  "cachedProperties": {
+                    "type": "TreeItem",
+                    "name": "write.exe",
+                    "value": false,
+                    "boundingRectangle": "[701,319,77,19]"
+                  },
+                  "image": {
+                    "imgPath": "uia3.png",
+                    "rect": "0,0,77,19"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "notepad.exe",
+              "identifyProperties": {
+                "type": "TreeItem",
+                "name": "notepad.exe"
+              },
+              "cachedProperties": {
+                "type": "TreeItem",
+                "name": "notepad.exe",
+                "value": "3",
+                "boundingRectangle": "[701,623,561,19]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "notepad.exe1",
+                  "identifyProperties": {
+                    "type": "TreeItem",
+                    "name": "notepad.exe"
+                  },
+                  "cachedProperties": {
+                    "type": "TreeItem",
+                    "name": "notepad.exe",
+                    "value": false,
+                    "boundingRectangle": "[701,623,77,19]"
+                  },
+                  "image": {
+                    "imgPath": "uia4.png",
+                    "rect": "0,0,77,19"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Custom",
+          "identifyProperties": {
+            "type": "Custom"
+          },
+          "cachedProperties": {
+            "type": "Custom",
+            "value": false,
+            "boundingRectangle": "[1262,313,17,478]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "ScrollBar",
+              "identifyProperties": {
+                "type": "ScrollBar"
+              },
+              "cachedProperties": {
+                "type": "ScrollBar",
+                "value": "7",
+                "boundingRectangle": "[1262,313,17,478]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Position",
+                  "identifyProperties": {
+                    "type": "Thumb",
+                    "name": "Position"
+                  },
+                  "cachedProperties": {
+                    "type": "Thumb",
+                    "name": "Position",
+                    "value": "7",
+                    "boundingRectangle": "[1262,352,17,72]"
+                  },
+                  "image": {
+                    "imgPath": "uia1.png",
+                    "rect": "0,0,17,72"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "TitleBar",
+          "identifyProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar",
+            "value": "Dir View",
+            "boundingRectangle": "[656,284,624,28]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关闭",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭",
+                "value": false,
+                "boundingRectangle": "[1234,282,47,30]"
+              },
+              "image": {
+                "imgPath": "uia5.png",
+                "rect": "0,0,47,30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "README.md_-_tools_-_Visual_Stu",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "README.md - tools - Visual Studio Code",
+        "appName": "Code"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "README.md - tools - Visual Studio Code",
+        "value": false,
+        "boundingRectangle": "[-8,-8,1936,1056]",
+        "appName": "Code",
+        "appPath": "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "README.md_-_tools_-_Visual_Stu1",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "14115200",
+            "name": "README.md - tools - Visual Studio Code"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "14115200",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "name": "README.md - tools - Visual Studio Code",
+            "value": "vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html",
+            "boundingRectangle": "[0,0,1920,1040]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Window",
+              "identifyProperties": {
+                "type": "Window"
+              },
+              "cachedProperties": {
+                "type": "Window",
+                "value": false,
+                "boundingRectangle": "[0,0,1920,1041]"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

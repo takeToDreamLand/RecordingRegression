@@ -1,0 +1,372 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "qt",
+      "nname": "validators",
+      "identifyProperties": {
+        "type": "Application",
+        "appName": "validators"
+      },
+      "cachedProperties": {
+        "type": "Application",
+        "appName": "validators",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\validators.exe"
+      },
+      "children": [
+        {
+          "ntype": "qt",
+          "nname": "ValidatorsForm",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "ValidatorWidget",
+            "name": "ValidatorsForm",
+            "text": "Validators"
+          },
+          "cachedProperties": {
+            "className": "ValidatorWidget",
+            "name": "ValidatorsForm",
+            "text": "Validators",
+            "type": "Window",
+            "boundingRectangle": "[697,298,526,443,0,1920,1080]"
+          },
+          "children": [
+            {
+              "ntype": "qt",
+              "nname": "localeSelector",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "className": "QComboBox",
+                "name": "localeSelector"
+              },
+              "cachedProperties": {
+                "className": "QComboBox",
+                "name": "localeSelector",
+                "type": "ComboBox",
+                "boundingRectangle": "[706,307,308,20,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt.png",
+                "rect": "0,0,308,20"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "groupBox",
+              "identifyProperties": {
+                "type": "GroupBox",
+                "className": "QGroupBox",
+                "name": "groupBox",
+                "text": "QIntValidator"
+              },
+              "cachedProperties": {
+                "className": "QGroupBox",
+                "name": "groupBox",
+                "text": "QIntValidator",
+                "type": "GroupBox",
+                "boundingRectangle": "[706,333,508,138,0,1920,1080]"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": "minVal",
+                  "identifyProperties": {
+                    "type": "SpinBox",
+                    "className": "QSpinBox",
+                    "name": "minVal"
+                  },
+                  "cachedProperties": {
+                    "className": "QSpinBox",
+                    "name": "minVal",
+                    "type": "SpinBox",
+                    "boundingRectangle": "[746,359,330,20,0,1920,1080]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "qt",
+                      "nname": "qt_spinbox_lineedit",
+                      "identifyProperties": {
+                        "type": "Edit",
+                        "className": "QLineEdit",
+                        "name": "qt_spinbox_lineedit"
+                      },
+                      "cachedProperties": {
+                        "className": "QLineEdit",
+                        "name": "qt_spinbox_lineedit",
+                        "type": "Edit",
+                        "boundingRectangle": "[747,360,312,18,0,1920,1080]"
+                      },
+                      "image": {
+                        "imgPath": "qt2.png",
+                        "rect": "0,0,312,18"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "maxVal",
+                  "identifyProperties": {
+                    "type": "SpinBox",
+                    "className": "QSpinBox",
+                    "name": "maxVal"
+                  },
+                  "cachedProperties": {
+                    "className": "QSpinBox",
+                    "name": "maxVal",
+                    "type": "SpinBox",
+                    "boundingRectangle": "[746,389,330,20,0,1920,1080]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "qt",
+                      "nname": "qt_spinbox_lineedit1",
+                      "identifyProperties": {
+                        "type": "Edit",
+                        "className": "QLineEdit",
+                        "name": "qt_spinbox_lineedit"
+                      },
+                      "cachedProperties": {
+                        "className": "QLineEdit",
+                        "name": "qt_spinbox_lineedit",
+                        "type": "Edit",
+                        "boundingRectangle": "[747,390,312,18,0,1920,1080]"
+                      },
+                      "image": {
+                        "imgPath": "qt3.png",
+                        "rect": "0,0,312,18"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "qt",
+              "nname": "groupBox_2",
+              "identifyProperties": {
+                "type": "GroupBox",
+                "className": "QGroupBox",
+                "name": "groupBox_2",
+                "text": "QDoubleValidator"
+              },
+              "cachedProperties": {
+                "className": "QGroupBox",
+                "name": "groupBox_2",
+                "text": "QDoubleValidator",
+                "type": "GroupBox",
+                "boundingRectangle": "[706,477,508,138,0,1920,1080]"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": "doubleMinVal",
+                  "identifyProperties": {
+                    "type": "SpinBox",
+                    "className": "QDoubleSpinBox",
+                    "name": "doubleMinVal"
+                  },
+                  "cachedProperties": {
+                    "className": "QDoubleSpinBox",
+                    "name": "doubleMinVal",
+                    "type": "SpinBox",
+                    "boundingRectangle": "[746,503,178,20,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt4.png",
+                    "rect": "0,0,178,20"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "doubleMaxVal",
+                  "identifyProperties": {
+                    "type": "SpinBox",
+                    "className": "QDoubleSpinBox",
+                    "name": "doubleMaxVal"
+                  },
+                  "cachedProperties": {
+                    "className": "QDoubleSpinBox",
+                    "name": "doubleMaxVal",
+                    "type": "SpinBox",
+                    "boundingRectangle": "[746,533,178,20,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt5.png",
+                    "rect": "0,0,178,20"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "doubleDecimals",
+                  "identifyProperties": {
+                    "type": "SpinBox",
+                    "className": "QSpinBox",
+                    "name": "doubleDecimals"
+                  },
+                  "cachedProperties": {
+                    "className": "QSpinBox",
+                    "name": "doubleDecimals",
+                    "type": "SpinBox",
+                    "boundingRectangle": "[990,533,86,20,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt6.png",
+                    "rect": "0,0,86,20"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "doubleFormat",
+                  "identifyProperties": {
+                    "type": "ComboBox",
+                    "className": "QComboBox",
+                    "name": "doubleFormat"
+                  },
+                  "cachedProperties": {
+                    "className": "QComboBox",
+                    "name": "doubleFormat",
+                    "type": "ComboBox",
+                    "boundingRectangle": "[990,503,86,20,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt7.png",
+                    "rect": "0,0,86,20"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "frame_2",
+                  "identifyProperties": {
+                    "type": "Custom",
+                    "className": "QFrame",
+                    "name": "frame_2"
+                  },
+                  "cachedProperties": {
+                    "className": "QFrame",
+                    "name": "frame_2",
+                    "type": "Custom",
+                    "boundingRectangle": "[1082,499,122,60,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt9.png",
+                    "rect": "0,0,122,60"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "doubleEditor",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "className": "QLineEdit",
+                    "name": "doubleEditor"
+                  },
+                  "cachedProperties": {
+                    "className": "QLineEdit",
+                    "name": "doubleEditor",
+                    "type": "Edit",
+                    "boundingRectangle": "[716,585,488,20,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt10.png",
+                    "rect": "0,0,488,20"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "qt",
+              "nname": "pushButton",
+              "identifyProperties": {
+                "type": "Button",
+                "className": "QPushButton",
+                "name": "pushButton",
+                "text": "Quit"
+              },
+              "cachedProperties": {
+                "className": "QPushButton",
+                "name": "pushButton",
+                "text": "Quit",
+                "type": "Button",
+                "boundingRectangle": "[1139,709,75,23,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt11.png",
+                "rect": "0,0,75,23"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "qt",
+          "nname": "QComboBoxPrivateContainer",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "QComboBoxPrivateContainer"
+          },
+          "cachedProperties": {
+            "className": "QComboBoxPrivateContainer",
+            "type": "Window",
+            "boundingRectangle": "[706,326,308,122,0,1920,1080]"
+          },
+          "children": [
+            {
+              "ntype": "qt",
+              "nname": "QListView",
+              "identifyProperties": {
+                "type": "List",
+                "className": "QListView"
+              },
+              "cachedProperties": {
+                "className": "QListView",
+                "type": "List",
+                "boundingRectangle": "[707,327,306,120,0,1920,1080]"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": "Arabic/Tunisia",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "itemPath": "[32]",
+                    "text": "Arabic/Tunisia"
+                  },
+                  "cachedProperties": {
+                    "itemPath": "[32]",
+                    "text": "Arabic/Tunisia",
+                    "type": "ListItem",
+                    "boundingRectangle": "[707,351,289,12,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt1.png",
+                    "rect": "0,0,289,12"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "Scientific",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "itemPath": "[1]",
+                    "text": "Scientific"
+                  },
+                  "cachedProperties": {
+                    "itemPath": "[1]",
+                    "text": "Scientific",
+                    "type": "ListItem",
+                    "boundingRectangle": "[991,535,84,12,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt8.png",
+                    "rect": "0,0,84,12"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

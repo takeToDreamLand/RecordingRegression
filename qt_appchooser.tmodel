@@ -1,0 +1,128 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "qt",
+      "nname": "appchooser",
+      "identifyProperties": {
+        "type": "Application",
+        "appName": "appchooser"
+      },
+      "cachedProperties": {
+        "type": "Application",
+        "appName": "appchooser",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\appchooser.exe"
+      },
+      "children": [
+        {
+          "ntype": "qt",
+          "nname": "QGraphicsView",
+          "identifyProperties": {
+            "type": "GraphicsView",
+            "className": "QGraphicsView"
+          },
+          "cachedProperties": {
+            "className": "QGraphicsView",
+            "type": "GraphicsView",
+            "boundingRectangle": "[810,402,300,300,0,1920,1080]"
+          },
+          "children": [
+            {
+              "ntype": "qt",
+              "nname": "p1",
+              "identifyProperties": {
+                "type": "GraphicsItem",
+                "itemType": "Object",
+                "name": "p1"
+              },
+              "cachedProperties": {
+                "DefaultProperty": "children",
+                "bound": "[0,0,64,64]",
+                "itemType": "Object",
+                "name": "p1",
+                "position": "0,0",
+                "shape": "AAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUBQAAAAAAAAAAAAAAAAAAAAAAABQFAAAAAAAABAUAAAAAAAAAAAAAEAAAAAAAAAAEBQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "type": "GraphicsItem",
+                "boundingRectangle": "[810,402,65,65,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt.png",
+                "rect": "0,0,65,65"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "p2",
+              "identifyProperties": {
+                "type": "GraphicsItem",
+                "itemType": "Object",
+                "name": "p2"
+              },
+              "cachedProperties": {
+                "DefaultProperty": "children",
+                "bound": "[0,0,64,64]",
+                "itemType": "Object",
+                "name": "p2",
+                "position": "236,0",
+                "shape": "AAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUBQAAAAAAAAAAAAAAAAAAAAAAABQFAAAAAAAABAUAAAAAAAAAAAAAEAAAAAAAAAAEBQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "type": "GraphicsItem",
+                "boundingRectangle": "[1046,402,65,65,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt1.png",
+                "rect": "0,0,65,65"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "p3",
+              "identifyProperties": {
+                "type": "GraphicsItem",
+                "itemType": "Object",
+                "name": "p3"
+              },
+              "cachedProperties": {
+                "DefaultProperty": "children",
+                "bound": "[0,0,64,64]",
+                "itemType": "Object",
+                "name": "p3",
+                "position": "236,236",
+                "shape": "AAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUBQAAAAAAAAAAAAAAAAAAAAAAABQFAAAAAAAABAUAAAAAAAAAAAAAEAAAAAAAAAAEBQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "type": "GraphicsItem",
+                "boundingRectangle": "[1046,638,65,65,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt2.png",
+                "rect": "0,0,65,65"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "p4",
+              "identifyProperties": {
+                "type": "GraphicsItem",
+                "itemType": "Object",
+                "name": "p4"
+              },
+              "cachedProperties": {
+                "DefaultProperty": "children",
+                "bound": "[0,0,64,64]",
+                "itemType": "Object",
+                "name": "p4",
+                "position": "0,236",
+                "shape": "AAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUBQAAAAAAAAAAAAAAAAAAAAAAABQFAAAAAAAABAUAAAAAAAAAAAAAEAAAAAAAAAAEBQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "type": "GraphicsItem",
+                "boundingRectangle": "[810,638,65,65,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt3.png",
+                "rect": "0,0,65,65"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

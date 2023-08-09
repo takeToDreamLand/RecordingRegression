@@ -1,0 +1,267 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "qt",
+      "nname": "basiclayouts",
+      "identifyProperties": {
+        "type": "Application",
+        "appName": "basiclayouts"
+      },
+      "cachedProperties": {
+        "type": "Application",
+        "appName": "basiclayouts",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\basiclayouts.exe"
+      },
+      "children": [
+        {
+          "ntype": "qt",
+          "nname": "Basic_Layouts",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "Dialog",
+            "text": "Basic Layouts"
+          },
+          "cachedProperties": {
+            "className": "Dialog",
+            "text": "Basic Layouts",
+            "type": "Window",
+            "boundingRectangle": "[718,187,485,667,0,1920,1080]"
+          },
+          "children": [
+            {
+              "ntype": "qt",
+              "nname": "Horizontal_layout",
+              "identifyProperties": {
+                "type": "GroupBox",
+                "className": "QGroupBox",
+                "text": "Horizontal layout"
+              },
+              "cachedProperties": {
+                "className": "QGroupBox",
+                "text": "Horizontal layout",
+                "type": "GroupBox",
+                "boundingRectangle": "[729,221,463,55,0,1920,1080]"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": "Button_1",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "text": "Button 1"
+                  },
+                  "cachedProperties": {
+                    "className": "QPushButton",
+                    "text": "Button 1",
+                    "type": "Button",
+                    "boundingRectangle": "[739,243,106,23,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt.png",
+                    "rect": "0,0,106,23"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "Button_2",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "text": "Button 2"
+                  },
+                  "cachedProperties": {
+                    "className": "QPushButton",
+                    "text": "Button 2",
+                    "type": "Button",
+                    "boundingRectangle": "[851,243,107,23,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt1.png",
+                    "rect": "0,0,107,23"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "Button_3",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "text": "Button 3"
+                  },
+                  "cachedProperties": {
+                    "className": "QPushButton",
+                    "text": "Button 3",
+                    "type": "Button",
+                    "boundingRectangle": "[964,243,106,23,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt2.png",
+                    "rect": "0,0,106,23"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "Button_4",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "text": "Button 4"
+                  },
+                  "cachedProperties": {
+                    "className": "QPushButton",
+                    "text": "Button 4",
+                    "type": "Button",
+                    "boundingRectangle": "[1076,243,106,23,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt3.png",
+                    "rect": "0,0,106,23"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "qt",
+              "nname": "Grid_layout",
+              "identifyProperties": {
+                "type": "GroupBox",
+                "className": "QGroupBox",
+                "text": "Grid layout"
+              },
+              "cachedProperties": {
+                "className": "QGroupBox",
+                "text": "Grid layout",
+                "type": "GroupBox",
+                "boundingRectangle": "[729,282,463,224,0,1920,1080]"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": "QLineEdit",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "className": "QLineEdit"
+                  },
+                  "cachedProperties": {
+                    "className": "QLineEdit",
+                    "type": "Edit",
+                    "boundingRectangle": "[787,424,130,20,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt4.png",
+                    "rect": "0,0,130,20"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "QTextEdit",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "className": "QTextEdit"
+                  },
+                  "cachedProperties": {
+                    "className": "QTextEdit",
+                    "type": "Edit",
+                    "boundingRectangle": "[923,304,259,192,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt5.png",
+                    "rect": "0,0,259,192"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "qt",
+              "nname": "Form_layout",
+              "identifyProperties": {
+                "type": "GroupBox",
+                "className": "QGroupBox",
+                "text": "Form layout"
+              },
+              "cachedProperties": {
+                "className": "QGroupBox",
+                "text": "Form layout",
+                "type": "GroupBox",
+                "boundingRectangle": "[729,512,463,104,0,1920,1080]"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": "QSpinBox",
+                  "identifyProperties": {
+                    "type": "SpinBox",
+                    "className": "QSpinBox"
+                  },
+                  "cachedProperties": {
+                    "className": "QSpinBox",
+                    "type": "SpinBox",
+                    "boundingRectangle": "[853,586,329,20,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt6.png",
+                    "rect": "0,0,329,20"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "qt",
+              "nname": "QTextEdit1",
+              "identifyProperties": {
+                "type": "Edit",
+                "className": "QTextEdit"
+              },
+              "cachedProperties": {
+                "className": "QTextEdit",
+                "type": "Edit",
+                "boundingRectangle": "[729,622,463,192,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt7.png",
+                "rect": "0,0,463,192"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "QDialogButtonBox",
+              "identifyProperties": {
+                "type": "Pane",
+                "className": "QDialogButtonBox"
+              },
+              "cachedProperties": {
+                "className": "QDialogButtonBox",
+                "type": "Pane",
+                "boundingRectangle": "[729,820,463,23,0,1920,1080]"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": "OK",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "text": "OK"
+                  },
+                  "cachedProperties": {
+                    "className": "QPushButton",
+                    "text": "OK",
+                    "type": "Button",
+                    "boundingRectangle": "[1036,820,75,23,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt8.png",
+                    "rect": "0,0,75,23"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Fetch_More_Example",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "QWidget"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "QWidget",
+        "title": "Fetch More Example",
+        "value": false,
+        "boundingRectangle": "[480,324,294,477]",
+        "appName": "fetchmore",
+        "appPath": "C:\\Users\\Will\\Desktop\\CukeTest\\bin\\fetchmore.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Custom",
+          "identifyProperties": {
+            "type": "Custom"
+          },
+          "cachedProperties": {
+            "type": "Custom",
+            "value": false,
+            "boundingRectangle": "[499,392,256,192]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "List",
+              "identifyProperties": {
+                "type": "List"
+              },
+              "cachedProperties": {
+                "type": "List",
+                "value": false,
+                "boundingRectangle": "[499,392,239,192]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": ".",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "name": "."
+                  },
+                  "cachedProperties": {
+                    "type": "ListItem",
+                    "name": ".",
+                    "value": ".",
+                    "boundingRectangle": "[501,394,235,19]"
+                  },
+                  "image": {
+                    "imgPath": "uia.png",
+                    "rect": "0,0,235,19"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "..",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "name": ".."
+                  },
+                  "cachedProperties": {
+                    "type": "ListItem",
+                    "name": "..",
+                    "value": "..",
+                    "boundingRectangle": "[501,413,235,19]"
+                  },
+                  "image": {
+                    "imgPath": "uia1.png",
+                    "rect": "0,0,235,19"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "freetype.dll",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "name": "freetype.dll"
+                  },
+                  "cachedProperties": {
+                    "type": "ListItem",
+                    "name": "freetype.dll",
+                    "value": "freetype.dll",
+                    "boundingRectangle": "[501,356,235,19]"
+                  },
+                  "image": {
+                    "imgPath": "uia2.png",
+                    "rect": "0,0,235,19"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "notepad.exe",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "name": "notepad.exe"
+                  },
+                  "cachedProperties": {
+                    "type": "ListItem",
+                    "name": "notepad.exe",
+                    "value": "notepad.exe",
+                    "boundingRectangle": "[501,413,235,19]"
+                  },
+                  "image": {
+                    "imgPath": "uia7.png",
+                    "rect": "0,0,235,19"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Custom1",
+              "identifyProperties": {
+                "type": "Custom"
+              },
+              "cachedProperties": {
+                "type": "Custom",
+                "value": false,
+                "boundingRectangle": "[736,394,17,188]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "ScrollBar",
+                  "identifyProperties": {
+                    "type": "ScrollBar"
+                  },
+                  "cachedProperties": {
+                    "type": "ScrollBar",
+                    "value": "68",
+                    "boundingRectangle": "[736,394,17,188]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Page_up",
+                      "identifyProperties": {
+                        "type": "Button",
+                        "name": "Page up"
+                      },
+                      "cachedProperties": {
+                        "type": "Button",
+                        "name": "Page up",
+                        "value": false,
+                        "boundingRectangle": "[736,411,17,136]"
+                      },
+                      "image": {
+                        "imgPath": "uia3.png",
+                        "rect": "0,0,17,136"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "Page_down",
+                      "identifyProperties": {
+                        "type": "Button",
+                        "name": "Page down"
+                      },
+                      "cachedProperties": {
+                        "type": "Button",
+                        "name": "Page down",
+                        "value": false,
+                        "boundingRectangle": "[736,429,17,136]"
+                      },
+                      "image": {
+                        "imgPath": "uia4.png",
+                        "rect": "0,0,17,136"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "Line_up",
+                      "identifyProperties": {
+                        "type": "Button",
+                        "name": "Line up"
+                      },
+                      "cachedProperties": {
+                        "type": "Button",
+                        "name": "Line up",
+                        "value": false,
+                        "boundingRectangle": "[736,394,17,17]"
+                      },
+                      "image": {
+                        "imgPath": "uia5.png",
+                        "rect": "0,0,17,17"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Directory:",
+          "identifyProperties": {
+            "type": "Edit",
+            "name": "Directory:"
+          },
+          "cachedProperties": {
+            "type": "Edit",
+            "name": "Directory:",
+            "boundingRectangle": "[565,366,190,20]"
+          },
+          "image": {
+            "imgPath": "uia6.png",
+            "rect": "0,0,190,20"
+          }
+        },
+        {
+          "ntype": "uia",
+          "nname": "TitleBar",
+          "identifyProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar",
+            "value": "Fetch More Example",
+            "boundingRectangle": "[504,327,262,28]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关闭",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭",
+                "value": false,
+                "boundingRectangle": "[720,325,47,30]"
+              },
+              "image": {
+                "imgPath": "uia8.png",
+                "rect": "0,0,47,30"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "qt",
+      "nname": "dirview",
+      "identifyProperties": {
+        "type": "Application",
+        "appName": "dirview"
+      },
+      "cachedProperties": {
+        "type": "Application",
+        "appName": "dirview",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\dirview.exe"
+      },
+      "children": [
+        {
+          "ntype": "qt",
+          "nname": "Dir_View",
+          "identifyProperties": {
+            "type": "Tree",
+            "className": "QTreeView",
+            "text": "Dir View"
+          },
+          "cachedProperties": {
+            "className": "QTreeView",
+            "text": "Dir View",
+            "type": "Tree",
+            "boundingRectangle": "[640,312,640,480,0,1920,1080]"
+          },
+          "children": [
+            {
+              "ntype": "qt",
+              "nname": "W_(C:)",
+              "identifyProperties": {
+                "type": "TreeItem",
+                "itemPath": "[\"W (C:)\"]",
+                "text": "W (C:)"
+              },
+              "cachedProperties": {
+                "itemPath": "[\"W (C:)\"]",
+                "itemPath2": "[0]",
+                "text": "W (C:)",
+                "type": "TreeItem",
+                "boundingRectangle": "[661,338,80,19,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt.png",
+                "rect": "0,0,80,19"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "Windows",
+              "identifyProperties": {
+                "type": "TreeItem",
+                "itemPath": "[\"W (C:)\",\"Windows\"]",
+                "text": "Windows"
+              },
+              "cachedProperties": {
+                "itemPath": "[\"W (C:)\",\"Windows\"]",
+                "itemPath2": "[0,6]",
+                "text": "Windows",
+                "type": "TreeItem",
+                "boundingRectangle": "[681,471,60,19,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt1.png",
+                "rect": "0,0,60,19"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "Name",
+              "identifyProperties": {
+                "type": "HeaderItem",
+                "text": "Name"
+              },
+              "cachedProperties": {
+                "itemIndex": 0,
+                "text": "Name",
+                "type": "HeaderItem",
+                "boundingRectangle": "[641,313,100,25,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt2.png",
+                "rect": "0,0,100,25"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "notepad.exe",
+              "identifyProperties": {
+                "type": "TreeItem",
+                "itemPath": "[\"W (C:)\",\"Windows\",\"notepad.exe\"]",
+                "text": "notepad.exe"
+              },
+              "cachedProperties": {
+                "itemPath": "[\"W (C:)\",\"Windows\",\"notepad.exe\"]",
+                "itemPath2": "[0,6,16]",
+                "text": "notepad.exe",
+                "type": "TreeItem",
+                "boundingRectangle": "[701,623,90,19,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt3.png",
+                "rect": "0,0,90,19"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "qt_scrollarea_vcontainer",
+              "identifyProperties": {
+                "type": "Custom",
+                "className": "QWidget",
+                "name": "qt_scrollarea_vcontainer"
+              },
+              "cachedProperties": {
+                "className": "QWidget",
+                "name": "qt_scrollarea_vcontainer",
+                "type": "Custom",
+                "boundingRectangle": "[1262,313,17,478,0,1920,1080]"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": "QScrollBar",
+                  "identifyProperties": {
+                    "type": "ScrollBar",
+                    "className": "QScrollBar"
+                  },
+                  "cachedProperties": {
+                    "className": "QScrollBar",
+                    "type": "ScrollBar",
+                    "boundingRectangle": "[1262,313,17,478,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt4.png",
+                    "rect": "0,0,17,478"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

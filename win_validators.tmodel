@@ -1,0 +1,391 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Validators",
+      "identifyProperties": {
+        "type": "Window",
+        "automationId": "ValidatorsForm"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "automationId": "ValidatorsForm",
+        "className": "ValidatorWidget",
+        "title": "Validators",
+        "boundingRectangle": "[697,298,526,443]",
+        "appName": "validators",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\validators.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "LocaleSelector",
+          "identifyProperties": {
+            "type": "ComboBox",
+            "automationId": "ValidatorsForm.localeSelector"
+          },
+          "cachedProperties": {
+            "type": "ComboBox",
+            "automationId": "ValidatorsForm.localeSelector",
+            "className": "LocaleSelector",
+            "value": "Chinese/China",
+            "boundingRectangle": "[706,307,308,20]"
+          },
+          "image": {
+            "imgPath": "uia.png",
+            "rect": "0,0,308,20"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "QComboBoxListView",
+              "identifyProperties": {
+                "type": "List",
+                "className": "QComboBoxListView"
+              },
+              "cachedProperties": {
+                "type": "List",
+                "className": "QComboBoxListView",
+                "boundingRectangle": "[707,327,306,120]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Breton/France",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "name": "Breton/France"
+                  },
+                  "cachedProperties": {
+                    "type": "ListItem",
+                    "name": "Breton/France",
+                    "boundingRectangle": "[707,327,289,12]"
+                  },
+                  "image": {
+                    "imgPath": "uia1.png",
+                    "rect": "0,0,289,12"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "QIntValidator",
+          "identifyProperties": {
+            "type": "Group",
+            "automationId": "ValidatorsForm.groupBox",
+            "name": "QIntValidator"
+          },
+          "cachedProperties": {
+            "type": "Group",
+            "automationId": "ValidatorsForm.groupBox",
+            "className": "QGroupBox",
+            "name": "QIntValidator",
+            "boundingRectangle": "[706,333,508,138]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "QIntValidator1",
+              "identifyProperties": {
+                "type": "Spinner",
+                "automationId": "ValidatorsForm.groupBox.minVal",
+                "name": "QIntValidator"
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "automationId": "ValidatorsForm.groupBox.minVal",
+                "className": "QSpinBox",
+                "name": "QIntValidator",
+                "value": "0",
+                "boundingRectangle": "[746,359,330,20]"
+              },
+              "image": {
+                "imgPath": "uia2.png",
+                "rect": "0,0,330,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "QIntValidator2",
+              "identifyProperties": {
+                "type": "Spinner",
+                "automationId": "ValidatorsForm.groupBox.maxVal",
+                "name": "QIntValidator"
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "automationId": "ValidatorsForm.groupBox.maxVal",
+                "className": "QSpinBox",
+                "name": "QIntValidator",
+                "value": "1000",
+                "boundingRectangle": "[746,389,330,20]"
+              },
+              "image": {
+                "imgPath": "uia3.png",
+                "rect": "0,0,330,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "QIntValidator3",
+              "identifyProperties": {
+                "type": "Custom",
+                "automationId": "ValidatorsForm.groupBox.frame",
+                "name": "QIntValidator"
+              },
+              "cachedProperties": {
+                "type": "Custom",
+                "automationId": "ValidatorsForm.groupBox.frame",
+                "className": "QFrame",
+                "name": "QIntValidator",
+                "boundingRectangle": "[1082,355,122,60]"
+              },
+              "image": {
+                "imgPath": "uia4.png",
+                "rect": "0,0,122,60"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "LEDWidget",
+                  "identifyProperties": {
+                    "type": "Image",
+                    "automationId": "ValidatorsForm.groupBox.frame.ledWidget"
+                  },
+                  "cachedProperties": {
+                    "type": "Image",
+                    "automationId": "ValidatorsForm.groupBox.frame.ledWidget",
+                    "className": "LEDWidget",
+                    "boundingRectangle": "[1092,365,102,22]"
+                  },
+                  "image": {
+                    "imgPath": "uia5.png",
+                    "rect": "0,0,102,22"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "editingFinished()",
+                  "identifyProperties": {
+                    "type": "Text",
+                    "automationId": "ValidatorsForm.groupBox.frame.label_7",
+                    "name": "editingFinished()"
+                  },
+                  "cachedProperties": {
+                    "type": "Text",
+                    "automationId": "ValidatorsForm.groupBox.frame.label_7",
+                    "className": "QLabel",
+                    "name": "editingFinished()",
+                    "value": false,
+                    "boundingRectangle": "[1092,393,102,12]"
+                  },
+                  "image": {
+                    "imgPath": "uia6.png",
+                    "rect": "0,0,102,12"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "QIntValidator4",
+              "identifyProperties": {
+                "type": "Edit",
+                "automationId": "ValidatorsForm.groupBox.editor",
+                "name": "QIntValidator"
+              },
+              "cachedProperties": {
+                "type": "Edit",
+                "automationId": "ValidatorsForm.groupBox.editor",
+                "className": "QLineEdit",
+                "name": "QIntValidator",
+                "boundingRectangle": "[716,441,488,20]"
+              },
+              "image": {
+                "imgPath": "uia7.png",
+                "rect": "0,0,488,20"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "QDoubleValidator",
+          "identifyProperties": {
+            "type": "Group",
+            "automationId": "ValidatorsForm.groupBox_2",
+            "name": "QDoubleValidator"
+          },
+          "cachedProperties": {
+            "type": "Group",
+            "automationId": "ValidatorsForm.groupBox_2",
+            "className": "QGroupBox",
+            "name": "QDoubleValidator",
+            "boundingRectangle": "[706,477,508,138]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "QDoubleValidator1",
+              "identifyProperties": {
+                "type": "Spinner",
+                "automationId": "ValidatorsForm.groupBox_2.doubleMinVal",
+                "name": "QDoubleValidator"
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "automationId": "ValidatorsForm.groupBox_2.doubleMinVal",
+                "className": "QDoubleSpinBox",
+                "name": "QDoubleValidator",
+                "value": "0,00",
+                "boundingRectangle": "[746,503,178,20]"
+              },
+              "image": {
+                "imgPath": "uia8.png",
+                "rect": "0,0,178,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "QDoubleValidator2",
+              "identifyProperties": {
+                "type": "Spinner",
+                "automationId": "ValidatorsForm.groupBox_2.doubleMaxVal",
+                "name": "QDoubleValidator"
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "automationId": "ValidatorsForm.groupBox_2.doubleMaxVal",
+                "className": "QDoubleSpinBox",
+                "name": "QDoubleValidator",
+                "value": "1000,00",
+                "boundingRectangle": "[746,533,178,20]"
+              },
+              "image": {
+                "imgPath": "uia9.png",
+                "rect": "0,0,178,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "QDoubleValidator3",
+              "identifyProperties": {
+                "type": "Spinner",
+                "automationId": "ValidatorsForm.groupBox_2.doubleDecimals",
+                "name": "QDoubleValidator"
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "automationId": "ValidatorsForm.groupBox_2.doubleDecimals",
+                "className": "QSpinBox",
+                "name": "QDoubleValidator",
+                "value": "2",
+                "boundingRectangle": "[990,533,86,20]"
+              },
+              "image": {
+                "imgPath": "uia10.png",
+                "rect": "0,0,86,20"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Quit",
+          "identifyProperties": {
+            "type": "Button",
+            "automationId": "ValidatorsForm.pushButton",
+            "name": "Quit"
+          },
+          "cachedProperties": {
+            "type": "Button",
+            "automationId": "ValidatorsForm.pushButton",
+            "className": "QPushButton",
+            "name": "Quit",
+            "boundingRectangle": "[1139,709,75,23]"
+          },
+          "image": {
+            "imgPath": "uia11.png",
+            "rect": "0,0,75,23"
+          }
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "README.md_-_tools_-_Visual_Stu",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "README.md - tools - Visual Studio Code",
+        "appName": "Code"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "README.md - tools - Visual Studio Code",
+        "value": false,
+        "boundingRectangle": "[-8,-8,1936,1056]",
+        "appName": "Code",
+        "appPath": "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "README.md_-_tools_-_Visual_Stu1",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "74196608",
+            "name": "README.md - tools - Visual Studio Code"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "74196608",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "name": "README.md - tools - Visual Studio Code",
+            "value": "vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html",
+            "boundingRectangle": "[0,0,1920,1040]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Window",
+              "identifyProperties": {
+                "type": "Window"
+              },
+              "cachedProperties": {
+                "type": "Window",
+                "value": false,
+                "boundingRectangle": "[0,0,1920,1041]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "终端_1，node_运行命令:_切换屏幕阅读器辅助功能模式以",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "终端 1，node 运行命令: 切换屏幕阅读器辅助功能模式以获得优化的屏幕阅读器体验 使用 Alt+F1 获取终端辅助功能帮助"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "name": "终端 1，node 运行命令: 切换屏幕阅读器辅助功能模式以获得优化的屏幕阅读器体验 使用 Alt+F1 获取终端辅助功能帮助",
+                    "boundingRectangle": "[494,991,10,21]"
+                  },
+                  "image": {
+                    "imgPath": "uia12.png",
+                    "rect": "0,0,10,21"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

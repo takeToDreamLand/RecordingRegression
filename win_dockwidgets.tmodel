@@ -1,0 +1,494 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Dock_Widgets",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "QWidget"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "QWidget",
+        "title": "Dock Widgets",
+        "value": false,
+        "boundingRectangle": "[480,271,516,539]",
+        "appName": "dockwidgets",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\dockwidgets.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Window",
+          "identifyProperties": {
+            "type": "Window"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "value": false,
+            "boundingRectangle": "[488,359,500,361]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Custom",
+              "identifyProperties": {
+                "type": "Custom"
+              },
+              "cachedProperties": {
+                "type": "Custom",
+                "value": false,
+                "boundingRectangle": "[488,381,500,339]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Table",
+                  "identifyProperties": {
+                    "type": "Table"
+                  },
+                  "cachedProperties": {
+                    "type": "Table",
+                    "value": false,
+                    "boundingRectangle": "[488,381,483,322]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "1",
+                      "identifyProperties": {
+                        "type": "Custom",
+                        "name": "1"
+                      },
+                      "cachedProperties": {
+                        "type": "Custom",
+                        "name": "1",
+                        "value": false,
+                        "boundingRectangle": "[489,407,635,30]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "100",
+                          "identifyProperties": {
+                            "type": "DataItem",
+                            "name": "100"
+                          },
+                          "cachedProperties": {
+                            "type": "DataItem",
+                            "name": "100",
+                            "value": "100",
+                            "boundingRectangle": "[525,407,99,29]"
+                          },
+                          "image": {
+                            "imgPath": "uia.png",
+                            "rect": "0,0,99,29"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "BartonZora",
+                          "identifyProperties": {
+                            "type": "DataItem",
+                            "name": "BartonZora"
+                          },
+                          "cachedProperties": {
+                            "type": "DataItem",
+                            "name": "BartonZora",
+                            "value": "BartonZora",
+                            "boundingRectangle": "[625,407,99,29]"
+                          },
+                          "image": {
+                            "imgPath": "uia1.png",
+                            "rect": "0,0,99,29"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "M",
+                          "identifyProperties": {
+                            "type": "DataItem",
+                            "name": "M"
+                          },
+                          "cachedProperties": {
+                            "type": "DataItem",
+                            "name": "M",
+                            "value": "M",
+                            "boundingRectangle": "[725,407,99,29]"
+                          },
+                          "image": {
+                            "imgPath": "uia2.png",
+                            "rect": "0,0,99,29"
+                          }
+                        },
+                        {
+                          "ntype": "uia",
+                          "nname": "34",
+                          "identifyProperties": {
+                            "type": "DataItem",
+                            "name": "34"
+                          },
+                          "cachedProperties": {
+                            "type": "DataItem",
+                            "name": "34",
+                            "value": "34",
+                            "boundingRectangle": "[825,407,99,29]"
+                          },
+                          "image": {
+                            "imgPath": "uia3.png",
+                            "rect": "0,0,99,29"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "9",
+                      "identifyProperties": {
+                        "type": "Custom",
+                        "name": "9"
+                      },
+                      "cachedProperties": {
+                        "type": "Custom",
+                        "name": "9",
+                        "value": false,
+                        "boundingRectangle": "[370,647,599,30]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "ChaucerBeck",
+                          "identifyProperties": {
+                            "type": "DataItem",
+                            "name": "ChaucerBeck",
+                            "index": 1
+                          },
+                          "cachedProperties": {
+                            "type": "DataItem",
+                            "name": "ChaucerBeck",
+                            "value": "ChaucerBeck",
+                            "boundingRectangle": "[870,647,99,29]"
+                          },
+                          "image": {
+                            "imgPath": "uia5.png",
+                            "rect": "0,0,99,29"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Custom1",
+                  "identifyProperties": {
+                    "type": "Custom",
+                    "index": 11
+                  },
+                  "cachedProperties": {
+                    "type": "Custom",
+                    "value": false,
+                    "boundingRectangle": "[489,702,481,17]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "ScrollBar",
+                      "identifyProperties": {
+                        "type": "ScrollBar"
+                      },
+                      "cachedProperties": {
+                        "type": "ScrollBar",
+                        "value": "0",
+                        "boundingRectangle": "[489,702,481,17]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "Position",
+                          "identifyProperties": {
+                            "type": "Thumb",
+                            "name": "Position"
+                          },
+                          "cachedProperties": {
+                            "type": "Thumb",
+                            "name": "Position",
+                            "value": "0",
+                            "boundingRectangle": "[506,702,298,17]"
+                          },
+                          "image": {
+                            "imgPath": "uia4.png",
+                            "rect": "0,0,298,17"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "--Status--1",
+              "identifyProperties": {
+                "type": "TitleBar",
+                "name": "--Status--"
+              },
+              "cachedProperties": {
+                "type": "TitleBar",
+                "name": "--Status--",
+                "value": "--Status--",
+                "boundingRectangle": "[488,744,500,22]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Button1",
+                  "identifyProperties": {
+                    "type": "Button"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "value": false,
+                    "boundingRectangle": "[956,748,15,15]"
+                  },
+                  "image": {
+                    "imgPath": "uia9.png",
+                    "rect": "0,0,15,15"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "1st_Table",
+          "identifyProperties": {
+            "type": "Tab"
+          },
+          "cachedProperties": {
+            "type": "Tab",
+            "name": "1st Table",
+            "value": false,
+            "boundingRectangle": "[488,720,500,20]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "2nd_Table",
+              "identifyProperties": {
+                "type": "TabItem",
+                "name": "2nd Table"
+              },
+              "cachedProperties": {
+                "type": "TabItem",
+                "name": "2nd Table",
+                "value": false,
+                "boundingRectangle": "[488,720,78,20]"
+              },
+              "image": {
+                "imgPath": "uia6.png",
+                "rect": "0,0,78,20"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Window1",
+          "identifyProperties": {
+            "type": "Window",
+            "index": 2
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "value": false,
+            "boundingRectangle": "[488,744,500,36]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "--Status--",
+              "identifyProperties": {
+                "type": "TitleBar",
+                "name": "--Status--"
+              },
+              "cachedProperties": {
+                "type": "TitleBar",
+                "name": "--Status--",
+                "value": "--Status--",
+                "boundingRectangle": "[488,744,500,22]"
+              },
+              "image": {
+                "imgPath": "uia7.png",
+                "rect": "0,0,500,22"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Button",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "index": 1
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "value": false,
+                    "boundingRectangle": "[956,748,15,15]"
+                  },
+                  "image": {
+                    "imgPath": "uia8.png",
+                    "rect": "0,0,15,15"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "MenuBar",
+          "identifyProperties": {
+            "type": "MenuBar",
+            "index": 1
+          },
+          "cachedProperties": {
+            "type": "MenuBar",
+            "value": false,
+            "boundingRectangle": "[488,302,500,23]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Edit",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "name": "Edit"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "name": "Edit",
+                "value": false,
+                "boundingRectangle": "[523,302,38,22]"
+              },
+              "image": {
+                "imgPath": "uia10.png",
+                "rect": "0,0,38,22"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "QPopup",
+      "identifyProperties": {
+        "type": "Menu",
+        "className": "QPopup"
+      },
+      "cachedProperties": {
+        "type": "Menu",
+        "className": "QPopup",
+        "value": false,
+        "boundingRectangle": "[523,324,162,29]",
+        "appName": "dockwidgets",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\dockwidgets.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Undo",
+          "identifyProperties": {
+            "type": "MenuItem",
+            "name": "Undo"
+          },
+          "cachedProperties": {
+            "type": "MenuItem",
+            "name": "Undo",
+            "value": false,
+            "boundingRectangle": "[526,327,155,23]"
+          },
+          "image": {
+            "imgPath": "uia11.png",
+            "rect": "0,0,155,23"
+          }
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "README.md_-_tools_-_Visual_Stu",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "README.md - tools - Visual Studio Code",
+        "appName": "Code"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "README.md - tools - Visual Studio Code",
+        "value": false,
+        "boundingRectangle": "[-8,-8,1936,1056]",
+        "appName": "Code",
+        "appPath": "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "README.md_-_tools_-_Visual_Stu1",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "74196608",
+            "name": "README.md - tools - Visual Studio Code"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "74196608",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "name": "README.md - tools - Visual Studio Code",
+            "value": "vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html",
+            "boundingRectangle": "[0,0,1920,1040]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Window2",
+              "identifyProperties": {
+                "type": "Window"
+              },
+              "cachedProperties": {
+                "type": "Window",
+                "value": false,
+                "boundingRectangle": "[0,0,1920,1041]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "终端_1，node_运行命令:_切换屏幕阅读器辅助功能模式以",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "终端 1，node 运行命令: 切换屏幕阅读器辅助功能模式以获得优化的屏幕阅读器体验 使用 Alt+F1 获取终端辅助功能帮助"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "name": "终端 1，node 运行命令: 切换屏幕阅读器辅助功能模式以获得优化的屏幕阅读器体验 使用 Alt+F1 获取终端辅助功能帮助",
+                    "boundingRectangle": "[494,991,10,21]"
+                  },
+                  "image": {
+                    "imgPath": "uia12.png",
+                    "rect": "0,0,10,21"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

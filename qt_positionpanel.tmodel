@@ -1,0 +1,280 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "qt",
+      "nname": "positionpanel",
+      "identifyProperties": {
+        "type": "Application",
+        "appName": "positionpanel"
+      },
+      "cachedProperties": {
+        "type": "Application",
+        "appName": "positionpanel",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\positionpanel.exe"
+      },
+      "children": [
+        {
+          "ntype": "qt",
+          "nname": "MainWindow",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "MainWindow"
+          },
+          "cachedProperties": {
+            "className": "MainWindow",
+            "type": "Window",
+            "boundingRectangle": "[640,280,522,592,0,1920,1080]"
+          },
+          "children": [
+            {
+              "ntype": "qt",
+              "nname": "QGraphicsView",
+              "identifyProperties": {
+                "type": "GraphicsView",
+                "className": "QGraphicsView"
+              },
+              "cachedProperties": {
+                "className": "QGraphicsView",
+                "type": "GraphicsView",
+                "boundingRectangle": "[651,291,500,500,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt.png",
+                "rect": "0,0,500,500"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": "GraphicsItem",
+                  "identifyProperties": {
+                    "type": "GraphicsItem",
+                    "itemType": "Custom",
+                    "toolTip": "Rect_0"
+                  },
+                  "cachedProperties": {
+                    "bound": "[-10,-10,21,21]",
+                    "itemType": "Custom",
+                    "position": "69,263",
+                    "toolTip": "Rect_0",
+                    "type": "GraphicsItem",
+                    "boundingRectangle": "[748,582,22,22,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt1.png",
+                    "rect": "0,0,22,22"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "GraphicsItem1",
+                  "identifyProperties": {
+                    "type": "GraphicsItem",
+                    "itemType": "Custom",
+                    "toolTip": "Rect_1"
+                  },
+                  "cachedProperties": {
+                    "bound": "[-10,-10,21,21]",
+                    "itemType": "Custom",
+                    "position": "74,184",
+                    "toolTip": "Rect_1",
+                    "type": "GraphicsItem",
+                    "boundingRectangle": "[753,503,22,22,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt2.png",
+                    "rect": "0,0,22,22"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "GraphicsItem2",
+                  "identifyProperties": {
+                    "type": "GraphicsItem",
+                    "itemType": "Custom",
+                    "toolTip": "Circle_2"
+                  },
+                  "cachedProperties": {
+                    "bound": "[-10,-10,21,21]",
+                    "itemType": "Custom",
+                    "position": "180,203",
+                    "toolTip": "Circle_2",
+                    "type": "GraphicsItem",
+                    "boundingRectangle": "[859,522,22,22,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt4.png",
+                    "rect": "0,0,22,22"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "GraphicsItem3",
+                  "identifyProperties": {
+                    "type": "GraphicsItem",
+                    "itemType": "Custom",
+                    "toolTip": "Circle_3"
+                  },
+                  "cachedProperties": {
+                    "bound": "[-10,-10,21,21]",
+                    "itemType": "Custom",
+                    "position": "155,252",
+                    "toolTip": "Circle_3",
+                    "type": "GraphicsItem",
+                    "boundingRectangle": "[834,571,22,22,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt5.png",
+                    "rect": "0,0,22,22"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "GraphicsItem4",
+                  "identifyProperties": {
+                    "type": "GraphicsItem",
+                    "itemType": "Custom",
+                    "toolTip": "Combine_4"
+                  },
+                  "cachedProperties": {
+                    "bound": "[-10,-10,21,21]",
+                    "itemType": "Custom",
+                    "position": "89,374",
+                    "toolTip": "Combine_4",
+                    "type": "GraphicsItem",
+                    "boundingRectangle": "[768,693,22,22,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt7.png",
+                    "rect": "0,0,22,22"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "GraphicsItem5",
+                  "identifyProperties": {
+                    "type": "GraphicsItem",
+                    "itemType": "Custom",
+                    "toolTip": "Combine_5"
+                  },
+                  "cachedProperties": {
+                    "bound": "[-10,-10,21,21]",
+                    "itemType": "Custom",
+                    "position": "213,371",
+                    "toolTip": "Combine_5",
+                    "type": "GraphicsItem",
+                    "boundingRectangle": "[892,690,22,22,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt8.png",
+                    "rect": "0,0,22,22"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "GraphicsItem6",
+                  "identifyProperties": {
+                    "type": "GraphicsItem",
+                    "itemType": "Custom",
+                    "toolTip": "Pixmap_6"
+                  },
+                  "cachedProperties": {
+                    "bound": "[-10,-10,21,21]",
+                    "itemType": "Custom",
+                    "position": "182,340",
+                    "toolTip": "Pixmap_6",
+                    "type": "GraphicsItem",
+                    "boundingRectangle": "[861,659,22,22,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt10.png",
+                    "rect": "0,0,22,22"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "GraphicsItem7",
+                  "identifyProperties": {
+                    "type": "GraphicsItem",
+                    "itemType": "Custom",
+                    "toolTip": "Pixmap_7"
+                  },
+                  "cachedProperties": {
+                    "bound": "[-10,-10,21,21]",
+                    "itemType": "Custom",
+                    "position": "258,369",
+                    "toolTip": "Pixmap_7",
+                    "type": "GraphicsItem",
+                    "boundingRectangle": "[937,688,22,22,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt11.png",
+                    "rect": "0,0,22,22"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "qt",
+              "nname": "Draw_Circle",
+              "identifyProperties": {
+                "type": "RadioButton",
+                "className": "QRadioButton",
+                "text": "Draw Circle"
+              },
+              "cachedProperties": {
+                "className": "QRadioButton",
+                "text": "Draw Circle",
+                "type": "RadioButton",
+                "boundingRectangle": "[778,797,120,16,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt3.png",
+                "rect": "0,0,120,16"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "Draw_Combination",
+              "identifyProperties": {
+                "type": "RadioButton",
+                "className": "QRadioButton",
+                "text": "Draw Combination"
+              },
+              "cachedProperties": {
+                "className": "QRadioButton",
+                "text": "Draw Combination",
+                "type": "RadioButton",
+                "boundingRectangle": "[904,797,121,16,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt6.png",
+                "rect": "0,0,121,16"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "Draw_Icon",
+              "identifyProperties": {
+                "type": "RadioButton",
+                "className": "QRadioButton",
+                "text": "Draw Icon"
+              },
+              "cachedProperties": {
+                "className": "QRadioButton",
+                "text": "Draw Icon",
+                "type": "RadioButton",
+                "boundingRectangle": "[1031,797,120,16,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt9.png",
+                "rect": "0,0,120,16"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

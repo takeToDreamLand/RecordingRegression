@@ -1,0 +1,161 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "qt",
+      "nname": "fetchmore",
+      "identifyProperties": {
+        "type": "Application",
+        "appName": "fetchmore"
+      },
+      "cachedProperties": {
+        "type": "Application",
+        "appName": "fetchmore",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\fetchmore.exe"
+      },
+      "children": [
+        {
+          "ntype": "qt",
+          "nname": "Fetch_More_Example",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "Window",
+            "text": "Fetch More Example"
+          },
+          "cachedProperties": {
+            "className": "Window",
+            "text": "Fetch More Example",
+            "type": "Window",
+            "boundingRectangle": "[488,355,278,438,0,1920,1080]"
+          },
+          "children": [
+            {
+              "ntype": "qt",
+              "nname": "QListView",
+              "identifyProperties": {
+                "type": "List",
+                "className": "QListView"
+              },
+              "cachedProperties": {
+                "className": "QListView",
+                "type": "List",
+                "boundingRectangle": "[499,392,256,192,0,1920,1080]"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": ".",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "itemPath": "[0]",
+                    "text": "."
+                  },
+                  "cachedProperties": {
+                    "itemPath": "[0]",
+                    "text": ".",
+                    "type": "ListItem",
+                    "boundingRectangle": "[501,394,235,19,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt.png",
+                    "rect": "0,0,235,19"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "..",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "itemPath": "[1]",
+                    "text": ".."
+                  },
+                  "cachedProperties": {
+                    "itemPath": "[1]",
+                    "text": "..",
+                    "type": "ListItem",
+                    "boundingRectangle": "[501,413,235,19,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt1.png",
+                    "rect": "0,0,235,19"
+                  }
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "qt_scrollarea_vcontainer",
+                  "identifyProperties": {
+                    "type": "Custom",
+                    "className": "QWidget",
+                    "name": "qt_scrollarea_vcontainer"
+                  },
+                  "cachedProperties": {
+                    "className": "QWidget",
+                    "name": "qt_scrollarea_vcontainer",
+                    "type": "Custom",
+                    "boundingRectangle": "[736,394,17,188,0,1920,1080]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "qt",
+                      "nname": "QScrollBar",
+                      "identifyProperties": {
+                        "type": "ScrollBar",
+                        "className": "QScrollBar"
+                      },
+                      "cachedProperties": {
+                        "className": "QScrollBar",
+                        "type": "ScrollBar",
+                        "boundingRectangle": "[736,394,17,188,0,1920,1080]"
+                      },
+                      "image": {
+                        "imgPath": "qt3.png",
+                        "rect": "0,0,17,188"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "notepad.exe",
+                  "identifyProperties": {
+                    "type": "ListItem",
+                    "itemPath": "[55]",
+                    "text": "notepad.exe"
+                  },
+                  "cachedProperties": {
+                    "itemPath": "[55]",
+                    "text": "notepad.exe",
+                    "type": "ListItem",
+                    "boundingRectangle": "[501,489,235,19,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt4.png",
+                    "rect": "0,0,235,19"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "qt",
+              "nname": "QLineEdit",
+              "identifyProperties": {
+                "type": "Edit",
+                "className": "QLineEdit"
+              },
+              "cachedProperties": {
+                "className": "QLineEdit",
+                "type": "Edit",
+                "boundingRectangle": "[565,366,190,20,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt2.png",
+                "rect": "0,0,190,20"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

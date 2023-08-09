@@ -62,6 +62,23 @@
                     "imgPath": "uia.png",
                     "rect": "0,0,96,20"
                   }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "ABC",
+                  "identifyProperties": {
+                    "type": "TabItem",
+                    "name": "ABC"
+                  },
+                  "cachedProperties": {
+                    "type": "TabItem",
+                    "name": "ABC",
+                    "boundingRectangle": "[736,303,42,20]"
+                  },
+                  "image": {
+                    "imgPath": "uia.png",
+                    "rect": "0,0,42,20"
+                  }
                 }
               ]
             }

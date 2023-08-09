@@ -1,0 +1,357 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "qt",
+      "nname": "addressbook",
+      "identifyProperties": {
+        "type": "Application",
+        "appName": "addressbook"
+      },
+      "cachedProperties": {
+        "type": "Application",
+        "appName": "addressbook",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\addressbook.exe"
+      },
+      "children": [
+        {
+          "ntype": "qt",
+          "nname": "Address_Book",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "MainWindow",
+            "text": "Address Book"
+          },
+          "cachedProperties": {
+            "className": "MainWindow",
+            "text": "Address Book",
+            "type": "Window",
+            "boundingRectangle": "[640,280,342,241,0,1920,1080]"
+          },
+          "children": [
+            {
+              "ntype": "qt",
+              "nname": "QTabWidget",
+              "identifyProperties": {
+                "type": "Tab",
+                "className": "QTabWidget"
+              },
+              "cachedProperties": {
+                "className": "QTabWidget",
+                "type": "Tab",
+                "boundingRectangle": "[640,303,342,218,0,1920,1080]"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": "Address_Book1",
+                  "identifyProperties": {
+                    "type": "TabItem",
+                    "text": "Address Book"
+                  },
+                  "cachedProperties": {
+                    "itemIndex": 0,
+                    "text": "Address Book",
+                    "type": "TabItem",
+                    "boundingRectangle": "[640,303,336,193,0,1920,1080]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "qt",
+                      "nname": "Add",
+                      "identifyProperties": {
+                        "type": "Button",
+                        "className": "QPushButton",
+                        "text": "Add"
+                      },
+                      "cachedProperties": {
+                        "className": "QPushButton",
+                        "text": "Add",
+                        "type": "Button",
+                        "boundingRectangle": "[772,454,75,23,0,1920,1080]"
+                      },
+                      "image": {
+                        "imgPath": "qt.png",
+                        "rect": "0,0,75,23"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "qt_tabwidget_tabbar",
+                  "identifyProperties": {
+                    "type": "TabBar",
+                    "className": "QTabBar",
+                    "name": "qt_tabwidget_tabbar"
+                  },
+                  "cachedProperties": {
+                    "className": "QTabBar",
+                    "name": "qt_tabwidget_tabbar",
+                    "type": "TabBar",
+                    "boundingRectangle": "[640,303,342,20,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt4.png",
+                    "rect": "0,0,342,20"
+                  },
+                  "children": [
+                    {
+                      "ntype": "qt",
+                      "nname": "QToolButton",
+                      "identifyProperties": {
+                        "type": "Button",
+                        "className": "QToolButton",
+                        "index": 1
+                      },
+                      "cachedProperties": {
+                        "accessibleName": "Scroll Right",
+                        "className": "QToolButton",
+                        "index": 1,
+                        "type": "Button",
+                        "boundingRectangle": "[966,303,16,20,0,1920,1080]"
+                      },
+                      "image": {
+                        "imgPath": "qt6.png",
+                        "rect": "0,0,16,20"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ntype": "qt",
+                  "nname": "DEF",
+                  "identifyProperties": {
+                    "type": "TabItem",
+                    "text": "DEF"
+                  },
+                  "cachedProperties": {
+                    "itemIndex": 1,
+                    "text": "DEF",
+                    "type": "TabItem",
+                    "boundingRectangle": "[640,303,336,193,0,1920,1080]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "qt",
+                      "nname": "QTableView",
+                      "identifyProperties": {
+                        "type": "Table",
+                        "className": "QTableView"
+                      },
+                      "cachedProperties": {
+                        "className": "QTableView",
+                        "type": "Table",
+                        "boundingRectangle": "[642,324,336,193,0,1920,1080]"
+                      },
+                      "image": {
+                        "imgPath": "qt5.png",
+                        "rect": "0,0,336,193"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "qt",
+              "nname": "QMenuBar",
+              "identifyProperties": {
+                "type": "MenuBar",
+                "className": "QMenuBar"
+              },
+              "cachedProperties": {
+                "className": "QMenuBar",
+                "type": "MenuBar",
+                "boundingRectangle": "[640,280,342,23,0,1920,1080]"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": "File",
+                  "identifyProperties": {
+                    "type": "MenuBarItem",
+                    "text": "File"
+                  },
+                  "cachedProperties": {
+                    "itemIndex": 0,
+                    "text": "File",
+                    "type": "MenuBarItem",
+                    "boundingRectangle": "[640,280,35,22,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt7.png",
+                    "rect": "0,0,35,22"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "qt",
+          "nname": "Add_a_Contact",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "Dialog",
+            "text": "Add a Contact"
+          },
+          "cachedProperties": {
+            "className": "Dialog",
+            "text": "Add a Contact",
+            "type": "Window",
+            "boundingRectangle": "[797,386,326,269,0,1920,1080]"
+          },
+          "children": [
+            {
+              "ntype": "qt",
+              "nname": "QLineEdit",
+              "identifyProperties": {
+                "type": "Edit",
+                "className": "QLineEdit"
+              },
+              "cachedProperties": {
+                "className": "QLineEdit",
+                "type": "Edit",
+                "boundingRectangle": "[856,397,256,20,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt1.png",
+                "rect": "0,0,256,20"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "QTextEdit",
+              "identifyProperties": {
+                "type": "Edit",
+                "className": "QTextEdit"
+              },
+              "cachedProperties": {
+                "className": "QTextEdit",
+                "type": "Edit",
+                "boundingRectangle": "[856,423,256,192,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt2.png",
+                "rect": "0,0,256,192"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "OK",
+              "identifyProperties": {
+                "type": "Button",
+                "className": "QPushButton",
+                "text": "OK"
+              },
+              "cachedProperties": {
+                "className": "QPushButton",
+                "text": "OK",
+                "type": "Button",
+                "boundingRectangle": "[956,621,75,23,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt3.png",
+                "rect": "0,0,75,23"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "qt",
+          "nname": "File1",
+          "identifyProperties": {
+            "type": "Menu",
+            "className": "QMenu",
+            "text": "&File"
+          },
+          "cachedProperties": {
+            "className": "QMenu",
+            "text": "&File",
+            "type": "Menu",
+            "boundingRectangle": "[640,302,114,81,0,1920,1080]"
+          },
+          "image": {
+            "imgPath": "qt8.png",
+            "rect": "0,0,114,81"
+          },
+          "children": [
+            {
+              "ntype": "qt",
+              "nname": "Open...",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "text": "Open..."
+              },
+              "cachedProperties": {
+                "itemIndex": 0,
+                "text": "Open...",
+                "type": "MenuItem",
+                "boundingRectangle": "[643,305,107,22,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt9.png",
+                "rect": "0,0,107,22"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "Save_As...",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "text": "Save As..."
+              },
+              "cachedProperties": {
+                "itemIndex": 1,
+                "text": "Save As...",
+                "type": "MenuItem",
+                "boundingRectangle": "[643,327,107,22,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt10.png",
+                "rect": "0,0,107,22"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "MenuItem",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "itemIndex": 2
+              },
+              "cachedProperties": {
+                "itemIndex": 2,
+                "type": "MenuItem",
+                "boundingRectangle": "[643,349,107,9,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt11.png",
+                "rect": "0,0,107,9"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "Exit",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "text": "Exit"
+              },
+              "cachedProperties": {
+                "itemIndex": 3,
+                "text": "Exit",
+                "type": "MenuItem",
+                "boundingRectangle": "[643,358,107,22,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt12.png",
+                "rect": "0,0,107,22"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

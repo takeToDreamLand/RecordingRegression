@@ -1,0 +1,563 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Spreadsheet",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "QWidget"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "QWidget",
+        "title": "Spreadsheet",
+        "value": false,
+        "boundingRectangle": "[632,311,656,459]",
+        "appName": "spreadsheet",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\spreadsheet.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Custom",
+          "identifyProperties": {
+            "type": "Custom"
+          },
+          "cachedProperties": {
+            "type": "Custom",
+            "value": false,
+            "boundingRectangle": "[640,389,640,351]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Table",
+              "identifyProperties": {
+                "type": "Table"
+              },
+              "cachedProperties": {
+                "type": "Table",
+                "value": false,
+                "boundingRectangle": "[640,389,640,351]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "2",
+                  "identifyProperties": {
+                    "type": "Custom",
+                    "name": "2"
+                  },
+                  "cachedProperties": {
+                    "type": "Custom",
+                    "name": "2",
+                    "value": false,
+                    "boundingRectangle": "[641,445,621,30]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "AirportBus",
+                      "identifyProperties": {
+                        "type": "DataItem",
+                        "name": "AirportBus"
+                      },
+                      "cachedProperties": {
+                        "type": "DataItem",
+                        "name": "AirportBus",
+                        "value": "AirportBus",
+                        "boundingRectangle": "[663,445,99,29]"
+                      },
+                      "image": {
+                        "imgPath": "uia.png",
+                        "rect": "0,0,99,29"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "15/6/2006",
+                      "identifyProperties": {
+                        "type": "DataItem",
+                        "name": "15/6/2006"
+                      },
+                      "cachedProperties": {
+                        "type": "DataItem",
+                        "name": "15/6/2006",
+                        "value": "15/6/2006",
+                        "boundingRectangle": "[763,445,99,29]"
+                      },
+                      "image": {
+                        "imgPath": "uia1.png",
+                        "rect": "0,0,99,29"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "150",
+                      "identifyProperties": {
+                        "type": "DataItem",
+                        "name": "150"
+                      },
+                      "cachedProperties": {
+                        "type": "DataItem",
+                        "name": "150",
+                        "value": "150",
+                        "boundingRectangle": "[863,445,99,29]"
+                      },
+                      "image": {
+                        "imgPath": "uia4.png",
+                        "rect": "0,0,99,29"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "NOK",
+                      "identifyProperties": {
+                        "type": "DataItem",
+                        "name": "NOK"
+                      },
+                      "cachedProperties": {
+                        "type": "DataItem",
+                        "name": "NOK",
+                        "value": "NOK",
+                        "boundingRectangle": "[963,445,99,29]"
+                      },
+                      "image": {
+                        "imgPath": "uia5.png",
+                        "rect": "0,0,99,29"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "1",
+                      "identifyProperties": {
+                        "type": "DataItem",
+                        "name": "1"
+                      },
+                      "cachedProperties": {
+                        "type": "DataItem",
+                        "name": "1",
+                        "value": "1",
+                        "boundingRectangle": "[1063,445,99,29]"
+                      },
+                      "image": {
+                        "imgPath": "uia6.png",
+                        "rect": "0,0,99,29"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "1700",
+                      "identifyProperties": {
+                        "type": "DataItem"
+                      },
+                      "cachedProperties": {
+                        "type": "DataItem",
+                        "name": "1700",
+                        "value": "1700",
+                        "boundingRectangle": "[1163,445,99,29]"
+                      },
+                      "image": {
+                        "imgPath": "uia7.png",
+                        "rect": "0,0,99,29"
+                      }
+                    },
+                    {
+                      "ntype": "uia",
+                      "nname": "3400",
+                      "identifyProperties": {
+                        "type": "DataItem",
+                        "name": "3400"
+                      },
+                      "cachedProperties": {
+                        "type": "DataItem",
+                        "name": "3400",
+                        "value": "3400",
+                        "boundingRectangle": "[1163,445,99,29]"
+                      },
+                      "image": {
+                        "imgPath": "uia8.png",
+                        "rect": "0,0,99,29"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "MenuBar",
+          "identifyProperties": {
+            "type": "MenuBar",
+            "index": 1
+          },
+          "cachedProperties": {
+            "type": "MenuBar",
+            "value": false,
+            "boundingRectangle": "[640,342,640,23]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Cell",
+              "identifyProperties": {
+                "type": "MenuItem",
+                "name": "Cell"
+              },
+              "cachedProperties": {
+                "type": "MenuItem",
+                "name": "Cell",
+                "value": false,
+                "boundingRectangle": "[675,342,37,22]"
+              },
+              "image": {
+                "imgPath": "uia9.png",
+                "rect": "0,0,37,22"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Addition",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "QWidget",
+            "title": "Addition"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "QWidget",
+            "title": "Addition",
+            "value": false,
+            "boundingRectangle": "[816,426,288,230]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "OK",
+              "identifyProperties": {
+                "type": "Button",
+                "name": "OK"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "name": "OK",
+                "value": false,
+                "boundingRectangle": "[925,614,75,23]"
+              },
+              "image": {
+                "imgPath": "uia11.png",
+                "rect": "0,0,75,23"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "TitleBar",
+          "identifyProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar",
+            "value": "Spreadsheet",
+            "boundingRectangle": "[656,314,624,28]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关闭",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭",
+                "value": false,
+                "boundingRectangle": "[1234,312,47,30]"
+              },
+              "image": {
+                "imgPath": "uia12.png",
+                "rect": "0,0,47,30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "QPopup",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "QPopup"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "QPopup",
+        "value": false,
+        "boundingRectangle": "[763,473,217,170]",
+        "appName": "spreadsheet",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\spreadsheet.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Table1",
+          "identifyProperties": {
+            "type": "Table"
+          },
+          "cachedProperties": {
+            "type": "Table",
+            "value": false,
+            "boundingRectangle": "[763,473,217,170]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Custom1",
+              "identifyProperties": {
+                "type": "Custom",
+                "index": 1
+              },
+              "cachedProperties": {
+                "type": "Custom",
+                "value": false,
+                "boundingRectangle": "[763,496,217,147]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Table2",
+                  "identifyProperties": {
+                    "type": "Table"
+                  },
+                  "cachedProperties": {
+                    "type": "Table",
+                    "value": false,
+                    "boundingRectangle": "[763,496,217,147]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "6",
+                      "identifyProperties": {
+                        "type": "Custom",
+                        "name": "6"
+                      },
+                      "cachedProperties": {
+                        "type": "Custom",
+                        "name": "6",
+                        "value": false,
+                        "boundingRectangle": "[763,601,217,21]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "30",
+                          "identifyProperties": {
+                            "type": "DataItem",
+                            "name": "30"
+                          },
+                          "cachedProperties": {
+                            "type": "DataItem",
+                            "name": "30",
+                            "value": "30",
+                            "boundingRectangle": "[918,601,31,21]"
+                          },
+                          "image": {
+                            "imgPath": "uia2.png",
+                            "rect": "0,0,31,21"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Custom2",
+              "identifyProperties": {
+                "type": "Custom"
+              },
+              "cachedProperties": {
+                "type": "Custom",
+                "value": false,
+                "boundingRectangle": "[763,496,217,147]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Table3",
+                  "identifyProperties": {
+                    "type": "Table"
+                  },
+                  "cachedProperties": {
+                    "type": "Table",
+                    "value": false,
+                    "boundingRectangle": "[763,496,217,147]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "61",
+                      "identifyProperties": {
+                        "type": "Custom",
+                        "name": "6"
+                      },
+                      "cachedProperties": {
+                        "type": "Custom",
+                        "name": "6",
+                        "value": false,
+                        "boundingRectangle": "[763,601,217,21]"
+                      },
+                      "children": [
+                        {
+                          "ntype": "uia",
+                          "nname": "301",
+                          "identifyProperties": {
+                            "type": "DataItem",
+                            "name": "30"
+                          },
+                          "cachedProperties": {
+                            "type": "DataItem",
+                            "name": "30",
+                            "value": "30",
+                            "boundingRectangle": "[918,601,31,21]"
+                          },
+                          "image": {
+                            "imgPath": "uia3.png",
+                            "rect": "0,0,31,21"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "QPopup1",
+      "identifyProperties": {
+        "type": "Menu",
+        "className": "QPopup"
+      },
+      "cachedProperties": {
+        "type": "Menu",
+        "className": "QPopup",
+        "value": false,
+        "boundingRectangle": "[675,364,226,170]",
+        "appName": "spreadsheet",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\spreadsheet.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Add",
+          "identifyProperties": {
+            "type": "MenuItem",
+            "name": "Add"
+          },
+          "cachedProperties": {
+            "type": "MenuItem",
+            "name": "Add",
+            "value": false,
+            "boundingRectangle": "[678,367,219,22]"
+          },
+          "image": {
+            "imgPath": "uia10.png",
+            "rect": "0,0,219,22"
+          }
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "README.md_-_tools_-_Visual_Stu",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "README.md - tools - Visual Studio Code",
+        "appName": "Code"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "README.md - tools - Visual Studio Code",
+        "value": false,
+        "boundingRectangle": "[-8,-8,1936,1056]",
+        "appName": "Code",
+        "appPath": "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "README.md_-_tools_-_Visual_Stu1",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "74196608",
+            "name": "README.md - tools - Visual Studio Code"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "74196608",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "name": "README.md - tools - Visual Studio Code",
+            "value": "vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html",
+            "boundingRectangle": "[0,0,1920,1040]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Window",
+              "identifyProperties": {
+                "type": "Window"
+              },
+              "cachedProperties": {
+                "type": "Window",
+                "value": false,
+                "boundingRectangle": "[0,0,1920,1041]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "终端_1，node_运行命令:_切换屏幕阅读器辅助功能模式以",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "终端 1，node 运行命令: 切换屏幕阅读器辅助功能模式以获得优化的屏幕阅读器体验 使用 Alt+F1 获取终端辅助功能帮助"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "name": "终端 1，node 运行命令: 切换屏幕阅读器辅助功能模式以获得优化的屏幕阅读器体验 使用 Alt+F1 获取终端辅助功能帮助",
+                    "boundingRectangle": "[494,991,10,21]"
+                  },
+                  "image": {
+                    "imgPath": "uia13.png",
+                    "rect": "0,0,10,21"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

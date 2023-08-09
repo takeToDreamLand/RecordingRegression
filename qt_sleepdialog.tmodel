@@ -1,0 +1,146 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "qt",
+      "nname": "sleepdialog",
+      "identifyProperties": {
+        "type": "Application",
+        "appName": "sleepdialog"
+      },
+      "cachedProperties": {
+        "type": "Application",
+        "appName": "sleepdialog",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\sleepdialog.exe"
+      },
+      "children": [
+        {
+          "ntype": "qt",
+          "nname": "SleepBox",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "MainWindow",
+            "text": "SleepBox"
+          },
+          "cachedProperties": {
+            "className": "MainWindow",
+            "text": "SleepBox",
+            "type": "Window",
+            "boundingRectangle": "[640,280,330,100,0,1920,1080]"
+          },
+          "children": [
+            {
+              "ntype": "qt",
+              "nname": "QSpinBox",
+              "identifyProperties": {
+                "type": "SpinBox",
+                "className": "QSpinBox"
+              },
+              "cachedProperties": {
+                "className": "QSpinBox",
+                "type": "SpinBox",
+                "boundingRectangle": "[733,349,36,20,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt.png",
+                "rect": "0,0,36,20"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "Sleep",
+              "identifyProperties": {
+                "type": "Button",
+                "className": "QPushButton",
+                "text": "Sleep"
+              },
+              "cachedProperties": {
+                "className": "QPushButton",
+                "text": "Sleep",
+                "type": "Button",
+                "boundingRectangle": "[886,348,75,23,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt1.png",
+                "rect": "0,0,75,23"
+              }
+            },
+            {
+              "ntype": "qt",
+              "nname": "should_sleep?",
+              "identifyProperties": {
+                "type": "CheckBox",
+                "className": "QCheckBox",
+                "text": "should sleep?"
+              },
+              "cachedProperties": {
+                "className": "QCheckBox",
+                "text": "should sleep?",
+                "type": "CheckBox",
+                "boundingRectangle": "[775,351,105,16,0,1920,1080]"
+              },
+              "image": {
+                "imgPath": "qt2.png",
+                "rect": "0,0,105,16"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "qt",
+          "nname": "QMessageBox::question()",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "Dialog",
+            "text": "QMessageBox::question()"
+          },
+          "cachedProperties": {
+            "className": "Dialog",
+            "text": "QMessageBox::question()",
+            "type": "Window",
+            "boundingRectangle": "[676,283,259,94,0,1920,1080]"
+          },
+          "children": [
+            {
+              "ntype": "qt",
+              "nname": "qt_msgbox_buttonbox",
+              "identifyProperties": {
+                "type": "Pane",
+                "className": "QDialogButtonBox",
+                "name": "qt_msgbox_buttonbox"
+              },
+              "cachedProperties": {
+                "className": "QDialogButtonBox",
+                "name": "qt_msgbox_buttonbox",
+                "type": "Pane",
+                "boundingRectangle": "[687,332,237,34,0,1920,1080]"
+              },
+              "children": [
+                {
+                  "ntype": "qt",
+                  "nname": "Yes",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "text": "Yes"
+                  },
+                  "cachedProperties": {
+                    "className": "QPushButton",
+                    "text": "Yes",
+                    "type": "Button",
+                    "boundingRectangle": "[687,341,75,25,0,1920,1080]"
+                  },
+                  "image": {
+                    "imgPath": "qt3.png",
+                    "rect": "0,0,75,25"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

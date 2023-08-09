@@ -1,0 +1,271 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "SleepBox",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "MainWindow"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "MainWindow",
+        "title": "SleepBox",
+        "boundingRectangle": "[640,280,330,100]",
+        "appName": "sleepdialog",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\sleepdialog.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "QWidget",
+          "identifyProperties": {
+            "type": "Group",
+            "className": "QWidget"
+          },
+          "cachedProperties": {
+            "type": "Group",
+            "className": "QWidget",
+            "boundingRectangle": "[640,280,330,100]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "QSpinBox",
+              "identifyProperties": {
+                "type": "Spinner",
+                "className": "QSpinBox"
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "className": "QSpinBox",
+                "value": "3",
+                "boundingRectangle": "[733,349,36,20]"
+              },
+              "image": {
+                "imgPath": "uia.png",
+                "rect": "0,0,36,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Sleep",
+              "identifyProperties": {
+                "type": "Button",
+                "className": "QPushButton",
+                "name": "Sleep"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "className": "QPushButton",
+                "name": "Sleep",
+                "boundingRectangle": "[886,348,75,23]"
+              },
+              "image": {
+                "imgPath": "uia1.png",
+                "rect": "0,0,75,23"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "should_sleep?",
+              "identifyProperties": {
+                "type": "CheckBox",
+                "className": "QCheckBox",
+                "name": "should sleep?"
+              },
+              "cachedProperties": {
+                "type": "CheckBox",
+                "className": "QCheckBox",
+                "name": "should sleep?",
+                "boundingRectangle": "[775,351,99,16]"
+              },
+              "image": {
+                "imgPath": "uia2.png",
+                "rect": "0,0,99,16"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "QMessageBox::question()",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "QMessageBox",
+            "title": "QMessageBox::question()"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "QMessageBox",
+            "title": "QMessageBox::question()",
+            "boundingRectangle": "[676,283,259,94]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "QDialogButtonBox",
+              "identifyProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox"
+              },
+              "cachedProperties": {
+                "type": "Group",
+                "className": "QDialogButtonBox",
+                "boundingRectangle": "[687,332,237,34]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Yes",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "Yes"
+                  },
+                  "cachedProperties": {
+                    "type": "Button",
+                    "className": "QPushButton",
+                    "name": "Yes",
+                    "boundingRectangle": "[687,341,75,25]"
+                  },
+                  "image": {
+                    "imgPath": "uia3.png",
+                    "rect": "0,0,75,25"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "TitleBar",
+          "identifyProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar",
+            "value": "SleepBox",
+            "boundingRectangle": "[656,252,314,28]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关闭",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭",
+                "value": false,
+                "boundingRectangle": "[924,250,47,30]"
+              },
+              "image": {
+                "imgPath": "uia4.png",
+                "rect": "0,0,47,30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "README.md_-_tools_-_Visual_Stu",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "README.md - tools - Visual Studio Code",
+        "appName": "Code"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "README.md - tools - Visual Studio Code",
+        "value": false,
+        "boundingRectangle": "[-8,-8,1936,1056]",
+        "appName": "Code",
+        "appPath": "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "README.md_-_tools_-_Visual_Stu1",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "74196608",
+            "name": "README.md - tools - Visual Studio Code"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "74196608",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "name": "README.md - tools - Visual Studio Code",
+            "value": "vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html",
+            "boundingRectangle": "[0,0,1920,1040]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Window",
+              "identifyProperties": {
+                "type": "Window"
+              },
+              "cachedProperties": {
+                "type": "Window",
+                "value": false,
+                "boundingRectangle": "[0,0,1920,1041]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Group",
+                  "identifyProperties": {
+                    "type": "Group",
+                    "automationId": "workbench.parts.editor"
+                  },
+                  "cachedProperties": {
+                    "type": "Group",
+                    "automationId": "workbench.parts.editor",
+                    "value": false,
+                    "boundingRectangle": "[470,36,1450,740]"
+                  },
+                  "image": {
+                    "imgPath": "uia5.png",
+                    "rect": "0,0,1450,740"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "终端_1，node_运行命令:_切换屏幕阅读器辅助功能模式以",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "终端 1，node 运行命令: 切换屏幕阅读器辅助功能模式以获得优化的屏幕阅读器体验 使用 Alt+F1 获取终端辅助功能帮助"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "name": "终端 1，node 运行命令: 切换屏幕阅读器辅助功能模式以获得优化的屏幕阅读器体验 使用 Alt+F1 获取终端辅助功能帮助",
+                    "boundingRectangle": "[494,991,10,21]"
+                  },
+                  "image": {
+                    "imgPath": "uia6.png",
+                    "rect": "0,0,10,21"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

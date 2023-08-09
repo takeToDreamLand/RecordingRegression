@@ -1,0 +1,413 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Sliders",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "Window"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "Window",
+        "title": "Sliders",
+        "boundingRectangle": "[640,280,522,215]",
+        "appName": "sliders",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\sliders.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Controls",
+          "identifyProperties": {
+            "type": "Group",
+            "className": "QGroupBox",
+            "name": "Controls"
+          },
+          "cachedProperties": {
+            "type": "Group",
+            "className": "QGroupBox",
+            "name": "Controls",
+            "boundingRectangle": "[651,291,313,193]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Controls1",
+              "identifyProperties": {
+                "type": "Spinner",
+                "className": "QSpinBox",
+                "name": "Controls"
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "className": "QSpinBox",
+                "name": "Controls",
+                "value": "0",
+                "boundingRectangle": "[751,325,48,20]"
+              },
+              "image": {
+                "imgPath": "uia.png",
+                "rect": "0,0,48,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Minimum_value:",
+              "identifyProperties": {
+                "type": "Text",
+                "className": "QLabel",
+                "name": "Minimum value:"
+              },
+              "cachedProperties": {
+                "type": "Text",
+                "className": "QLabel",
+                "name": "Minimum value:",
+                "value": false,
+                "boundingRectangle": "[661,325,84,20]"
+              },
+              "image": {
+                "imgPath": "uia1.png",
+                "rect": "0,0,84,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Inverted_appearance",
+              "identifyProperties": {
+                "type": "CheckBox",
+                "className": "QCheckBox",
+                "name": "Inverted appearance"
+              },
+              "cachedProperties": {
+                "type": "CheckBox",
+                "className": "QCheckBox",
+                "name": "Inverted appearance",
+                "boundingRectangle": "[805,327,135,16]"
+              },
+              "image": {
+                "imgPath": "uia2.png",
+                "rect": "0,0,135,16"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Controls2",
+              "identifyProperties": {
+                "type": "Spinner",
+                "className": "QSpinBox",
+                "name": "Controls",
+                "index": 1
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "className": "QSpinBox",
+                "name": "Controls",
+                "value": "20",
+                "boundingRectangle": "[751,363,48,20]"
+              },
+              "image": {
+                "imgPath": "uia3.png",
+                "rect": "0,0,48,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Controls3",
+              "identifyProperties": {
+                "type": "Spinner",
+                "className": "QSpinBox",
+                "name": "Controls",
+                "index": 2
+              },
+              "cachedProperties": {
+                "type": "Spinner",
+                "className": "QSpinBox",
+                "name": "Controls",
+                "value": "21",
+                "boundingRectangle": "[751,401,48,20]"
+              },
+              "image": {
+                "imgPath": "uia4.png",
+                "rect": "0,0,48,20"
+              }
+            },
+            {
+              "ntype": "uia",
+              "nname": "Controls4",
+              "identifyProperties": {
+                "type": "ComboBox",
+                "className": "QComboBox",
+                "name": "Controls"
+              },
+              "cachedProperties": {
+                "type": "ComboBox",
+                "className": "QComboBox",
+                "name": "Controls",
+                "value": "Horizontal slider-like widgets",
+                "boundingRectangle": "[661,439,293,20]"
+              },
+              "image": {
+                "imgPath": "uia5.png",
+                "rect": "0,0,293,20"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "QComboBoxListView",
+                  "identifyProperties": {
+                    "type": "List",
+                    "className": "QComboBoxListView"
+                  },
+                  "cachedProperties": {
+                    "type": "List",
+                    "className": "QComboBoxListView",
+                    "boundingRectangle": "[662,459,291,24]"
+                  },
+                  "children": [
+                    {
+                      "ntype": "uia",
+                      "nname": "Vertical_slider-like_widgets",
+                      "identifyProperties": {
+                        "type": "ListItem",
+                        "name": "Vertical slider-like widgets"
+                      },
+                      "cachedProperties": {
+                        "type": "ListItem",
+                        "name": "Vertical slider-like widgets",
+                        "boundingRectangle": "[662,471,291,12]"
+                      },
+                      "image": {
+                        "imgPath": "uia6.png",
+                        "rect": "0,0,291,12"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "QStackedWidget",
+          "identifyProperties": {
+            "type": "Custom",
+            "className": "QStackedWidget"
+          },
+          "cachedProperties": {
+            "type": "Custom",
+            "className": "QStackedWidget",
+            "boundingRectangle": "[970,291,181,193]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Vertical",
+              "identifyProperties": {
+                "type": "Group",
+                "className": "SlidersGroup",
+                "name": "Vertical"
+              },
+              "cachedProperties": {
+                "type": "Group",
+                "className": "SlidersGroup",
+                "name": "Vertical",
+                "boundingRectangle": "[970,291,181,193]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Vertical1",
+                  "identifyProperties": {
+                    "type": "Slider",
+                    "className": "QSlider",
+                    "name": "Vertical"
+                  },
+                  "cachedProperties": {
+                    "type": "Slider",
+                    "className": "QSlider",
+                    "name": "Vertical",
+                    "value": "23",
+                    "boundingRectangle": "[980,313,32,161]"
+                  },
+                  "image": {
+                    "imgPath": "uia7.png",
+                    "rect": "0,0,32,161"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Vertical2",
+                  "identifyProperties": {
+                    "type": "ScrollBar",
+                    "className": "QScrollBar",
+                    "name": "Vertical"
+                  },
+                  "cachedProperties": {
+                    "type": "ScrollBar",
+                    "className": "QScrollBar",
+                    "name": "Vertical",
+                    "value": "22",
+                    "boundingRectangle": "[1018,313,17,161]"
+                  },
+                  "image": {
+                    "imgPath": "uia8.png",
+                    "rect": "0,0,17,161"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Vertical3",
+                  "identifyProperties": {
+                    "type": "Custom",
+                    "className": "QDial",
+                    "name": "Vertical"
+                  },
+                  "cachedProperties": {
+                    "type": "Custom",
+                    "className": "QDial",
+                    "name": "Vertical",
+                    "value": "21",
+                    "boundingRectangle": "[1041,313,100,161]"
+                  },
+                  "image": {
+                    "imgPath": "uia9.png",
+                    "rect": "0,0,100,161"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "TitleBar",
+          "identifyProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar",
+            "value": "Sliders",
+            "boundingRectangle": "[656,252,506,28]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关闭",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭",
+                "value": false,
+                "boundingRectangle": "[1116,250,47,30]"
+              },
+              "image": {
+                "imgPath": "uia10.png",
+                "rect": "0,0,47,30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "README.md_-_tools_-_Visual_Stu",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "README.md - tools - Visual Studio Code",
+        "appName": "Code"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "README.md - tools - Visual Studio Code",
+        "value": false,
+        "boundingRectangle": "[-8,-8,1936,1056]",
+        "appName": "Code",
+        "appPath": "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "README.md_-_tools_-_Visual_Stu1",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "74196608",
+            "name": "README.md - tools - Visual Studio Code"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "74196608",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "name": "README.md - tools - Visual Studio Code",
+            "value": "vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html",
+            "boundingRectangle": "[0,0,1920,1040]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Window",
+              "identifyProperties": {
+                "type": "Window"
+              },
+              "cachedProperties": {
+                "type": "Window",
+                "value": false,
+                "boundingRectangle": "[0,0,1920,1041]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Group",
+                  "identifyProperties": {
+                    "type": "Group",
+                    "automationId": "workbench.parts.editor"
+                  },
+                  "cachedProperties": {
+                    "type": "Group",
+                    "automationId": "workbench.parts.editor",
+                    "value": false,
+                    "boundingRectangle": "[470,36,1450,740]"
+                  },
+                  "image": {
+                    "imgPath": "uia11.png",
+                    "rect": "0,0,1450,740"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "终端_1，node_运行命令:_切换屏幕阅读器辅助功能模式以",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "终端 1，node 运行命令: 切换屏幕阅读器辅助功能模式以获得优化的屏幕阅读器体验 使用 Alt+F1 获取终端辅助功能帮助"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "name": "终端 1，node 运行命令: 切换屏幕阅读器辅助功能模式以获得优化的屏幕阅读器体验 使用 Alt+F1 获取终端辅助功能帮助",
+                    "boundingRectangle": "[494,991,10,21]"
+                  },
+                  "image": {
+                    "imgPath": "uia12.png",
+                    "rect": "0,0,10,21"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

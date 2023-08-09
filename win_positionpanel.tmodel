@@ -1,0 +1,257 @@
+{
+  "ntype": "app",
+  "process": "",
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "positionpanel",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "MainWindow"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "MainWindow",
+        "title": "positionpanel",
+        "boundingRectangle": "[640,280,522,592]",
+        "appName": "positionpanel",
+        "appPath": "C:\\Program Files\\LeanPro\\CukeTest\\bin\\positionpanel.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "GraphicsView",
+          "identifyProperties": {
+            "type": "Group",
+            "className": "GraphicsView"
+          },
+          "cachedProperties": {
+            "type": "Group",
+            "className": "GraphicsView",
+            "boundingRectangle": "[651,291,500,500]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "QWidget",
+              "identifyProperties": {
+                "type": "Group",
+                "className": "QWidget"
+              },
+              "cachedProperties": {
+                "type": "Group",
+                "className": "QWidget",
+                "boundingRectangle": "[689,329,462,462]"
+              },
+              "image": {
+                "imgPath": "uia.png",
+                "rect": "0,0,462,462"
+              }
+            }
+          ]
+        },
+        {
+          "ntype": "uia",
+          "nname": "Draw_Circle",
+          "identifyProperties": {
+            "type": "RadioButton",
+            "className": "QRadioButton",
+            "name": "Draw Circle"
+          },
+          "cachedProperties": {
+            "type": "RadioButton",
+            "className": "QRadioButton",
+            "name": "Draw Circle",
+            "boundingRectangle": "[778,797,88,16]"
+          },
+          "image": {
+            "imgPath": "uia1.png",
+            "rect": "0,0,88,16"
+          }
+        },
+        {
+          "ntype": "uia",
+          "nname": "Draw_Combination",
+          "identifyProperties": {
+            "type": "RadioButton",
+            "className": "QRadioButton",
+            "name": "Draw Combination"
+          },
+          "cachedProperties": {
+            "type": "RadioButton",
+            "className": "QRadioButton",
+            "name": "Draw Combination",
+            "boundingRectangle": "[904,797,118,16]"
+          },
+          "image": {
+            "imgPath": "uia2.png",
+            "rect": "0,0,118,16"
+          }
+        },
+        {
+          "ntype": "uia",
+          "nname": "Draw_Icon",
+          "identifyProperties": {
+            "type": "RadioButton",
+            "className": "QRadioButton",
+            "name": "Draw Icon"
+          },
+          "cachedProperties": {
+            "type": "RadioButton",
+            "className": "QRadioButton",
+            "name": "Draw Icon",
+            "boundingRectangle": "[1031,797,76,16]"
+          },
+          "image": {
+            "imgPath": "uia3.png",
+            "rect": "0,0,76,16"
+          }
+        },
+        {
+          "ntype": "uia",
+          "nname": "Use_QGraphicsObject_replace_QG",
+          "identifyProperties": {
+            "type": "CheckBox",
+            "className": "QCheckBox",
+            "name": "Use QGraphicsObject replace QGraphicsItem"
+          },
+          "cachedProperties": {
+            "type": "CheckBox",
+            "className": "QCheckBox",
+            "name": "Use QGraphicsObject replace QGraphicsItem",
+            "boundingRectangle": "[651,819,267,16]"
+          },
+          "image": {
+            "imgPath": "uia4.png",
+            "rect": "0,0,267,16"
+          }
+        },
+        {
+          "ntype": "uia",
+          "nname": "TitleBar",
+          "identifyProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar"
+          },
+          "cachedProperties": {
+            "type": "TitleBar",
+            "automationId": "TitleBar",
+            "value": "positionpanel",
+            "boundingRectangle": "[656,252,506,28]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "关闭",
+              "identifyProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭"
+              },
+              "cachedProperties": {
+                "type": "Button",
+                "automationId": "Close",
+                "name": "关闭",
+                "value": false,
+                "boundingRectangle": "[1116,250,47,30]"
+              },
+              "image": {
+                "imgPath": "uia5.png",
+                "rect": "0,0,47,30"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "●_README.md_-_tools_-_Visual_S",
+      "identifyProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "● README.md - tools - Visual Studio Code",
+        "appName": "Code"
+      },
+      "cachedProperties": {
+        "type": "Pane",
+        "className": "Chrome_WidgetWin_1",
+        "name": "● README.md - tools - Visual Studio Code",
+        "value": false,
+        "boundingRectangle": "[-8,-8,1936,1056]",
+        "appName": "Code",
+        "appPath": "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "●_README.md_-_tools_-_Visual_S1",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "74196608",
+            "name": "● README.md - tools - Visual Studio Code"
+          },
+          "cachedProperties": {
+            "type": "Document",
+            "automationId": "74196608",
+            "className": "Chrome_RenderWidgetHostHWND",
+            "name": "● README.md - tools - Visual Studio Code",
+            "value": "vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html",
+            "boundingRectangle": "[0,0,1920,1040]"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Window",
+              "identifyProperties": {
+                "type": "Window"
+              },
+              "cachedProperties": {
+                "type": "Window",
+                "value": false,
+                "boundingRectangle": "[0,0,1920,1041]"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Group",
+                  "identifyProperties": {
+                    "type": "Group",
+                    "automationId": "workbench.parts.editor"
+                  },
+                  "cachedProperties": {
+                    "type": "Group",
+                    "automationId": "workbench.parts.editor",
+                    "value": false,
+                    "boundingRectangle": "[470,36,1450,740]"
+                  },
+                  "image": {
+                    "imgPath": "uia6.png",
+                    "rect": "0,0,1450,740"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "终端_1，node_运行命令:_切换屏幕阅读器辅助功能模式以",
+                  "identifyProperties": {
+                    "type": "Edit",
+                    "name": "终端 1，node 运行命令: 切换屏幕阅读器辅助功能模式以获得优化的屏幕阅读器体验 使用 Alt+F1 获取终端辅助功能帮助"
+                  },
+                  "cachedProperties": {
+                    "type": "Edit",
+                    "name": "终端 1，node 运行命令: 切换屏幕阅读器辅助功能模式以获得优化的屏幕阅读器体验 使用 Alt+F1 获取终端辅助功能帮助",
+                    "boundingRectangle": "[494,991,10,21]"
+                  },
+                  "image": {
+                    "imgPath": "uia7.png",
+                    "rect": "0,0,10,21"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
