@@ -78,139 +78,22 @@
                     "imgPath": "qt1.png",
                     "rect": "0,0,161,17"
                   }
-                }
-              ]
-            },
-            {
-              "ntype": "qt",
-              "nname": "Controls",
-              "identifyProperties": {
-                "type": "GroupBox",
-                "className": "QGroupBox",
-                "text": "Controls"
-              },
-              "cachedProperties": {
-                "className": "QGroupBox",
-                "text": "Controls",
-                "type": "GroupBox",
-                "boundingRectangle": "[651,291,313,193,0,1920,1080]"
-              },
-              "children": [
-                {
-                  "ntype": "qt",
-                  "nname": "QComboBox",
-                  "identifyProperties": {
-                    "type": "ComboBox",
-                    "className": "QComboBox"
-                  },
-                  "cachedProperties": {
-                    "className": "QComboBox",
-                    "type": "ComboBox",
-                    "boundingRectangle": "[661,439,293,20,0,1920,1080]"
-                  },
-                  "image": {
-                    "imgPath": "qt2.png",
-                    "rect": "0,0,293,20"
-                  }
-                }
-              ]
-            },
-            {
-              "ntype": "qt",
-              "nname": "Vertical",
-              "identifyProperties": {
-                "type": "GroupBox",
-                "className": "QGroupBox",
-                "text": "Vertical"
-              },
-              "cachedProperties": {
-                "className": "QGroupBox",
-                "text": "Vertical",
-                "type": "GroupBox",
-                "boundingRectangle": "[970,291,181,193,0,1920,1080]"
-              },
-              "children": [
-                {
-                  "ntype": "qt",
-                  "nname": "QSlider1",
-                  "identifyProperties": {
-                    "type": "Slider",
-                    "className": "QSlider"
-                  },
-                  "cachedProperties": {
-                    "className": "QSlider",
-                    "type": "Slider",
-                    "boundingRectangle": "[980,313,32,161,0,1920,1080]"
-                  },
-                  "image": {
-                    "imgPath": "qt4.png",
-                    "rect": "0,0,32,161"
-                  }
                 },
                 {
                   "ntype": "qt",
-                  "nname": "QScrollBar1",
+                  "nname": "QDial",
                   "identifyProperties": {
-                    "type": "ScrollBar",
-                    "className": "QScrollBar"
+                    "type": "Dial",
+                    "className": "QDial"
                   },
                   "cachedProperties": {
-                    "className": "QScrollBar",
-                    "type": "ScrollBar",
-                    "boundingRectangle": "[1018,313,17,161,0,1920,1080]"
+                    "className": "QDial",
+                    "type": "Dial",
+                    "boundingRectangle": "[980,374,161,100,0,1920,1080]"
                   },
                   "image": {
-                    "imgPath": "qt5.png",
-                    "rect": "0,0,17,161"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "ntype": "qt",
-          "nname": "QComboBoxPrivateContainer",
-          "identifyProperties": {
-            "type": "Window",
-            "className": "QComboBoxPrivateContainer"
-          },
-          "cachedProperties": {
-            "className": "QComboBoxPrivateContainer",
-            "type": "Window",
-            "boundingRectangle": "[661,458,293,26,0,1920,1080]"
-          },
-          "children": [
-            {
-              "ntype": "qt",
-              "nname": "QListView",
-              "identifyProperties": {
-                "type": "List",
-                "className": "QListView"
-              },
-              "cachedProperties": {
-                "className": "QListView",
-                "type": "List",
-                "boundingRectangle": "[662,459,291,24,0,1920,1080]"
-              },
-              "children": [
-                {
-                  "ntype": "qt",
-                  "nname": "Vertical_slider-like_widgets",
-                  "identifyProperties": {
-                    "type": "ListItem",
-                    "itemPath": "[1]",
-                    "text": "Vertical slider-like widgets"
-                  },
-                  "cachedProperties": {
-                    "itemPath": "[1]",
-                    "text": "Vertical slider-like widgets",
-                    "type": "ListItem",
-                    "boundingRectangle": "[662,471,291,12,0,1920,1080]"
-                  },
-                  "image": {
-                    "imgPath": "qt3.png",
-                    "rect": "0,0,291,12"
+                    "imgPath": "qt2.png",
+                    "rect": "0,0,161,100"
                   }
                 }
               ]
