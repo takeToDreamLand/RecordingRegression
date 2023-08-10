@@ -12,9 +12,10 @@ const { QtAuto } = require("leanpro.qt");
     //等待Qt应用"addressbook"
     await modelQt.getApplication("addressbook").exists(10);
 
-    //切换到标签页"MNO"
 
-    // 实际点了多个标签页只录到了最后一个标签页activate操作
+    /* 实际点了多个标签页只录到了最后一个标签页activate操作 */
+    /*  预期内行为：如果连续切换标签页而不在标签页内操作，只会生成最后一个切换操作*/
+    //切换到标签页"MNO"
     await modelQt.getTabBar("qt_tabwidget_tabbar").activate("MNO");
 
     //close Window "Address_Book"

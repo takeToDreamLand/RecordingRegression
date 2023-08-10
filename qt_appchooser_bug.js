@@ -15,8 +15,9 @@ const { QtAuto } = require("leanpro.qt");
     //moveToScene GraphicsView "QGraphicsView"
     // await modelQt.getGraphicsView("QGraphicsView").moveToScene(252, 250);
 
+    /* 点出去了 */
+    /*  由于点击后图片大小和位置会变，导致最后脚本生成时的参考不正确 */
     //点击 "p3"
-    // 点出去了
     await modelQt.getGraphicsItem("p3").click(83, 81);
 
     //close Window "QGraphicsView"
